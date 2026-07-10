@@ -1,11 +1,24 @@
-# ui-ux-bible
+# UI/UX Bible
 
-Skill Claude Code : manuel de référence UI/UX & marketing digital.
+Skill Codex privé pour concevoir, implémenter et auditer des interfaces accessibles et cohérentes.
 
-- `SKILL.md` — socle (25 règles, systèmes, routeur) + checklist.
-- `references/` — 28 chapitres de synthèse.
-- `sources/` — ouvrages de référence complets (usage privé).
+## Installation
 
-Installation : copier ce dossier dans `~/.claude/skills/ui-ux-bible/`.
+Copier le dossier complet dans :
 
-> Contenu privé — inclut des livres sous copyright, ne pas rediffuser.
+```text
+~/.codex/skills/ui-ux-bible
+```
+
+Relancer Codex après l’installation afin de rendre le skill disponible sous `$ui-ux-bible`.
+
+## Contenu
+
+- `SKILL.md` : routeur compact et règles de travail.
+- `references/` : synthèses thématiques à charger selon la demande.
+- `sources/` : sources longues privées à consulter de façon ciblée.
+- `agents/openai.yaml` : métadonnées d’affichage pour Codex.
+
+## Usage privé
+
+Conserver ce skill et le contenu de `references/` et `sources/` dans un environnement privé. Ne pas publier, partager, vendre ni rediffuser les sources ou leurs reproductions substantielles. Vérifier séparément les droits applicables avant toute utilisation externe.

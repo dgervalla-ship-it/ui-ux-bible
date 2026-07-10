@@ -1,0 +1,4 @@
+interface:
+  display_name: "UI/UX Bible"
+  short_description: "Concevoir et auditer des interfaces accessibles"
+  default_prompt: "Utilise $ui-ux-bible pour concevoir, améliorer ou auditer l’interface ou le parcours demandé."
