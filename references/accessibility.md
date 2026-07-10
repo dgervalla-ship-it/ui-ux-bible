@@ -1,4 +1,4 @@
-Chapitre 17 — L’Accessibilité (Accessibility)
+# Accessibilité
 
 Une bonne interface fonctionne pour tout le monde, pas seulement pour les utilisateurs sans limitation.
 

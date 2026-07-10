@@ -1,4 +1,4 @@
-Chapitre 7 — Le Layout, les Grilles et les Espacements
+# Layout, grille et espacement
 
 Un bon design n’est pas seulement composé de beaux éléments. Il est composé de beaux espacements.
 

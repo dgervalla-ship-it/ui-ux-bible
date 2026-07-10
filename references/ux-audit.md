@@ -1,4 +1,4 @@
-Chapitre 19 — Audit UX/UI Professionnel
+# Audit UX/UI
 
 Une interface de qualité ne repose pas sur l’intuition. Elle repose sur une méthode d’évaluation systématique.
 

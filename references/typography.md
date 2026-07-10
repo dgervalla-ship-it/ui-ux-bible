@@ -1,4 +1,4 @@
-Chapitre 6 — La Typographie
+# Typographie
 
 Si les utilisateurs lisent difficilement, ils utilisent difficilement.
 

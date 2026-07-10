@@ -1,4 +1,4 @@
-Chapitre 28 — Les Anti-Patterns UX/UI
+# Anti-patterns
 
 Les meilleurs designers ne savent pas seulement quoi faire. Ils savent surtout quoi ne jamais faire.
 

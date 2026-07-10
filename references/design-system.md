@@ -1,4 +1,4 @@
-Chapitre 18 — Construire un Design System Professionnel
+# Design system et tokens
 
 Un Design System n’est pas une bibliothèque de composants. C’est un langage commun entre le design, le développement et le produit.
 

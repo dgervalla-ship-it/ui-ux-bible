@@ -1,4 +1,4 @@
-Chapitre 20 — La Psychologie Cognitive appliquée à l’UX
+# Psychologie cognitive
 
 Une bonne interface ne fonctionne pas parce qu’elle est belle. Elle fonctionne parce qu’elle respecte le fonctionnement naturel du cerveau humain.
 

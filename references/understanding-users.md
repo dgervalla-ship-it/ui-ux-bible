@@ -1,4 +1,4 @@
-Chapitre 2 — Comprendre les utilisateurs
+# Compréhension des utilisateurs
 
 ⸻
 

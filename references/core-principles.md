@@ -1,4 +1,4 @@
-Chapitre 1 — Les 25 règles fondamentales d’une bonne interface
+# Principes transversaux
 
 1. L’utilisateur ne doit jamais réfléchir
 

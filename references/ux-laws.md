@@ -1,4 +1,4 @@
-Chapitre 21 — Les Lois Fondamentales de l’UX
+# Lois UX
 
 Les meilleures interfaces ne sont pas créées au hasard. Elles appliquent des lois observées depuis des décennies en psychologie, en ergonomie et en interaction homme-machine.
 

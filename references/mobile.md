@@ -1,4 +1,4 @@
-Chapitre 24 — Concevoir une Application Mobile (iOS & Android)
+# Mobile
 
 Sur mobile, chaque pixel compte. Les utilisateurs sont en mouvement, souvent distraits et interagissent avec un seul pouce.
 

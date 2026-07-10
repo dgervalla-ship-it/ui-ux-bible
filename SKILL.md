@@ -69,7 +69,6 @@ Respecter l’ordre `exigence > convention > heuristique > préférence`.
 | Produit SaaS | `references/saas.md` |
 | Mobile | `references/mobile.md` |
 | IA conversationnelle | `references/conversational-ai.md` |
-| Tests utilisateurs et expérimentation | `references/user-testing-experimentation.md` |
 | Métriques produit | `references/product-metrics.md` |
 | Anti-patterns | `references/anti-patterns.md` |
 | Vérification avant livraison | `references/release-checklist.md` |

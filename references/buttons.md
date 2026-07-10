@@ -1,4 +1,4 @@
-Chapitre 9 — Les Boutons (Buttons)
+# Boutons et CTA
 
 Le bouton est le composant le plus important d’une interface. C’est lui qui transforme une intention en action.
 

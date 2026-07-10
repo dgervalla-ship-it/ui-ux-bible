@@ -1,4 +1,4 @@
-Chapitre 10 — Les Formulaires
+# Formulaires et validation
 
 Chaque champ supplémentaire diminue les chances que l’utilisateur termine sa tâche.
 

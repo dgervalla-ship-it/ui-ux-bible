@@ -1,4 +1,4 @@
-Chapitre 29 — La Checklist Professionnelle Ultime UX/UI
+# Vérification avant livraison
 
 Une interface professionnelle n’est jamais le fruit du hasard. Elle respecte une liste de critères vérifiables avant chaque mise en production.
 

@@ -1,4 +1,4 @@
-Chapitre 14 — Les Dashboards
+# Dashboards et visualisation
 
 Un bon dashboard ne montre pas toutes les données. Il montre les bonnes données, au bon moment, pour prendre une décision.
 

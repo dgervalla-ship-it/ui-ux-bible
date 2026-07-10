@@ -1,4 +1,4 @@
-Chapitre 22 — Les Micro-interactions et le Motion Design
+# Micro-interactions et motion
 
 Les utilisateurs remarquent rarement une bonne animation. En revanche, ils remarquent immédiatement son absence lorsqu’ils ne comprennent plus ce qui se passe.
 

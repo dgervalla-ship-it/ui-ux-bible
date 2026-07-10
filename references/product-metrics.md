@@ -1,4 +1,4 @@
-Chapitre 27 — Les Métriques UX & Produit
+# Métriques produit
 
 On ne peut pas améliorer ce que l’on ne mesure pas.
 

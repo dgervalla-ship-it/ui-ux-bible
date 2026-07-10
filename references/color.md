@@ -1,4 +1,4 @@
-Chapitre 5 — Les Couleurs
+# Couleur
 
 Les couleurs ne servent pas à décorer une interface. Elles servent à communiquer.
 

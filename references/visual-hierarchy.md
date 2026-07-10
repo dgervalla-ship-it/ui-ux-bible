@@ -1,4 +1,4 @@
-Chapitre 4 — La Hiérarchie Visuelle
+# Hiérarchie visuelle
 
 Les utilisateurs ne lisent pas une interface. Ils la parcourent du regard.
 

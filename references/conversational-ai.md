@@ -1,4 +1,4 @@
-Chapitre 25 — Concevoir des Interfaces Conversationnelles et des Produits IA
+# IA conversationnelle
 
 L’intelligence artificielle ne remplace pas l’interface. Elle devient une nouvelle façon d’interagir avec elle.
 

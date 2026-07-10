@@ -1,4 +1,4 @@
-Chapitre 3 — L’Architecture de l’Information
+# Architecture de l’information
 
 Une mauvaise architecture ne peut jamais être sauvée par un beau design.
 

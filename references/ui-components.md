@@ -1,4 +1,4 @@
-Chapitre 8 — Les Composants UI (Design System)
+# Composants génériques
 
 Les composants sont les briques qui construisent une interface. Leur qualité détermine la qualité du produit.
 

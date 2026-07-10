@@ -1,4 +1,4 @@
-Chapitre 15 — Les Landing Pages et la Conversion
+# Landing pages et conversion
 
 Une landing page n’a qu’une seule mission : transformer un visiteur en utilisateur, client ou prospect.
 
