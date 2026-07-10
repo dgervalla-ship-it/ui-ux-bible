@@ -1,18 +1,23 @@
 # Architecture de l’information
 
-Une mauvaise architecture ne peut jamais être sauvée par un beau design.
+## Sommaire
 
-⸻
+- [Objectif](#section-1)
+- [1. Où suis-je ?](#section-2)
+- [2. Que puis-je faire ici ?](#section-3)
+- [3. Où puis-je aller ensuite ?](#section-4)
+- [4. Comment revenir en arrière ?](#section-5)
+- [Cas pratique](#section-6)
+- [Checklist du chapitre](#section-7)
+- [Ce qu’il faut retenir](#section-8)
 
-Objectif
-
+<a id="section-1"></a>
+## Objectif
 Avant de dessiner une interface, il faut organiser l’information.
 
 L’architecture de l’information (Information Architecture ou IA) consiste à structurer le contenu afin que l’utilisateur trouve rapidement ce qu’il cherche.
 
 Une interface belle mais mal organisée reste difficile à utiliser.
-
-⸻
 
 Pourquoi c’est important
 
@@ -28,13 +33,11 @@ Les utilisateurs doivent toujours savoir :
 * où ils peuvent aller ;
 * comment revenir en arrière.
 
-⸻
-
 Les quatre questions que chaque page doit répondre
 
 Lorsqu’un utilisateur arrive sur une page, il doit comprendre immédiatement :
-
-1. Où suis-je ?
+<a id="section-2"></a>
+## 1. Où suis-je ?
 
 Le titre de la page doit être clair.
 
@@ -47,10 +50,8 @@ Exemples :
 ✅ Historique des commandes
 
 ❌ Accueil (si ce n’est pas réellement la page d’accueil)
-
-⸻
-
-2. Que puis-je faire ici ?
+<a id="section-3"></a>
+## 2. Que puis-je faire ici ?
 
 Les actions principales doivent être visibles immédiatement.
 
@@ -63,10 +64,8 @@ Sur une page Produit :
 * Ajouter aux favoris
 
 Ces actions doivent être identifiables en moins de deux secondes.
-
-⸻
-
-3. Où puis-je aller ensuite ?
+<a id="section-4"></a>
+## 3. Où puis-je aller ensuite ?
 
 L’utilisateur doit toujours voir les possibilités suivantes.
 
@@ -76,16 +75,12 @@ Par exemple :
 * Catégorie suivante
 * Produit similaire
 * Étape suivante
-
-⸻
-
-4. Comment revenir en arrière ?
+<a id="section-5"></a>
+## 4. Comment revenir en arrière ?
 
 L’utilisateur ne doit jamais avoir peur d’explorer.
 
 Il doit toujours pouvoir revenir facilement.
-
-⸻
 
 Organiser les contenus
 
@@ -105,8 +100,6 @@ Accueil
 
 Une hiérarchie simple est plus facile à mémoriser.
 
-⸻
-
 La règle des trois niveaux
 
 Évite les hiérarchies trop profondes.
@@ -124,8 +117,6 @@ Accueil
 L’utilisateur se perd.
 
 Privilégie une structure plus plate lorsque c’est possible.
-
-⸻
 
 Grouper les informations
 
@@ -151,8 +142,6 @@ Téléphone
 
 crée de la confusion.
 
-⸻
-
 Une information = un emplacement
 
 Chaque information importante doit avoir un emplacement unique.
@@ -165,8 +154,6 @@ Ne le place pas parfois dans le menu, parfois dans une barre latérale et parfoi
 
 La cohérence réduit l’effort de recherche.
 
-⸻
-
 La navigation
 
 Une bonne navigation répond à plusieurs critères :
@@ -178,8 +165,6 @@ Une bonne navigation répond à plusieurs critères :
 
 L’utilisateur ne doit pas réapprendre la navigation à chaque page.
 
-⸻
-
 Les menus
 
 Un menu efficace :
@@ -190,8 +175,6 @@ Un menu efficace :
 * met en avant les sections principales.
 
 Évite les menus surchargés.
-
-⸻
 
 Les breadcrumbs (fil d’Ariane)
 
@@ -211,8 +194,6 @@ Il répond immédiatement à la question :
 
 Où suis-je ?
 
-⸻
-
 Les recherches
 
 La recherche est indispensable lorsqu’il y a beaucoup de contenu.
@@ -223,8 +204,6 @@ Une bonne recherche doit :
 * proposer des suggestions ;
 * afficher des résultats rapidement ;
 * permettre le filtrage.
-
-⸻
 
 Les filtres
 
@@ -237,8 +216,6 @@ Ils doivent :
 * montrer les filtres actifs ;
 * permettre une remise à zéro.
 
-⸻
-
 Les catégories
 
 Une catégorie doit être :
@@ -249,8 +226,6 @@ Une catégorie doit être :
 
 Une catégorie ambiguë crée de la confusion.
 
-⸻
-
 Les pages longues
 
 Si une page contient beaucoup de contenu :
@@ -260,14 +235,11 @@ Si une page contient beaucoup de contenu :
 * utiliser des titres hiérarchisés ;
 * prévoir une navigation interne.
 
-⸻
-
 Les écrans complexes
 
 Plus une interface est riche, plus la hiérarchie devient importante.
 
 On distingue généralement :
-
 1. Navigation globale.
 2. Navigation secondaire.
 3. Contenu principal.
@@ -275,8 +247,6 @@ On distingue généralement :
 5. Informations secondaires.
 
 Chaque niveau doit être identifiable visuellement.
-
-⸻
 
 Les erreurs fréquentes
 
@@ -293,11 +263,8 @@ Les erreurs fréquentes
 ❌ Trop de niveaux de profondeur.
 
 ❌ Libellés internes incompréhensibles pour les utilisateurs.
-
-⸻
-
-Cas pratique
-
+<a id="section-6"></a>
+## Cas pratique
 Imaginons un tableau de bord de gestion de projets.
 
 Une mauvaise architecture placerait les tâches, les équipes, les fichiers, les paramètres et les notifications sans hiérarchie.
@@ -310,11 +277,8 @@ Une meilleure architecture organiserait l’interface autour des besoins princip
 * des actions regroupées à proximité des éléments concernés.
 
 Ainsi, l’utilisateur retrouve rapidement ce dont il a besoin sans parcourir toute la page.
-
-⸻
-
-Checklist du chapitre
-
+<a id="section-7"></a>
+## Checklist du chapitre
 Avant de valider l’architecture d’une interface, vérifie :
 
 * ☐ Chaque page a un objectif clair.
@@ -328,14 +292,10 @@ Avant de valider l’architecture d’une interface, vérifie :
 * ☐ Les filtres sont visibles et faciles à réinitialiser.
 * ☐ L’utilisateur peut toujours revenir en arrière sans difficulté.
 
-⸻
-
-Ce qu’il faut retenir
-
+<a id="section-8"></a>
+## Ce qu’il faut retenir
 Une bonne architecture de l’information passe presque inaperçue.
 
 Les utilisateurs n’ont pas besoin de réfléchir à la façon dont le contenu est organisé : ils trouvent naturellement ce qu’ils cherchent.
 
 Le design visuel embellit une interface, mais c’est l’architecture qui lui donne sa solidité. Un produit bien structuré reste facile à utiliser, même lorsqu’il grandit et que son contenu devient plus riche.
-
-⸻

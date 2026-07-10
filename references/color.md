@@ -1,11 +1,17 @@
 # Couleur
 
-Les couleurs ne servent pas à décorer une interface. Elles servent à communiquer.
+## Sommaire
 
-⸻
+- [Objectif](#section-1)
+- [1. Couleur primaire](#section-2)
+- [2. Couleur secondaire](#section-3)
+- [3. Couleurs neutres](#section-4)
+- [Cas pratique](#section-5)
+- [Checklist du chapitre](#section-6)
+- [Ce qu’il faut retenir](#section-7)
 
-Objectif
-
+<a id="section-1"></a>
+## Objectif
 Construire un système de couleurs cohérent, accessible et réutilisable.
 
 Une bonne palette de couleurs :
@@ -17,8 +23,6 @@ Une bonne palette de couleurs :
 * renforce la hiérarchie.
 
 Le choix des couleurs ne doit jamais être laissé au hasard.
-
-⸻
 
 La couleur est un langage
 
@@ -40,13 +44,11 @@ Par exemple :
 
 Une même couleur doit toujours conserver la même signification.
 
-⸻
-
 Le système de couleurs
 
 Une interface moderne repose généralement sur six familles de couleurs.
-
-1. Couleur primaire
+<a id="section-2"></a>
+## 1. Couleur primaire
 
 La couleur principale représente la marque.
 
@@ -58,20 +60,16 @@ Elle sert aux :
 * composants sélectionnés.
 
 Une seule couleur primaire suffit dans la majorité des cas.
-
-⸻
-
-2. Couleur secondaire
+<a id="section-3"></a>
+## 2. Couleur secondaire
 
 Elle complète la couleur principale.
 
 Elle est utilisée avec parcimonie pour mettre en valeur des actions secondaires ou des catégories.
 
 Elle ne doit jamais rivaliser avec la couleur primaire.
-
-⸻
-
-3. Couleurs neutres
+<a id="section-4"></a>
+## 3. Couleurs neutres
 
 Les couleurs neutres sont les plus utilisées dans une interface.
 
@@ -101,8 +99,6 @@ Les gris structurent l’interface.
 
 Les couleurs d’accent attirent l’attention.
 
-⸻
-
 Les couleurs d’état
 
 Une interface doit posséder des couleurs dédiées aux états du système.
@@ -117,8 +113,6 @@ Exemples :
 * sauvegarde réussie ;
 * compte créé.
 
-⸻
-
 Erreur
 
 Rouge.
@@ -128,8 +122,6 @@ Exemples :
 * mot de passe incorrect ;
 * paiement refusé ;
 * suppression impossible.
-
-⸻
 
 Avertissement
 
@@ -141,8 +133,6 @@ Exemples :
 * abonnement expirant bientôt ;
 * modification importante.
 
-⸻
-
 Information
 
 Bleu clair ou cyan.
@@ -152,8 +142,6 @@ Exemples :
 * conseils ;
 * notifications ;
 * nouveautés.
-
-⸻
 
 Une couleur = une signification
 
@@ -172,8 +160,6 @@ L’utilisateur ne comprend plus le message.
 
 Chaque couleur doit conserver une fonction stable.
 
-⸻
-
 Les contrastes
 
 Une belle palette ne suffit pas.
@@ -190,8 +176,6 @@ Avant de valider une couleur, vérifie :
 
 Une interface élégante mais difficile à lire est un échec.
 
-⸻
-
 Les couleurs de fond
 
 Les grands aplats très saturés fatiguent les yeux.
@@ -203,8 +187,6 @@ Préfère :
 * des fonds légèrement colorés.
 
 Les couleurs vives sont réservées aux éléments importants.
-
-⸻
 
 Les couleurs d’action
 
@@ -220,8 +202,6 @@ Les boutons destructifs utilisent le rouge.
 
 Cette hiérarchie doit rester constante.
 
-⸻
-
 Les liens
 
 Les liens doivent être immédiatement reconnaissables.
@@ -233,8 +213,6 @@ Exemple :
 * couleur primaire ;
 * soulignement au survol ;
 * état visité si nécessaire.
-
-⸻
 
 Les graphiques
 
@@ -249,8 +227,6 @@ Les couleurs doivent rester :
 * cohérentes avec le reste du produit.
 
 Limiter le nombre de couleurs améliore la compréhension.
-
-⸻
 
 Les couleurs et les émotions
 
@@ -270,8 +246,6 @@ Gris	Neutralité
 
 Ces associations varient selon les cultures et le contexte.
 
-⸻
-
 Les erreurs fréquentes
 
 ❌ Utiliser trop de couleurs.
@@ -286,8 +260,6 @@ Les erreurs fréquentes
 
 ❌ Changer les couleurs d’une page à l’autre sans logique.
 
-⸻
-
 Les palettes
 
 Une bonne palette contient généralement :
@@ -301,11 +273,8 @@ Une bonne palette contient généralement :
 * 1 palette d’information.
 
 Chaque palette comprend plusieurs nuances, du plus clair au plus foncé, afin de répondre aux différents besoins de l’interface (fonds, bordures, textes, éléments actifs, etc.).
-
-⸻
-
-Cas pratique
-
+<a id="section-5"></a>
+## Cas pratique
 Imaginons une application bancaire.
 
 Une mauvaise approche utiliserait :
@@ -325,11 +294,8 @@ Une meilleure approche réserverait :
 * des gris pour la majorité des éléments de l’interface.
 
 L’utilisateur identifie instantanément la nature de chaque message.
-
-⸻
-
-Checklist du chapitre
-
+<a id="section-6"></a>
+## Checklist du chapitre
 Avant de valider une palette :
 
 * ☐ Une couleur primaire unique est définie.
@@ -343,18 +309,10 @@ Avant de valider une palette :
 * ☐ Les palettes comportent plusieurs nuances pour chaque couleur.
 * ☐ L’ensemble de l’interface conserve une identité visuelle cohérente.
 
-⸻
-
-Ce qu’il faut retenir
-
+<a id="section-7"></a>
+## Ce qu’il faut retenir
 Une palette de couleurs réussie est presque invisible.
 
 L’utilisateur ne remarque pas les couleurs elles-mêmes : il comprend instinctivement leur signification.
 
 Les couleurs doivent servir le contenu, guider les actions et renforcer la compréhension, jamais détourner l’attention.
-
-⸻
-
-Notes d’application
-
-Pour transformer ces principes en un véritable Design System, le prochain chapitre sera consacré à la typographie. Nous définirons une échelle complète (titres, sous-titres, texte courant, légendes), les espacements verticaux, les longueurs de ligne, les hauteurs de ligne et les règles de lisibilité afin que le texte devienne le principal vecteur de la hiérarchie visuelle. Ce chapitre s’appuiera notamment sur les recommandations de Font Recommendations et les principes de Refactoring UI.

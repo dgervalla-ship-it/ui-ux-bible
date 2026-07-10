@@ -1,22 +1,27 @@
 # Fondations UX
 
-⸻
+## Sommaire
 
-Objectif
+- [Objectif](#section-1)
+- [Pourquoi cette règle existe](#section-2)
+- [Bonnes pratiques](#section-3)
+- [Erreurs fréquentes](#section-4)
+- [Checklist](#section-5)
+- [Sources](#section-6)
+- [Exercice](#section-7)
+- [Résumé](#section-8)
+- [Checklist de synthèse](#section-9)
 
+<a id="section-1"></a>
+## Objectif
 Expliquer les principes fondamentaux qui permettent de concevoir une interface intuitive et facile à utiliser.
-
-⸻
-
-Pourquoi cette règle existe
-
+<a id="section-2"></a>
+## Pourquoi cette règle existe
 Les utilisateurs ne lisent pas une interface comme un livre.
 
 Ils la parcourent rapidement pour trouver une information ou accomplir une tâche.
 
 Chaque seconde passée à réfléchir augmente le risque d’abandon.
-
-⸻
 
 Principe n°1
 
@@ -28,23 +33,17 @@ Une bonne interface est immédiatement compréhensible.
 
 L’utilisateur doit reconnaître les actions sans avoir besoin de réfléchir.
 
-⸻
-
 Pourquoi ?
 
 Le cerveau cherche toujours le chemin le plus simple.
 
 Plus une interface demande d’effort cognitif, plus elle fatigue.
 
-⸻
-
 Bon exemple
 
 ✅ Bouton
 
 Créer un compte
-
-⸻
 
 Mauvais exemple
 
@@ -53,20 +52,14 @@ Mauvais exemple
 Continuer
 
 Sans contexte.
-
-⸻
-
-Bonnes pratiques
-
+<a id="section-3"></a>
+## Bonnes pratiques
 * Utiliser des mots simples.
 * Employer les conventions du Web.
 * Éviter les icônes seules.
 * Réduire les choix inutiles.
-
-⸻
-
-Erreurs fréquentes
-
+<a id="section-4"></a>
+## Erreurs fréquentes
 ❌ Menus compliqués
 
 ❌ Icônes sans texte
@@ -74,11 +67,8 @@ Erreurs fréquentes
 ❌ Navigation cachée
 
 ❌ Trop d’options
-
-⸻
-
-Checklist
-
+<a id="section-5"></a>
+## Checklist
 ☐ Compréhension immédiate
 
 ☐ Boutons explicites
@@ -86,112 +76,28 @@ Checklist
 ☐ Navigation visible
 
 ☐ Icônes accompagnées d’un texte
-
-⸻
-
-Sources
-
+<a id="section-6"></a>
+## Sources
 * Don’t Make Me Think
 * Don Norman
 
-⸻
+<a id="section-7"></a>
+## Exercice
 
-Puis on passe au principe suivant.
+Choisir un écran existant et relever trois endroits où un utilisateur doit deviner le libellé, la prochaine action ou le résultat d’un clic. Reformuler chaque élément en texte explicite, puis vérifier la solution au clavier et sur mobile.
 
-⸻
+<a id="section-8"></a>
+## Résumé
 
-À la fin du chapitre
+- Partir de la tâche réelle plutôt que des fonctionnalités disponibles.
+- Réduire les choix et le jargon sans supprimer les informations nécessaires.
+- Prévoir les erreurs et confirmer chaque action importante.
 
-Chaque chapitre se termine avec :
+<a id="section-9"></a>
+## Checklist de synthèse
 
-Résumé
-
-Les 10 idées importantes.
-
-⸻
-
-Checklist
-
-Une checklist complète.
-
-Exemple
-
-☐ Une action principale
-☐ Navigation simple
-☐ Hiérarchie claire
-☐ Feedback utilisateur
-☐ Contrastes suffisants
-
-⸻
-
-Ce qu’il faut retenir
-
-Une page synthétique.
-
-⸻
-
-À éviter
-
-Les erreurs classiques.
-
-⸻
-
-Cas réels
-
-Analyse de :
-
-* Stripe
-* Apple
-* Linear
-* Airbnb
-* Notion
-* GitHub
-* Vercel
-
-Pourquoi leurs interfaces fonctionnent.
-
-⸻
-
-Exercices
-
-Par exemple :
-
-Prenez une page existante.
-
-Supprimez 30 % des éléments.
-
-Le résultat est-il plus clair ?
-
-⸻
-
-Avant / Après
-
-On montrera une mauvaise interface puis sa version corrigée.
-
-⸻
-
-Mon objectif
-
-Je veux que ce document soit bien plus qu’une compilation de livres. Je veux en faire un manuel de référence de niveau professionnel, organisé comme un ouvrage que l’on peut consulter pendant des années.
-
-Chaque chapitre fera entre 20 et 50 pages selon sa richesse, avec :
-
-* des explications pédagogiques ;
-* les règles détaillées ;
-* des exemples concrets ;
-* des contre-exemples ;
-* des checklists ;
-* des analyses d’interfaces connues ;
-* des exercices d’application ;
-* des bonnes pratiques directement exploitables.
-
-Au final, tu auras un véritable Guide Ultime UI/UX & Marketing Digital, cohérent, structuré et beaucoup plus pratique que les livres d’origine pris séparément.
-
-
-Excellent. Je pense qu’on peut transformer ce projet en un véritable manuel de référence, comme Refactoring UI, mais plus complet.
-
-Le seul point important est que, pour respecter ta demande initiale (“lire tous ces documents puis appliquer toutes les règles”), je ne peux pas inventer le contenu des livres ni prétendre les avoir intégralement lus en une seule réponse. Il faut les analyser progressivement. En revanche, je peux commencer à rédiger le manuel en intégrant les principes largement établis, puis l’enrichir au fur et à mesure de l’analyse détaillée des ouvrages.
-
-Je te propose donc le Chapitre 2.
-
-⸻
+- ☐ L’objectif principal est identifié.
+- ☐ Les libellés décrivent les actions sans jargon interne.
+- ☐ Les erreurs sont prévenues ou corrigibles.
+- ☐ Chaque action importante donne un retour.
+- ☐ Le parcours reste compréhensible au clavier et sur mobile.

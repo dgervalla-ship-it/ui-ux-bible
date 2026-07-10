@@ -1,11 +1,23 @@
 # Hiérarchie visuelle
 
-Les utilisateurs ne lisent pas une interface. Ils la parcourent du regard.
+## Sommaire
 
-⸻
+- [Objectif](#section-1)
+- [1. La taille](#section-2)
+- [Bonnes pratiques](#section-3)
+- [Erreurs fréquentes](#section-4)
+- [2. Le contraste](#section-5)
+- [3. Le poids visuel](#section-6)
+- [4. Les espaces](#section-7)
+- [5. La position](#section-8)
+- [6. La couleur](#section-9)
+- [7. Le mouvement](#section-10)
+- [Cas pratique](#section-11)
+- [Checklist du chapitre](#section-12)
+- [Ce qu’il faut retenir](#section-13)
 
-Objectif
-
+<a id="section-1"></a>
+## Objectif
 La hiérarchie visuelle consiste à guider naturellement les yeux de l’utilisateur vers les informations les plus importantes.
 
 Une bonne hiérarchie répond immédiatement aux questions suivantes :
@@ -18,8 +30,6 @@ Une bonne hiérarchie répond immédiatement aux questions suivantes :
 Une mauvaise hiérarchie oblige l’utilisateur à chercher.
 
 Une bonne hiérarchie lui montre le chemin.
-
-⸻
 
 Pourquoi est-ce important ?
 
@@ -35,12 +45,9 @@ Avant même de lire un mot, il perçoit :
 
 La hiérarchie visuelle exploite ce fonctionnement naturel.
 
-⸻
-
 Les 7 leviers de la hiérarchie visuelle
 
 Une bonne hiérarchie repose principalement sur ces sept éléments.
-
 1. La taille
 2. Le contraste
 3. Le poids visuel
@@ -52,10 +59,8 @@ Une bonne hiérarchie repose principalement sur ces sept éléments.
 La couleur n’est qu’un des outils.
 
 Elle ne doit jamais être le seul.
-
-⸻
-
-1. La taille
+<a id="section-2"></a>
+## 1. La taille
 
 Plus un élément est grand, plus il attire le regard.
 
@@ -68,30 +73,22 @@ Exemple :
 14 px  → Informations secondaires
 
 Le cerveau comprend immédiatement cette hiérarchie.
-
-⸻
-
-Bonnes pratiques
-
+<a id="section-3"></a>
+## Bonnes pratiques
 Le titre principal doit être immédiatement identifiable.
 
 Ne crée pas dix tailles différentes.
 
 Une échelle de 4 à 6 tailles suffit généralement.
-
-⸻
-
-Erreurs fréquentes
-
+<a id="section-4"></a>
+## Erreurs fréquentes
 ❌ Tout en 16 px.
 
 ❌ Tous les titres ont la même taille.
 
 ❌ Trop de variations.
-
-⸻
-
-2. Le contraste
+<a id="section-5"></a>
+## 2. Le contraste
 
 Le contraste est l’outil le plus puissant après la taille.
 
@@ -104,8 +101,6 @@ Un élément peut attirer l’attention grâce à :
 
 Le contraste crée la priorité.
 
-⸻
-
 Exemple
 
 Imagine une page avec :
@@ -116,8 +111,6 @@ Imagine une page avec :
 
 Sans lire, l’utilisateur comprend déjà leur importance.
 
-⸻
-
 Erreurs
 
 ❌ Tout en noir.
@@ -125,10 +118,8 @@ Erreurs
 ❌ Tout en gris.
 
 ❌ Tout avec la même intensité.
-
-⸻
-
-3. Le poids visuel
+<a id="section-6"></a>
+## 3. Le poids visuel
 
 Le poids visuel ne dépend pas uniquement de la taille.
 
@@ -144,18 +135,14 @@ Un élément attire davantage lorsqu’il possède :
 Il faut utiliser ce poids avec modération.
 
 Sinon, tout devient prioritaire… donc plus rien ne l’est.
-
-⸻
-
-4. Les espaces
+<a id="section-7"></a>
+## 4. Les espaces
 
 Les espaces sont souvent plus importants que les lignes.
 
 Ils permettent de créer naturellement des groupes.
 
 Le cerveau interprète automatiquement deux éléments proches comme appartenant au même ensemble.
-
-⸻
 
 Exemple
 
@@ -165,8 +152,6 @@ Email
 
 sont naturellement regroupés.
 
-⸻
-
 À l’inverse :
 
 Nom
@@ -174,8 +159,6 @@ Prénom
 Email
 
 semble désorganisé.
-
-⸻
 
 La règle du rythme
 
@@ -195,27 +178,22 @@ Exemple :
 Toujours les mêmes valeurs.
 
 Jamais des espacements aléatoires.
-
-⸻
-
-5. La position
+<a id="section-8"></a>
+## 5. La position
 
 L’emplacement influence fortement l’attention.
 
 Dans une culture de lecture de gauche à droite :
 
 Les utilisateurs regardent souvent :
-
 1. en haut à gauche ;
 2. au centre ;
 3. en haut à droite ;
 4. puis descendent progressivement.
 
 Les actions importantes doivent être placées là où elles sont attendues.
-
-⸻
-
-6. La couleur
+<a id="section-9"></a>
+## 6. La couleur
 
 La couleur sert à renforcer la hiérarchie.
 
@@ -232,10 +210,8 @@ Une interface où chaque bouton est rouge, vert, bleu, violet et orange crée de
 * un bouton destructif.
 
 forment une hiérarchie claire.
-
-⸻
-
-7. Le mouvement
+<a id="section-10"></a>
+## 7. Le mouvement
 
 Le mouvement attire naturellement l’œil.
 
@@ -251,8 +227,6 @@ Exemples :
 
 Elles fatiguent rapidement.
 
-⸻
-
 La règle des priorités
 
 Chaque écran doit posséder :
@@ -265,23 +239,15 @@ Exemple :
 
 Acheter.
 
-⸻
-
 Une priorité secondaire
 
 Compléter les informations.
-
-⸻
 
 Une priorité tertiaire
 
 Découvrir davantage.
 
-⸻
-
 Tout le reste devient secondaire.
-
-⸻
 
 Le regard doit suivre un chemin
 
@@ -301,8 +267,6 @@ L’utilisateur ne réfléchit jamais.
 
 Il suit simplement le parcours.
 
-⸻
-
 Les cartes (Cards)
 
 Toutes les informations d’une carte doivent être hiérarchisées.
@@ -316,8 +280,6 @@ Prix
 Bouton
 
 Le prix ne doit jamais être plus visible que le titre.
-
-⸻
 
 Les tableaux
 
@@ -339,12 +301,9 @@ Actions
 
 Le montant peut être plus visible que la date.
 
-⸻
-
 Les dashboards
 
 Un dashboard comporte plusieurs niveaux.
-
 1. KPI principaux
 2. Graphiques
 3. Listes
@@ -352,8 +311,6 @@ Un dashboard comporte plusieurs niveaux.
 5. Informations secondaires
 
 Le regard doit naturellement parcourir ces niveaux.
-
-⸻
 
 Les formulaires
 
@@ -377,8 +334,6 @@ Erreur
 
 Cette structure doit rester constante.
 
-⸻
-
 Les CTA (Call To Action)
 
 Un écran ne doit avoir qu’un seul bouton dominant.
@@ -394,8 +349,6 @@ Annuler
 doit être beaucoup moins visible.
 
 Deux boutons ayant le même poids visuel créent une hésitation inutile.
-
-⸻
 
 Les erreurs fréquentes
 
@@ -416,11 +369,8 @@ Les erreurs fréquentes
 ❌ Aucun point focal.
 
 ❌ Trois CTA principaux.
-
-⸻
-
-Cas pratique
-
+<a id="section-11"></a>
+## Cas pratique
 Prenons une page d’inscription.
 
 Mauvaise hiérarchie
@@ -442,11 +392,8 @@ Bonne hiérarchie
 * un lien secondaire discret (« Se connecter »).
 
 Le regard est naturellement guidé vers l’action attendue.
-
-⸻
-
-Checklist du chapitre
-
+<a id="section-12"></a>
+## Checklist du chapitre
 Avant de valider un écran :
 
 * ☐ Une seule action principale est mise en avant.
@@ -460,14 +407,10 @@ Avant de valider un écran :
 * ☐ Les animations servent une fonction précise.
 * ☐ Aucun élément décoratif ne concurrence les informations importantes.
 
-⸻
-
-Ce qu’il faut retenir
-
+<a id="section-13"></a>
+## Ce qu’il faut retenir
 La hiérarchie visuelle ne consiste pas à rendre une interface « jolie ».
 
 Elle consiste à rendre les bonnes informations visibles au bon moment.
 
 Lorsque la hiérarchie est réussie, l’utilisateur ne se demande jamais où regarder. Son regard est guidé naturellement, sans effort, vers ce qui compte le plus.
-
-⸻

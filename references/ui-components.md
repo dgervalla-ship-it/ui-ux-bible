@@ -1,11 +1,17 @@
 # Composants génériques
 
-Les composants sont les briques qui construisent une interface. Leur qualité détermine la qualité du produit.
+## Sommaire
 
-⸻
+- [Objectif](#section-1)
+- [Les principes fondamentaux](#section-2)
+- [Boutons](#section-3)
+- [Champs de saisie](#section-4)
+- [Cas pratique](#section-5)
+- [Checklist du chapitre](#section-6)
+- [Ce qu’il faut retenir](#section-7)
 
-Objectif
-
+<a id="section-1"></a>
+## Objectif
 Construire une bibliothèque de composants cohérente, réutilisable et évolutive.
 
 Un Design System n’est pas une collection d’écrans.
@@ -19,8 +25,6 @@ Chaque composant doit :
 * être accessible ;
 * être cohérent ;
 * être documenté.
-
-⸻
 
 Qu’est-ce qu’un composant ?
 
@@ -41,11 +45,8 @@ Exemples :
 * Tooltip
 * Tableau
 * Dropdown
-
-⸻
-
-Les principes fondamentaux
-
+<a id="section-2"></a>
+## Les principes fondamentaux
 Un bon composant est :
 
 Simple
@@ -58,23 +59,17 @@ Un bouton sert à déclencher une action.
 
 Il ne sert pas à ouvrir un menu, afficher une notification et modifier des données simultanément.
 
-⸻
-
 Prévisible
 
 Le même composant se comporte toujours de la même manière.
 
 Un bouton primaire doit agir comme tous les autres boutons primaires.
 
-⸻
-
 Réutilisable
 
 Le composant ne dépend pas d’un écran particulier.
 
 Il peut être utilisé partout.
-
-⸻
 
 Accessible
 
@@ -84,8 +79,6 @@ Il fonctionne :
 * avec un lecteur d’écran ;
 * sur mobile ;
 * avec différents contrastes.
-
-⸻
 
 Anatomie d’un composant
 
@@ -97,13 +90,9 @@ Utilisation
 Variantes
 États
 Accessibilité
-Bonnes pratiques
-Erreurs fréquentes
-Exemples
+### Exemples
 
 Cette documentation doit accompagner tous les composants du Design System.
-
-⸻
 
 Les états
 
@@ -121,8 +110,6 @@ Error	Erreur (si applicable)
 
 Tous ces états doivent être conçus dès le départ.
 
-⸻
-
 Les variantes
 
 Un composant peut avoir plusieurs variantes.
@@ -135,23 +122,17 @@ Action principale.
 
 Un seul par écran dans la majorité des cas.
 
-⸻
-
 Bouton secondaire
 
 Action moins importante.
 
 Visuellement plus discret.
 
-⸻
-
 Bouton tertiaire
 
 Action peu importante.
 
 Souvent sous forme de lien.
-
-⸻
 
 Bouton destructif
 
@@ -162,8 +143,6 @@ Exemple :
 Supprimer un compte.
 
 Il utilise la couleur d’erreur.
-
-⸻
 
 Les tailles
 
@@ -177,8 +156,6 @@ Medium	Taille standard
 Large	Landing pages
 
 Évite les tailles arbitraires.
-
-⸻
 
 Les icônes
 
@@ -196,18 +173,11 @@ Elles ne remplacent pas le texte.
 
 Sans texte, le sens devient ambigu.
 
-⸻
-
-Le bouton
-
-Objectif
-
+<a id="section-3"></a>
+## Boutons
+### Objectif
 Déclencher une action.
-
-⸻
-
-Bonnes pratiques
-
+### Bonnes pratiques
 ✔ Une seule action principale.
 
 ✔ Texte court.
@@ -226,8 +196,6 @@ Payer
 
 Continuer
 
-⸻
-
 Mauvais exemples
 
 Clique ici
@@ -240,8 +208,6 @@ Valider
 
 Ces intitulés manquent souvent de contexte.
 
-⸻
-
 États
 
 * Normal
@@ -249,11 +215,7 @@ Ces intitulés manquent souvent de contexte.
 * Focus
 * Disabled
 * Loading
-
-⸻
-
-Checklist
-
+### Checklist
 ☐ Taille suffisante
 
 ☐ Contraste élevé
@@ -264,15 +226,10 @@ Checklist
 
 ☐ Zone de clic confortable
 
-⸻
-
-Le champ de saisie
-
-Objectif
-
+<a id="section-4"></a>
+## Champs de saisie
+### Objectif
 Permettre la saisie d’informations.
-
-⸻
 
 Anatomie
 
@@ -280,16 +237,10 @@ Label
 Champ
 Texte d'aide
 Erreur éventuelle
-
-⸻
-
-Bonnes pratiques
-
+### Bonnes pratiques
 Toujours afficher le label.
 
 Ne jamais utiliser le placeholder comme unique indication.
-
-⸻
 
 États
 
@@ -300,8 +251,6 @@ Ne jamais utiliser le placeholder comme unique indication.
 * Erreur
 * Succès
 
-⸻
-
 Mauvais exemple
 
 Nom
@@ -309,8 +258,6 @@ Nom
 Placeholder uniquement.
 
 Lorsque l’utilisateur commence à écrire, il oublie ce qu’il devait saisir.
-
-⸻
 
 Les cartes (Cards)
 
@@ -324,8 +271,6 @@ Description
 Métadonnées
 CTA
 
-⸻
-
 Règles
 
 Les espacements restent constants.
@@ -333,8 +278,6 @@ Les espacements restent constants.
 Le contenu suit une hiérarchie claire.
 
 Les cartes similaires possèdent les mêmes dimensions.
-
-⸻
 
 Les badges
 
@@ -345,8 +288,6 @@ Les badges servent à afficher :
 * une priorité.
 
 Ils ne doivent jamais être utilisés comme bouton.
-
-⸻
 
 Les alertes
 
@@ -366,15 +307,11 @@ Chaque type possède :
 * un titre clair ;
 * un message concis.
 
-⸻
-
 Les modales
 
 Une modale interrompt l’utilisateur.
 
 Elle doit être utilisée avec modération.
-
-⸻
 
 Une modale contient :
 
@@ -388,8 +325,6 @@ Action secondaire
 
 Fermeture
 
-⸻
-
 Mauvais usages
 
 ❌ Publicité
@@ -398,8 +333,6 @@ Mauvais usages
 
 ❌ Tutoriel obligatoire
 
-⸻
-
 Les tooltips
 
 Le tooltip explique.
@@ -407,8 +340,6 @@ Le tooltip explique.
 Il ne remplace jamais un texte important.
 
 Il disparaît lorsque l’utilisateur n’en a plus besoin.
-
-⸻
 
 Les dropdowns
 
@@ -419,15 +350,11 @@ Un menu déroulant est utile lorsque :
 
 Évite les listes de plusieurs centaines d’éléments.
 
-⸻
-
 Les accordéons
 
 Ils servent à réduire la quantité d’informations visibles.
 
 Ils ne doivent pas masquer des informations essentielles.
-
-⸻
 
 Les tableaux
 
@@ -437,8 +364,6 @@ Un tableau doit :
 * permettre le tri si nécessaire ;
 * proposer une recherche lorsque le volume augmente ;
 * rester responsive.
-
-⸻
 
 Les onglets (Tabs)
 
@@ -450,8 +375,6 @@ Ils doivent être :
 * clairement nommés ;
 * visuellement distincts.
 
-⸻
-
 Les menus
 
 Un menu présente les actions disponibles.
@@ -459,8 +382,6 @@ Un menu présente les actions disponibles.
 Les actions les plus fréquentes apparaissent en premier.
 
 Les actions destructives sont isolées.
-
-⸻
 
 Les composants vides (Empty States)
 
@@ -476,8 +397,6 @@ Aucun projet
 Créez votre premier projet pour commencer.
 [Créer un projet]
 
-⸻
-
 Les chargements (Loading)
 
 Pendant une attente :
@@ -489,8 +408,6 @@ Mieux encore :
 Afficher un squelette (Skeleton).
 
 Le Skeleton réduit la perception du temps d’attente.
-
-⸻
 
 Les erreurs fréquentes
 
@@ -507,11 +424,8 @@ Les erreurs fréquentes
 ❌ Les états Hover ou Focus sont oubliés.
 
 ❌ Les composants ne sont pas documentés.
-
-⸻
-
-Cas pratique
-
+<a id="section-5"></a>
+## Cas pratique
 Imaginons un bouton « Enregistrer ».
 
 Une mauvaise implémentation changerait sa couleur, sa taille ou son comportement selon les écrans.
@@ -527,11 +441,8 @@ Une bonne implémentation définirait un composant unique :
 Tous les écrans utiliseraient cette version.
 
 Le résultat est une interface plus cohérente, plus simple à maintenir et plus facile à utiliser.
-
-⸻
-
-Checklist du chapitre
-
+<a id="section-6"></a>
+## Checklist du chapitre
 Avant de valider un composant :
 
 * ☐ Sa fonction est clairement définie.
@@ -545,10 +456,8 @@ Avant de valider un composant :
 * ☐ Les icônes complètent le texte sans le remplacer.
 * ☐ Son comportement est identique dans toute l’application.
 
-⸻
-
-Ce qu’il faut retenir
-
+<a id="section-7"></a>
+## Ce qu’il faut retenir
 Les utilisateurs ne perçoivent pas une interface comme un assemblage de pages.
 
 Ils interagissent avec des composants.
@@ -556,9 +465,3 @@ Ils interagissent avec des composants.
 Lorsque ces composants sont cohérents, prévisibles et bien documentés, l’expérience utilisateur devient plus fluide et le développement plus rapide.
 
 Un excellent Design System n’est pas seulement une bibliothèque graphique : c’est un langage commun entre designers, développeurs et équipes produit.
-
-⸻
-
-Notes d’application
-
-À partir du prochain chapitre, nous entrerons dans une approche beaucoup plus détaillée : un chapitre complet sera consacré à chaque famille de composants (boutons, formulaires, navigation, tableaux, modales, cartes, etc.), avec des dizaines de règles, des cas d’usage, des variantes et des exemples. L’objectif est que ce guide puisse servir de documentation de référence pour concevoir ou auditer une interface professionnelle.

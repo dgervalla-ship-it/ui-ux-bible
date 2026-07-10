@@ -1,11 +1,14 @@
 # Typographie
 
-Si les utilisateurs lisent difficilement, ils utilisent difficilement.
+## Sommaire
 
-⸻
+- [Objectif](#section-1)
+- [Cas pratique](#section-2)
+- [Checklist du chapitre](#section-3)
+- [Ce qu’il faut retenir](#section-4)
 
-Objectif
-
+<a id="section-1"></a>
+## Objectif
 La typographie est l’un des piliers de l’expérience utilisateur.
 
 Elle ne consiste pas uniquement à choisir une belle police.
@@ -19,8 +22,6 @@ Une bonne typographie permet de :
 * réduire la fatigue visuelle.
 
 Le texte représente souvent plus de 80 % du contenu d’une interface. Il mérite donc une attention particulière.
-
-⸻
 
 La typographie est un système
 
@@ -36,8 +37,6 @@ Ce système définit :
 * les longueurs de ligne ;
 * les hauteurs de ligne.
 
-⸻
-
 Les qualités d’une bonne police
 
 Une police destinée aux interfaces doit être :
@@ -49,8 +48,6 @@ Une police destinée aux interfaces doit être :
 * performante au chargement.
 
 Elle doit rester confortable aussi bien à 14 px qu’à 48 px.
-
-⸻
 
 Combien de polices utiliser ?
 
@@ -64,8 +61,6 @@ Par exemple :
 * une police pour le texte courant.
 
 Au-delà, la cohérence devient plus difficile à maintenir.
-
-⸻
 
 L’échelle typographique
 
@@ -86,8 +81,6 @@ Légende	12 px
 
 L’objectif n’est pas de multiplier les tailles, mais de créer une hiérarchie claire.
 
-⸻
-
 Le texte courant
 
 Le texte principal doit rester confortable à lire.
@@ -97,8 +90,6 @@ Dans la plupart des interfaces modernes :
 * 16 px constitue une excellente base.
 
 Descendre à 12 ou 13 px pour le contenu principal réduit fortement le confort de lecture.
-
-⸻
 
 La hauteur de ligne
 
@@ -115,8 +106,6 @@ Exemple :
 * texte : 16 px ;
 * hauteur de ligne : 24 px.
 
-⸻
-
 La longueur des lignes
 
 Des lignes trop longues fatiguent les yeux.
@@ -124,8 +113,6 @@ Des lignes trop longues fatiguent les yeux.
 Des lignes trop courtes ralentissent la lecture.
 
 Pour un paragraphe, une longueur comprise entre 50 et 80 caractères par ligne offre généralement un bon confort de lecture.
-
-⸻
 
 L’alignement
 
@@ -136,8 +123,6 @@ Le texte est généralement aligné à gauche.
 Évite les paragraphes justifiés sur le Web : ils créent souvent des espacements irréguliers qui nuisent à la lecture.
 
 Le texte centré est à réserver aux éléments courts (titres, slogans, cartes).
-
-⸻
 
 Les graisses
 
@@ -155,8 +140,6 @@ Bold	Titres et mise en avant
 
 Si tout est en gras, plus rien ne ressort.
 
-⸻
-
 Les couleurs du texte
 
 La couleur du texte participe à la hiérarchie.
@@ -169,8 +152,6 @@ Une interface peut distinguer :
 * les textes désactivés.
 
 Utilise différents niveaux de gris plutôt que plusieurs couleurs.
-
-⸻
 
 Les espacements verticaux
 
@@ -186,8 +167,6 @@ Titre suivant
 
 Des espacements cohérents rendent la lecture plus fluide.
 
-⸻
-
 Les paragraphes
 
 Un bon paragraphe :
@@ -197,8 +176,6 @@ Un bon paragraphe :
 * est séparé des autres par un espace suffisant.
 
 Sur écran, plusieurs petits paragraphes sont souvent préférables à un seul bloc très dense.
-
-⸻
 
 Les listes
 
@@ -212,8 +189,6 @@ Privilégie-les lorsque tu présentes :
 * des recommandations.
 
 Chaque élément doit commencer par une formulation homogène.
-
-⸻
 
 Les titres
 
@@ -233,8 +208,6 @@ plutôt que :
 
 Informations générales
 
-⸻
-
 Les majuscules
 
 Les mots entièrement en majuscules ralentissent la lecture.
@@ -247,8 +220,6 @@ Réserve-les aux cas particuliers :
 
 Évite les paragraphes en capitales.
 
-⸻
-
 Les italiques
 
 Les italiques sont utiles pour :
@@ -258,8 +229,6 @@ Les italiques sont utiles pour :
 * certaines mises en évidence.
 
 Ils sont moins lisibles que le texte normal lorsqu’ils sont utilisés en grande quantité.
-
-⸻
 
 Les nombres
 
@@ -277,8 +246,6 @@ Exemple :
 
 La cohérence facilite la lecture.
 
-⸻
-
 Les formulaires
 
 Dans un formulaire :
@@ -291,8 +258,6 @@ Le message d’erreur est clairement différencié.
 
 Le placeholder ne remplace jamais un label.
 
-⸻
-
 Les tableaux
 
 Dans un tableau :
@@ -302,8 +267,6 @@ Dans un tableau :
 * les colonnes sont correctement alignées.
 
 Une bonne typographie améliore considérablement la compréhension.
-
-⸻
 
 Les erreurs fréquentes
 
@@ -322,11 +285,8 @@ Les erreurs fréquentes
 ❌ Utilisation excessive des majuscules.
 
 ❌ Placeholder utilisé comme unique indication.
-
-⸻
-
-Cas pratique
-
+<a id="section-2"></a>
+## Cas pratique
 Prenons une page d’article.
 
 Une mauvaise typographie utiliserait :
@@ -347,11 +307,8 @@ Une meilleure approche utiliserait :
 * un contraste élevé entre le texte et le fond.
 
 Le contenu devient immédiatement plus agréable à lire.
-
-⸻
-
-Checklist du chapitre
-
+<a id="section-3"></a>
+## Checklist du chapitre
 Avant de valider une interface :
 
 * ☐ Une seule famille de police est utilisée (ou deux au maximum avec des rôles distincts).
@@ -365,18 +322,10 @@ Avant de valider une interface :
 * ☐ Les labels des formulaires restent visibles.
 * ☐ Les nombres sont présentés de manière cohérente.
 
-⸻
-
-Ce qu’il faut retenir
-
+<a id="section-4"></a>
+## Ce qu’il faut retenir
 Une bonne typographie ne cherche pas à attirer l’attention.
 
 Elle rend la lecture naturelle.
 
 Lorsque les utilisateurs oublient la police et se concentrent uniquement sur le contenu, la typographie a parfaitement rempli son rôle.
-
-⸻
-
-Notes d’application
-
-À partir de ce chapitre, nous disposons des fondations visuelles : hiérarchie, couleurs et typographie. Le prochain chapitre portera sur les grilles (Grid), les espacements et le système de layout. Nous construirons une méthode complète pour organiser les pages, définir des rythmes d’espacement cohérents et concevoir des interfaces adaptatives (responsive), afin que tous les composants s’alignent avec précision et restent harmonieux sur toutes les tailles d’écran.

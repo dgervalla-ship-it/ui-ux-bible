@@ -1,9 +1,14 @@
 # Compréhension des utilisateurs
 
-⸻
+## Sommaire
 
-Objectif
+- [Objectif](#section-1)
+- [Cas pratique](#section-2)
+- [Checklist du chapitre](#section-3)
+- [Ce qu’il faut retenir](#section-4)
 
+<a id="section-1"></a>
+## Objectif
 Avant de dessiner une interface, il faut comprendre pour qui elle est conçue.
 
 Un excellent design ne commence jamais par Figma.
@@ -15,8 +20,6 @@ Une interface n’est pas une œuvre d’art.
 C’est un outil.
 
 Si l’outil ne répond pas au besoin de son utilisateur, même le plus beau design est un échec.
-
-⸻
 
 Les trois questions fondamentales
 
@@ -36,8 +39,6 @@ Un employé ?
 
 Un développeur ?
 
-⸻
-
 Que veut-il accomplir ?
 
 Exemples :
@@ -50,8 +51,6 @@ Exemples :
 
 Le design doit servir cet objectif.
 
-⸻
-
 Que risque-t-il de ne pas comprendre ?
 
 L’utilisateur ne connaît pas ton application.
@@ -61,8 +60,6 @@ Il ne connaît pas ton vocabulaire.
 Il ne connaît pas ton fonctionnement.
 
 Il ne faut jamais supposer qu’il sait déjà.
-
-⸻
 
 Concevoir pour les tâches, pas pour les fonctionnalités
 
@@ -78,8 +75,6 @@ Il ne veut pas “utiliser le module de gestion documentaire”.
 
 La différence est essentielle.
 
-⸻
-
 Réduire la charge cognitive
 
 Chaque décision demande un effort mental.
@@ -92,8 +87,6 @@ Tu peux y parvenir en :
 * réduisant le nombre de choix visibles ;
 * utilisant des intitulés explicites ;
 * conservant des comportements cohérents.
-
-⸻
 
 La règle des conventions
 
@@ -109,8 +102,6 @@ Ils savent déjà où chercher :
 
 Changer ces conventions demande une très bonne raison.
 
-⸻
-
 Donner un retour immédiat
 
 Chaque action mérite une réponse du système.
@@ -124,8 +115,6 @@ Exemples :
 
 L’utilisateur ne doit jamais se demander si l’application fonctionne.
 
-⸻
-
 Les erreurs sont normales
 
 Une interface doit être conçue en supposant que les utilisateurs feront des erreurs.
@@ -134,8 +123,6 @@ Le rôle du design est de :
 
 * prévenir les erreurs lorsque c’est possible ;
 * aider à les corriger rapidement lorsqu’elles surviennent.
-
-⸻
 
 Éviter le jargon
 
@@ -149,24 +136,18 @@ Préfère :
 
 plutôt que des formulations techniques ou internes à l’entreprise.
 
-⸻
-
 Hiérarchiser les informations
 
 Toutes les informations n’ont pas la même importance.
 
 Une page efficace met en avant :
-
 1. le titre ;
 2. l’action principale ;
 3. les informations essentielles ;
 4. les informations secondaires ;
 5. les détails complémentaires.
-
-⸻
-
-Cas pratique
-
+<a id="section-2"></a>
+## Cas pratique
 Imaginons une page de création de compte.
 
 ❌ Mauvaise approche :
@@ -183,11 +164,8 @@ Imaginons une page de création de compte.
 * validation en temps réel ;
 * messages d’erreur précis ;
 * progression visible.
-
-⸻
-
-Checklist du chapitre
-
+<a id="section-3"></a>
+## Checklist du chapitre
 Avant de valider un écran, vérifie :
 
 * ☐ L’objectif principal est clairement identifié.
@@ -200,14 +178,10 @@ Avant de valider un écran, vérifie :
 * ☐ Les éléments secondaires sont visuellement moins importants.
 * ☐ L’utilisateur peut terminer sa tâche sans devoir réfléchir au fonctionnement de l’interface.
 
-⸻
-
-Ce qu’il faut retenir
-
+<a id="section-4"></a>
+## Ce qu’il faut retenir
 Une bonne interface ne cherche pas à impressionner.
 
 Elle cherche à disparaître.
 
 Lorsque l’utilisateur atteint son objectif facilement, rapidement et sans confusion, le design a rempli sa mission.
-
-⸻

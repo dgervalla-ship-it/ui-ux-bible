@@ -1,18 +1,19 @@
 # Layout, grille et espacement
 
-Un bon design n’est pas seulement composé de beaux éléments. Il est composé de beaux espacements.
+## Sommaire
 
-⸻
+- [Objectif](#section-1)
+- [Cas pratique](#section-2)
+- [Checklist du chapitre](#section-3)
+- [Ce qu’il faut retenir](#section-4)
 
-Objectif
-
+<a id="section-1"></a>
+## Objectif
 Construire une interface équilibrée grâce à une grille cohérente, des alignements précis et un système d’espacement réutilisable.
 
 Le layout est le squelette de l’interface.
 
 Si le squelette est mauvais, même les meilleurs composants paraîtront désordonnés.
-
-⸻
 
 Pourquoi le layout est-il si important ?
 
@@ -22,20 +23,15 @@ En revanche, ils ressentent immédiatement lorsqu’elle est absente.
 
 Une interface mal alignée donne une impression de désordre, même si chaque composant est bien conçu.
 
-⸻
-
 Les quatre piliers d’un bon layout
 
 Un layout professionnel repose sur quatre éléments :
-
 1. La grille.
 2. Les alignements.
 3. Les espacements.
 4. Les proportions.
 
 Ces éléments créent un rythme visuel qui rend l’interface agréable à parcourir.
-
-⸻
 
 La grille (Grid)
 
@@ -49,8 +45,6 @@ Elle permet de :
 * garantir une interface harmonieuse.
 
 Une grille n’est pas une contrainte, mais un outil d’organisation.
-
-⸻
 
 Les colonnes
 
@@ -67,8 +61,6 @@ Parce qu’elle se divise facilement :
 
 Cela offre une grande flexibilité.
 
-⸻
-
 Les marges
 
 Une interface ne doit jamais toucher les bords de l’écran.
@@ -83,8 +75,6 @@ Exemple :
 
 Les marges améliorent immédiatement la lisibilité.
 
-⸻
-
 Les gouttières (Gutters)
 
 Les gouttières sont les espaces entre les colonnes.
@@ -92,8 +82,6 @@ Les gouttières sont les espaces entre les colonnes.
 Elles empêchent les éléments de se coller.
 
 Une gouttière constante renforce la cohérence visuelle.
-
-⸻
 
 Le rythme des espacements
 
@@ -113,8 +101,6 @@ XXL	48 px
 XXXL	64 px
 
 Toute l’interface doit utiliser cette même échelle.
-
-⸻
 
 La règle de proximité
 
@@ -136,8 +122,6 @@ Adresse
 
 Le groupe est brisé.
 
-⸻
-
 La règle de répétition
 
 Les espacements doivent être constants.
@@ -149,8 +133,6 @@ Tous les champs d’un formulaire utilisent le même espace vertical.
 Tous les titres utilisent le même espace avant et après.
 
 Cette répétition crée une sensation d’ordre.
-
-⸻
 
 Les alignements
 
@@ -164,8 +146,6 @@ Téléphone    Ville
 Tous les champs commencent au même endroit.
 
 L’œil balaie plus facilement l’interface.
-
-⸻
 
 Les tailles
 
@@ -186,8 +166,6 @@ Même principe pour :
 * les badges ;
 * les tableaux.
 
-⸻
-
 Les proportions
 
 Une interface agréable repose sur des proportions équilibrées.
@@ -195,8 +173,6 @@ Une interface agréable repose sur des proportions équilibrées.
 Un titre énorme au-dessus d’un bouton minuscule crée un déséquilibre.
 
 Les éléments doivent conserver une relation logique entre eux.
-
-⸻
 
 Le principe du “contenu avant tout”
 
@@ -214,8 +190,6 @@ Une interface dense n’est pas forcément riche.
 
 Elle est souvent simplement plus difficile à utiliser.
 
-⸻
-
 Les cartes (Cards)
 
 Chaque carte possède généralement :
@@ -226,8 +200,6 @@ Chaque carte possède généralement :
 * une hauteur adaptée au contenu.
 
 Évite les cartes où chaque élément semble placé au hasard.
-
-⸻
 
 Les sections
 
@@ -248,8 +220,6 @@ Paragraphe
 
 Le cerveau identifie naturellement les groupes.
 
-⸻
-
 Le responsive
 
 Le layout doit s’adapter à toutes les tailles d’écran.
@@ -261,8 +231,6 @@ Un bon système responsive :
 * évite les défilements horizontaux.
 
 L’objectif n’est pas de reproduire exactement la version desktop, mais d’offrir une expérience équivalente.
-
-⸻
 
 Les breakpoints
 
@@ -278,8 +246,6 @@ Grand écran	> 1440 px
 
 Les valeurs exactes peuvent varier selon le projet.
 
-⸻
-
 Les conteneurs
 
 Le contenu principal ne doit pas s’étendre sur toute la largeur d’un très grand écran.
@@ -287,8 +253,6 @@ Le contenu principal ne doit pas s’étendre sur toute la largeur d’un très 
 Des lignes trop longues réduisent la lisibilité.
 
 Utilise un conteneur avec une largeur maximale.
-
-⸻
 
 Les tableaux
 
@@ -299,8 +263,6 @@ Les espacements doivent être réguliers.
 Les lignes doivent rester aérées.
 
 Une table compacte n’est pas forcément plus efficace.
-
-⸻
 
 Les dashboards
 
@@ -314,8 +276,6 @@ Chaque bloc possède :
 
 Le rythme visuel est essentiel.
 
-⸻
-
 Les formulaires
 
 Les formulaires suivent une grille.
@@ -325,8 +285,6 @@ Les labels sont alignés.
 Les champs possèdent la même largeur lorsque leur fonction est identique.
 
 Les boutons sont alignés avec les champs.
-
-⸻
 
 Les erreurs fréquentes
 
@@ -343,11 +301,8 @@ Les erreurs fréquentes
 ❌ Contenu collé aux bords.
 
 ❌ Utilisation excessive de séparateurs au lieu d’espaces.
-
-⸻
-
-Cas pratique
-
+<a id="section-2"></a>
+## Cas pratique
 Imaginons une page de tableau de bord.
 
 Une mauvaise mise en page présenterait :
@@ -366,11 +321,8 @@ Une meilleure mise en page utiliserait :
 * un rythme vertical régulier.
 
 L’interface paraît immédiatement plus professionnelle, sans avoir modifié le contenu.
-
-⸻
-
-Checklist du chapitre
-
+<a id="section-3"></a>
+## Checklist du chapitre
 Avant de valider un layout :
 
 * ☐ Une grille cohérente structure la page.
@@ -384,20 +336,10 @@ Avant de valider un layout :
 * ☐ Les conteneurs limitent la largeur sur les grands écrans.
 * ☐ L’espace vide est utilisé comme un élément de design.
 
-⸻
-
-Ce qu’il faut retenir
-
+<a id="section-4"></a>
+## Ce qu’il faut retenir
 Un bon layout est presque invisible.
 
 Les utilisateurs ne remarquent pas la grille, les alignements ou les espacements. Ils ressentent simplement une impression d’ordre, de clarté et de professionnalisme.
 
 Le layout est la structure qui permet à tous les autres éléments — couleurs, typographie, composants et contenus — de fonctionner ensemble de manière harmonieuse.
-
-⸻
-
-Notes d’application
-
-À ce stade, nous avons construit les fondations d’un Design System : principes UX, architecture de l’information, hiérarchie visuelle, couleurs, typographie et layout.
-
-Le prochain chapitre sera consacré aux composants UI. Nous définirons leurs règles de conception, leurs variantes, leurs états (normal, hover, focus, désactivé, chargement), leur accessibilité et leurs usages. Chaque composant (bouton, champ de saisie, carte, tableau, modal, navigation, etc.) sera traité comme une fiche de référence pouvant être directement intégrée dans un Design System professionnel.
