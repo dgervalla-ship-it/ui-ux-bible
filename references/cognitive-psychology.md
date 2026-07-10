@@ -1,11 +1,12 @@
 # Psychologie cognitive
+## Sommaire
 
-Une bonne interface ne fonctionne pas parce qu’elle est belle. Elle fonctionne parce qu’elle respecte le fonctionnement naturel du cerveau humain.
+- [Objectif](#section-1)
+- [Cas pratique](#section-2)
+- [Checklist du chapitre](#section-3)
 
-⸻
-
-Objectif
-
+<a id="section-1"></a>
+## Objectif
 Toutes les décisions de design doivent être basées sur la psychologie humaine.
 
 Les utilisateurs :
@@ -18,8 +19,6 @@ Les utilisateurs :
 
 Concevoir une interface revient donc à concevoir pour le cerveau humain.
 
-⸻
-
 Les limites du cerveau
 
 Le cerveau possède plusieurs contraintes.
@@ -27,8 +26,6 @@ Le cerveau possède plusieurs contraintes.
 Les ignorer produit une mauvaise expérience.
 
 Les respecter rend l’interface intuitive.
-
-⸻
 
 Charge cognitive
 
@@ -42,8 +39,6 @@ Lorsque cette énergie diminue :
 
 L’objectif du designer est donc de réduire cette charge.
 
-⸻
-
 Réduire la charge cognitive
 
 Pour cela :
@@ -54,8 +49,6 @@ Pour cela :
 * utiliser les conventions existantes.
 
 Chaque élément supprimé améliore souvent l’expérience.
-
-⸻
 
 La mémoire de travail
 
@@ -73,8 +66,6 @@ Ne jamais demander :
 
 L’interface doit afficher ce dont l’utilisateur a besoin, au moment où il en a besoin.
 
-⸻
-
 Le principe de reconnaissance
 
 Les utilisateurs préfèrent reconnaître plutôt que mémoriser.
@@ -91,8 +82,6 @@ Exemple :
 
 Ces éléments réduisent l’effort mental.
 
-⸻
-
 La Loi de Hick
 
 Plus il existe de choix,
@@ -106,8 +95,6 @@ Deux boutons.
 ↓
 
 Décision rapide.
-
-⸻
 
 Douze boutons.
 
@@ -123,8 +110,6 @@ Hésitation.
 
 Abandon possible.
 
-⸻
-
 Application
 
 Limiter :
@@ -134,8 +119,6 @@ Limiter :
 * les paramètres visibles.
 
 Afficher les options avancées uniquement lorsque c’est nécessaire.
-
-⸻
 
 La Loi de Fitts
 
@@ -155,8 +138,6 @@ Les CTA principaux doivent être :
 * placés près de la zone d’attention.
 
 Les petites zones interactives augmentent les erreurs.
-
-⸻
 
 La Loi de Miller
 
@@ -188,8 +169,6 @@ Ville
 
 Email
 
-⸻
-
 Les principes de Gestalt
 
 Notre cerveau organise automatiquement les éléments.
@@ -200,23 +179,17 @@ Proximité
 
 Les éléments proches semblent appartenir au même groupe.
 
-⸻
-
 Similarité
 
 Deux éléments ayant la même apparence semblent avoir la même fonction.
 
 Un bouton bleu est attendu comme identique à un autre bouton bleu.
 
-⸻
-
 Continuité
 
 Le regard suit naturellement les alignements.
 
 Des colonnes bien alignées accélèrent la lecture.
-
-⸻
 
 Figure / Fond
 
@@ -227,23 +200,17 @@ Le cerveau distingue automatiquement :
 
 Le contraste joue un rôle essentiel.
 
-⸻
-
 Fermeture
 
 Le cerveau complète naturellement les formes incomplètes.
 
 C’est pourquoi une interface minimaliste reste souvent compréhensible.
 
-⸻
-
 Le biais de confirmation
 
 Les utilisateurs cherchent des informations qui confirment leurs attentes.
 
 Une interface qui respecte les conventions réduit donc les incompréhensions.
-
-⸻
 
 Le coût de changement
 
@@ -254,8 +221,6 @@ Exemple :
 Déplacer le menu principal sans raison oblige les utilisateurs à réapprendre.
 
 Le coût est souvent supérieur au bénéfice.
-
-⸻
 
 L’effet de position sérielle
 
@@ -272,8 +237,6 @@ Les actions importantes apparaissent :
 * ou à la fin d’une liste.
 
 Les actions secondaires sont placées au milieu.
-
-⸻
 
 L’effet Von Restorff
 
@@ -293,8 +256,6 @@ Le regard va immédiatement vers lui.
 
 Cette règle explique pourquoi un CTA principal doit être unique.
 
-⸻
-
 L’effet de progression
 
 Les utilisateurs terminent plus facilement une tâche lorsqu’ils voient leur progression.
@@ -304,8 +265,6 @@ Exemple :
 Étape 2 sur 5.
 
 Une barre de progression réduit les abandons.
-
-⸻
 
 L’effet Zeigarnik
 
@@ -321,8 +280,6 @@ Votre profil est complété à 80 %.
 
 L’utilisateur souhaite naturellement terminer.
 
-⸻
-
 La récompense immédiate
 
 Les utilisateurs apprécient un retour rapide.
@@ -336,8 +293,6 @@ Notification.
 Message de réussite.
 
 Ces retours renforcent la sensation de contrôle.
-
-⸻
 
 La peur de perdre
 
@@ -353,8 +308,6 @@ Continuez à profiter de toutes les fonctionnalités.
 
 À utiliser avec mesure et sans manipulation.
 
-⸻
-
 La confiance
 
 La confiance se construit grâce à :
@@ -366,8 +319,6 @@ La confiance se construit grâce à :
 * des erreurs bien expliquées.
 
 La confiance est l’un des facteurs les plus importants de la fidélisation.
-
-⸻
 
 Les erreurs fréquentes
 
@@ -384,11 +335,8 @@ Les erreurs fréquentes
 ❌ Informations demandant à être mémorisées.
 
 ❌ Trop d’animations.
-
-⸻
-
-Cas pratique
-
+<a id="section-2"></a>
+## Cas pratique
 Imaginons une application bancaire.
 
 Mauvaise conception
@@ -409,11 +357,8 @@ Bonne conception
 * Une confirmation explicite avec les détails du virement.
 
 Le parcours demande moins d’effort mental et inspire davantage confiance.
-
-⸻
-
-Checklist du chapitre
-
+<a id="section-3"></a>
+## Checklist du chapitre
 Avant de publier une interface :
 
 * ☐ Les choix proposés sont limités au nécessaire.
@@ -427,8 +372,6 @@ Avant de publier une interface :
 * ☐ L’interface minimise les efforts de mémorisation.
 * ☐ Les décisions de design s’appuient sur le fonctionnement du cerveau humain.
 
-⸻
-
 Ce qu’il faut retenir
 
 Les meilleurs designers ne conçoivent pas pour eux-mêmes.
@@ -438,21 +381,3 @@ Ils conçoivent pour les limites et les capacités du cerveau humain.
 Une interface réussie ne demande pas à l’utilisateur de devenir plus intelligent.
 
 Elle s’adapte à sa manière naturelle de percevoir, comprendre, décider et agir.
-
-⸻
-
-Suite du manuel
-
-À partir de maintenant, le guide entre dans un niveau encore plus avancé. Les prochains chapitres traiteront notamment :
-
-* Chapitre 21 — Les lois UX (Fitts, Hick, Jakob, Tesler, Pareto, etc.)
-* Chapitre 22 — Les micro-interactions et les animations
-* Chapitre 23 — Les systèmes de design SaaS modernes
-* Chapitre 24 — Les applications mobiles (iOS & Android)
-* Chapitre 25 — Les interfaces conversationnelles et l’IA
-* Chapitre 26 — Les tests utilisateurs et l’A/B testing
-* Chapitre 27 — Les métriques UX et produit
-* Chapitre 28 — Les anti-patterns UX/UI (plus de 200 erreurs courantes)
-* Chapitre 29 — La checklist professionnelle complète (plus de 1 000 points de contrôle)
-
-Cette seconde partie fera de ton document un véritable manuel de référence, allant bien au-delà des ouvrages d’origine, tout en restant cohérent avec leurs principes.

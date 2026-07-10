@@ -1,11 +1,14 @@
 # Design system et tokens
+## Sommaire
 
-Un Design System n’est pas une bibliothèque de composants. C’est un langage commun entre le design, le développement et le produit.
+- [Objectif](#section-1)
+- [Les variantes](#section-2)
+- [Les états](#section-3)
+- [Cas pratique](#section-4)
+- [Checklist du chapitre](#section-5)
 
-⸻
-
-Objectif
-
+<a id="section-1"></a>
+## Objectif
 Un Design System permet de créer des interfaces :
 
 * cohérentes ;
@@ -16,8 +19,6 @@ Un Design System permet de créer des interfaces :
 Son objectif n’est pas seulement de gagner du temps.
 
 Il garantit que chaque nouvelle fonctionnalité respecte les mêmes standards de qualité.
-
-⸻
 
 Pourquoi créer un Design System ?
 
@@ -36,8 +37,6 @@ Le résultat :
 * incohérence visuelle ;
 * expérience utilisateur dégradée.
 
-⸻
-
 Les 5 couches d’un Design System
 
 Un Design System moderne est organisé en plusieurs niveaux.
@@ -53,8 +52,6 @@ Patterns
 Templates
 
 Chaque niveau dépend du précédent.
-
-⸻
 
 Niveau 1 — Les Fondations
 
@@ -75,8 +72,6 @@ Les composants utilisent ces fondations.
 
 Ils ne les redéfinissent jamais.
 
-⸻
-
 Niveau 2 — Les Design Tokens
 
 Les Design Tokens sont les variables du système.
@@ -95,8 +90,6 @@ Le développeur utilise les tokens.
 
 Jamais directement les valeurs.
 
-⸻
-
 Pourquoi utiliser des tokens ?
 
 Imagine que la couleur principale change.
@@ -111,8 +104,6 @@ Une seule valeur change.
 
 Toute l’application est mise à jour.
 
-⸻
-
 Les catégories de tokens
 
 Couleurs
@@ -125,8 +116,6 @@ Warning
 Danger
 Info
 
-⸻
-
 Espacements
 
 4
@@ -138,8 +127,6 @@ Espacements
 48
 64
 
-⸻
-
 Rayons
 
 Small
@@ -147,16 +134,12 @@ Medium
 Large
 Pill
 
-⸻
-
 Ombres
 
 Shadow XS
 Shadow S
 Shadow M
 Shadow L
-
-⸻
 
 Typographie
 
@@ -166,15 +149,11 @@ Heading L
 Body
 Caption
 
-⸻
-
 Animations
 
 Fast
 Normal
 Slow
-
-⸻
 
 Niveau 3 — Les composants
 
@@ -202,8 +181,6 @@ Font Body Medium
 
 Le composant ne définit aucune valeur lui-même.
 
-⸻
-
 Niveau 4 — Les Patterns
 
 Un pattern est un assemblage de composants.
@@ -226,8 +203,6 @@ Lien oublié
 
 Chaque projet réutilise ce pattern.
 
-⸻
-
 Autres patterns :
 
 * Checkout
@@ -237,8 +212,6 @@ Autres patterns :
 * Carte produit
 * Tableau
 * Paramètres
-
-⸻
 
 Niveau 5 — Les Templates
 
@@ -262,8 +235,6 @@ Le template n’invente rien.
 
 Il assemble les patterns.
 
-⸻
-
 Les règles de nommage
 
 Un composant possède un nom unique.
@@ -286,11 +257,8 @@ New Button
 Button 2
 
 Ces noms deviennent rapidement incompréhensibles.
-
-⸻
-
-Les variantes
-
+<a id="section-2"></a>
+## Les variantes
 Chaque composant définit ses variantes.
 
 Exemple :
@@ -319,8 +287,6 @@ Link
 
 Pas davantage si elles ne répondent pas à un besoin réel.
 
-⸻
-
 Les tailles
 
 Les tailles sont standardisées.
@@ -340,11 +306,8 @@ Huge
 Ultra Large
 
 La simplicité facilite l’adoption.
-
-⸻
-
-Les états
-
+<a id="section-3"></a>
+## Les états
 Tous les composants interactifs définissent :
 
 Default
@@ -357,8 +320,6 @@ Error
 Success
 
 Aucun état ne doit être oublié.
-
-⸻
 
 Les icônes
 
@@ -374,8 +335,6 @@ Même logique.
 
 Ne mélange jamais plusieurs familles d’icônes.
 
-⸻
-
 Les illustrations
 
 Les illustrations suivent également une charte.
@@ -386,8 +345,6 @@ Même palette.
 
 Même niveau de détail.
 
-⸻
-
 Les animations
 
 Les animations doivent respecter :
@@ -397,8 +354,6 @@ Les animations doivent respecter :
 * la même logique.
 
 Une interface cohérente paraît plus fluide.
-
-⸻
 
 Documentation
 
@@ -417,8 +372,6 @@ Exemples
 
 Une bibliothèque sans documentation devient rapidement inutilisable.
 
-⸻
-
 Gouvernance
 
 Le Design System appartient à toute l’équipe.
@@ -432,8 +385,6 @@ Il doit définir :
 
 Sans gouvernance, le système se dégrade progressivement.
 
-⸻
-
 Les versions
 
 Comme un logiciel, le Design System évolue.
@@ -445,8 +396,6 @@ Chaque version documente :
 * composants supprimés ;
 * changements incompatibles.
 
-⸻
-
 Les audits
 
 Un audit régulier permet d’identifier :
@@ -457,8 +406,6 @@ Un audit régulier permet d’identifier :
 * dette technique.
 
 Un Design System est un produit vivant.
-
-⸻
 
 Les erreurs fréquentes
 
@@ -477,11 +424,8 @@ Les erreurs fréquentes
 ❌ Utiliser des valeurs codées en dur.
 
 ❌ Absence de gouvernance.
-
-⸻
-
-Cas pratique
-
+<a id="section-4"></a>
+## Cas pratique
 Une équipe développe un SaaS pendant deux ans.
 
 Sans Design System :
@@ -501,11 +445,8 @@ Avec un Design System :
 * des composants partagés.
 
 Le développement est plus rapide, les interfaces sont cohérentes et les coûts de maintenance diminuent.
-
-⸻
-
-Checklist du chapitre
-
+<a id="section-5"></a>
+## Checklist du chapitre
 Avant de considérer un Design System comme prêt :
 
 * ☐ Les fondations (couleurs, typographie, espacements, etc.) sont définies.
@@ -518,8 +459,6 @@ Avant de considérer un Design System comme prêt :
 * ☐ Les templates assemblent les patterns sans créer de nouvelles règles.
 * ☐ Une gouvernance encadre les évolutions.
 * ☐ Un processus d’audit est en place.
-
-⸻
 
 Ce qu’il faut retenir
 
@@ -535,9 +474,3 @@ Lorsqu’il est bien conçu, il améliore simultanément :
 * la vitesse de développement ;
 * la cohérence du produit ;
 * la collaboration entre les équipes.
-
-⸻
-
-Notes d’application
-
-À partir du chapitre 19, nous passerons à la dernière grande partie du manuel : l’audit UX/UI. Nous construirons une méthode professionnelle permettant d’évaluer n’importe quelle interface à l’aide d’une grille de contrôle de plus de 500 critères, couvrant l’UX, l’UI, l’accessibilité, la performance, le marketing, la conversion et la qualité technique. Ce chapitre transformera ce guide en un véritable référentiel d’évaluation utilisable lors de revues de design ou d’audits complets.

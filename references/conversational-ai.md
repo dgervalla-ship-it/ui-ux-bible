@@ -1,11 +1,18 @@
 # IA conversationnelle
+## Sommaire
 
-L’intelligence artificielle ne remplace pas l’interface. Elle devient une nouvelle façon d’interagir avec elle.
+- [Objectif](#section-1)
+- [Les erreurs](#section-2)
+- [1. Ajouter un fichier.](#section-3)
+- [2. Confirmer son import.](#section-4)
+- [3. Indiquer qu’il est en cours d’analyse.](#section-5)
+- [4. Montrer qu’il est utilisé dans la réponse.](#section-6)
+- [Les limites](#section-7)
+- [Cas pratique](#section-8)
+- [Checklist du chapitre](#section-9)
 
-⸻
-
-Objectif
-
+<a id="section-1"></a>
+## Objectif
 Les interfaces intégrant une IA générative (chat, assistant, copilote, agent) nécessitent une approche différente des interfaces classiques.
 
 L’utilisateur ne clique plus uniquement sur des boutons.
@@ -20,8 +27,6 @@ Il :
 
 Le rôle du designer devient alors de créer une conversation claire, fiable et productive.
 
-⸻
-
 Les nouveaux paradigmes
 
 Une interface classique répond à :
@@ -33,8 +38,6 @@ Une interface IA répond à :
 Que dois-je demander ?
 
 Cette différence change complètement l’expérience utilisateur.
-
-⸻
 
 Les 5 rôles d’une IA
 
@@ -48,8 +51,6 @@ Exemple :
 
 Résume ce document.
 
-⸻
-
 Copilote
 
 Aide pendant une tâche.
@@ -57,8 +58,6 @@ Aide pendant une tâche.
 Exemple :
 
 Proposer une réponse à un email.
-
-⸻
 
 Agent
 
@@ -72,8 +71,6 @@ Inviter une équipe.
 
 Envoyer un rapport.
 
-⸻
-
 Expert
 
 Explique.
@@ -81,8 +78,6 @@ Explique.
 Compare.
 
 Analyse.
-
-⸻
 
 Créateur
 
@@ -95,8 +90,6 @@ Produit :
 * tableau.
 
 L’interface doit indiquer clairement quel rôle l’IA joue.
-
-⸻
 
 Une conversation n’est pas un formulaire
 
@@ -138,8 +131,6 @@ Nouvelle réponse
 
 L’interface doit faciliter cette boucle.
 
-⸻
-
 Le champ de saisie
 
 Le champ est l’élément principal.
@@ -160,8 +151,6 @@ Exemples :
 
 Ces suggestions réduisent le syndrome de la page blanche.
 
-⸻
-
 Les suggestions
 
 Une IA ne doit jamais laisser l’utilisateur sans idée.
@@ -174,8 +163,6 @@ Afficher :
 * historique récent.
 
 L’utilisateur comprend immédiatement ce qui est possible.
-
-⸻
 
 Les réponses
 
@@ -195,8 +182,6 @@ Utiliser :
 
 Évite les blocs de texte très longs.
 
-⸻
-
 Les sources
 
 Lorsque la réponse repose sur des documents ou des données, indique clairement les sources.
@@ -209,8 +194,6 @@ Exemple :
 
 L’utilisateur doit savoir d’où vient l’information.
 
-⸻
-
 L’incertitude
 
 Une IA ne possède pas toujours une réponse certaine.
@@ -222,8 +205,6 @@ Exemple :
 Je ne dispose pas d’informations suffisantes pour répondre avec certitude.
 
 Il vaut mieux reconnaître une limite que donner une réponse trompeuse.
-
-⸻
 
 Les actions après une réponse
 
@@ -239,8 +220,6 @@ Exemples :
 * Continuer la conversation
 
 L’utilisateur ne doit jamais repartir de zéro.
-
-⸻
 
 Les réponses longues
 
@@ -262,8 +241,6 @@ Actions proposées
 
 Cette approche facilite la lecture.
 
-⸻
-
 La mémoire
 
 Une IA peut conserver un contexte pendant une conversation.
@@ -275,11 +252,8 @@ Mais elle doit indiquer clairement :
 * quand une nouvelle conversation repart de zéro.
 
 Évite de laisser croire que le système se souvient de tout en permanence.
-
-⸻
-
-Les erreurs
-
+<a id="section-2"></a>
+## Les erreurs
 Une erreur doit expliquer :
 
 * ce qui s’est passé ;
@@ -293,8 +267,6 @@ Réessayez dans quelques instants ou reformulez votre demande.
 
 Évite les messages techniques incompréhensibles.
 
-⸻
-
 Les actions de l’IA
 
 Lorsque l’IA exécute une action (créer un document, envoyer un email, modifier un projet), l’interface doit distinguer :
@@ -304,8 +276,6 @@ Lorsque l’IA exécute une action (créer un document, envoyer un email, modifi
 
 Avant une action importante, il est souvent utile de demander une confirmation.
 
-⸻
-
 Les temps de réponse
 
 Les utilisateurs acceptent quelques secondes d’attente si :
@@ -314,8 +284,6 @@ Les utilisateurs acceptent quelques secondes d’attente si :
 * le système indique qu’il travaille.
 
 Afficher un état de génération rassure l’utilisateur.
-
-⸻
 
 Les conversations longues
 
@@ -328,25 +296,22 @@ Prévoir :
 * une recherche dans l’historique ;
 * des sections repliables pour les longues réponses.
 
-⸻
-
 Les fichiers
 
 Les interfaces IA modernes permettent souvent de joindre des documents.
 
 Le parcours doit être clair :
-
-1. Ajouter un fichier.
-2. Confirmer son import.
-3. Indiquer qu’il est en cours d’analyse.
-4. Montrer qu’il est utilisé dans la réponse.
-
+<a id="section-3"></a>
+## 1. Ajouter un fichier.
+<a id="section-4"></a>
+## 2. Confirmer son import.
+<a id="section-5"></a>
+## 3. Indiquer qu’il est en cours d’analyse.
+<a id="section-6"></a>
+## 4. Montrer qu’il est utilisé dans la réponse.
 L’utilisateur doit toujours savoir quels fichiers sont pris en compte.
-
-⸻
-
-Les limites
-
+<a id="section-7"></a>
+## Les limites
 L’interface doit éviter de donner une impression de certitude lorsque le modèle peut se tromper.
 
 Lorsque c’est pertinent :
@@ -356,8 +321,6 @@ Lorsque c’est pertinent :
 * encourager la vérification pour les décisions importantes.
 
 La transparence renforce la confiance.
-
-⸻
 
 Les erreurs fréquentes
 
@@ -376,11 +339,8 @@ Les erreurs fréquentes
 ❌ Aucune indication sur les limites de l’IA.
 
 ❌ Mélanger les propositions de l’IA et les actions réellement exécutées.
-
-⸻
-
-Cas pratique
-
+<a id="section-8"></a>
+## Cas pratique
 Imaginons un assistant IA intégré à une application de gestion de projet.
 
 Mauvaise conception
@@ -402,11 +362,8 @@ Bonne conception
 * Les documents utilisés sont clairement identifiés.
 
 L’utilisateur comprend ce que fait l’IA et garde le contrôle.
-
-⸻
-
-Checklist du chapitre
-
+<a id="section-9"></a>
+## Checklist du chapitre
 Avant de publier une interface conversationnelle :
 
 * ☐ Le rôle de l’IA est clairement défini.
@@ -420,8 +377,6 @@ Avant de publier une interface conversationnelle :
 * ☐ Les limites du système sont communiquées avec transparence.
 * ☐ Les conversations longues restent faciles à parcourir.
 
-⸻
-
 Ce qu’il faut retenir
 
 Une bonne interface IA ne cherche pas à faire oublier qu’il s’agit d’une intelligence artificielle.
@@ -434,9 +389,3 @@ Elle aide l’utilisateur à comprendre :
 * ce qui est une action réelle.
 
 Le véritable objectif n’est pas de remplacer l’utilisateur, mais d’augmenter sa capacité à travailler, apprendre et créer.
-
-⸻
-
-Notes d’application
-
-Le chapitre 26 portera sur les tests utilisateurs et l’expérimentation. Nous verrons comment préparer des scénarios de test, observer les comportements, mesurer les résultats, conduire des entretiens, mettre en place des A/B tests et transformer les observations en améliorations concrètes du produit. Ce chapitre conclura la partie méthodologique du manuel en montrant comment valider les décisions de design avec des données plutôt qu’avec des opinions.

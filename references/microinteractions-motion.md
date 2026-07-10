@@ -1,11 +1,13 @@
 # Micro-interactions et motion
+## Sommaire
 
-Les utilisateurs remarquent rarement une bonne animation. En revanche, ils remarquent immédiatement son absence lorsqu’ils ne comprennent plus ce qui se passe.
+- [Objectif](#section-1)
+- [Les principes fondamentaux](#section-2)
+- [Cas pratique](#section-3)
+- [Checklist du chapitre](#section-4)
 
-⸻
-
-Objectif
-
+<a id="section-1"></a>
+## Objectif
 Les micro-interactions rendent une interface plus compréhensible.
 
 Elles permettent de :
@@ -20,8 +22,6 @@ Une animation n’est jamais un élément décoratif.
 
 Elle est un outil de communication.
 
-⸻
-
 Qu’est-ce qu’une micro-interaction ?
 
 Une micro-interaction est une réaction visuelle à une action de l’utilisateur.
@@ -35,8 +35,6 @@ Exemples :
 * recevoir une notification ;
 * activer un interrupteur.
 
-⸻
-
 Les quatre éléments d’une micro-interaction
 
 Toute micro-interaction est composée de quatre parties.
@@ -49,8 +47,6 @@ Feedback
 ↓
 Fin
 
-⸻
-
 Déclencheur
 
 C’est l’action qui lance l’interaction.
@@ -60,8 +56,6 @@ Exemple :
 Clique sur :
 
 Ajouter au panier
-
-⸻
 
 Règle
 
@@ -74,8 +68,6 @@ Exemple :
 * ajouter le produit ;
 * mettre à jour le compteur ;
 * afficher une confirmation.
-
-⸻
 
 Feedback
 
@@ -91,13 +83,9 @@ Exemple :
 
 ✔ Notification
 
-⸻
-
 Fin
 
 L’interaction revient à un état stable.
-
-⸻
 
 Pourquoi les animations sont importantes ?
 
@@ -109,8 +97,6 @@ Disparaît
 
 Le cerveau perd le contexte.
 
-⸻
-
 Avec animation :
 
 Menu
@@ -120,8 +106,6 @@ Glisse
 Disparaît
 
 Le cerveau comprend naturellement le changement.
-
-⸻
 
 Les objectifs d’une animation
 
@@ -135,15 +119,11 @@ Que s’est-il passé ?
 
 Le bouton devient vert.
 
-⸻
-
 Où est passé l’élément ?
 
 ↓
 
 Il glisse hors de l’écran.
-
-⸻
 
 Que dois-je regarder ?
 
@@ -151,16 +131,11 @@ Que dois-je regarder ?
 
 Une légère animation attire l’œil.
 
-⸻
-
 Si l’animation ne répond à aucune question,
 
 elle est probablement inutile.
-
-⸻
-
-Les principes fondamentaux
-
+<a id="section-2"></a>
+## Les principes fondamentaux
 Une bonne animation est :
 
 * rapide ;
@@ -169,8 +144,6 @@ Une bonne animation est :
 * utile.
 
 Elle ne cherche jamais à impressionner.
-
-⸻
 
 Les durées
 
@@ -185,8 +158,6 @@ Complexe	250 à 400 ms
 
 Des animations plus longues donnent souvent une impression de lenteur.
 
-⸻
-
 Les boutons
 
 Lorsqu’un bouton est cliqué :
@@ -200,8 +171,6 @@ Exemple :
 * apparition d’un état de chargement si nécessaire.
 
 Le bouton ne doit jamais rester immobile.
-
-⸻
 
 Les menus
 
@@ -231,8 +200,6 @@ Visible
 
 Le mouvement crée un lien logique entre les états.
 
-⸻
-
 Les modales
 
 Une modale doit sembler venir de quelque part.
@@ -245,8 +212,6 @@ Exemple :
 
 La fermeture suit le mouvement inverse.
 
-⸻
-
 Les notifications
 
 Une notification apparaît :
@@ -256,8 +221,6 @@ Une notification apparaît :
 * puis disparaît lorsque cela est approprié ou après action de l’utilisateur.
 
 Les notifications critiques ne doivent pas disparaître automatiquement avant d’avoir été lues.
-
-⸻
 
 Les Skeletons
 
@@ -273,8 +236,6 @@ Un squelette représentant la future interface.
 
 Les Skeletons réduisent la perception du temps d’attente.
 
-⸻
-
 Les transitions entre pages
 
 Le changement d’écran ne doit pas sembler brutal.
@@ -282,8 +243,6 @@ Le changement d’écran ne doit pas sembler brutal.
 Une transition légère aide l’utilisateur à conserver son contexte.
 
 Elle ne doit jamais ralentir la navigation.
-
-⸻
 
 Les listes
 
@@ -297,8 +256,6 @@ Il disparaît progressivement.
 
 Le cerveau comprend ce changement beaucoup plus facilement.
 
-⸻
-
 Les drag & drop
 
 Le déplacement doit être visible.
@@ -310,8 +267,6 @@ L’utilisateur doit toujours savoir :
 
 Les zones de dépôt doivent être mises en évidence.
 
-⸻
-
 Les formulaires
 
 Une erreur apparaît :
@@ -322,8 +277,6 @@ Une erreur apparaît :
 
 Une validation réussie peut être accompagnée d’un changement visuel léger.
 
-⸻
-
 Les graphiques
 
 Les graphiques peuvent animer :
@@ -333,8 +286,6 @@ Les graphiques peuvent animer :
 * les mises à jour.
 
 Les animations doivent aider à comprendre les évolutions, pas les masquer.
-
-⸻
 
 Les transitions d’état
 
@@ -350,8 +301,6 @@ Succès
 
 Une transition progressive est plus compréhensible qu’un changement instantané.
 
-⸻
-
 Les animations à éviter
 
 ❌ Rotation permanente.
@@ -366,8 +315,6 @@ Les animations à éviter
 
 ❌ Effets différents sur chaque écran.
 
-⸻
-
 Les préférences utilisateur
 
 Certains utilisateurs préfèrent limiter les animations.
@@ -376,8 +323,6 @@ Lorsque le système d’exploitation indique une préférence de réduction des 
 
 * supprimer les animations non essentielles ;
 * conserver uniquement les transitions nécessaires à la compréhension.
-
-⸻
 
 Les erreurs fréquentes
 
@@ -394,11 +339,8 @@ Les erreurs fréquentes
 ❌ Mouvement excessif.
 
 ❌ Transitions incohérentes.
-
-⸻
-
-Cas pratique
-
+<a id="section-3"></a>
+## Cas pratique
 Imaginons une application de gestion de tâches.
 
 Mauvaise conception
@@ -415,8 +357,6 @@ L’utilisateur hésite :
 
 Ai-je vraiment terminé cette tâche ?
 
-⸻
-
 Bonne conception
 
 Après le clic :
@@ -427,11 +367,8 @@ Après le clic :
 * un message confirme que la tâche est terminée.
 
 Le changement est immédiatement compris.
-
-⸻
-
-Checklist du chapitre
-
+<a id="section-4"></a>
+## Checklist du chapitre
 Avant de publier une interface :
 
 * ☐ Chaque interaction reçoit un retour visuel.
@@ -445,8 +382,6 @@ Avant de publier une interface :
 * ☐ Les animations respectent la préférence de réduction des mouvements.
 * ☐ Aucun effet décoratif ne nuit à la lisibilité.
 
-⸻
-
 Ce qu’il faut retenir
 
 Le motion design ne sert pas à rendre une interface spectaculaire.
@@ -456,9 +391,3 @@ Il sert à rendre les interactions compréhensibles.
 Une bonne animation est presque invisible : elle accompagne naturellement l’utilisateur, réduit les incertitudes et renforce la sensation de fluidité.
 
 Lorsqu’une interface paraît « vivante » sans devenir distrayante, les micro-interactions ont parfaitement rempli leur rôle.
-
-⸻
-
-Notes d’application
-
-Le prochain chapitre sera consacré au Design des applications SaaS modernes. Nous verrons comment organiser les espaces de travail, les tableaux de bord, les vues détaillées, les workflows complexes, les systèmes de permissions, les filtres avancés et les interfaces orientées productivité. Ce chapitre synthétisera les pratiques observées dans des produits comme Linear, Notion, Figma, GitHub ou Stripe, tout en restant fondé sur les principes UX présentés dans ce manuel.

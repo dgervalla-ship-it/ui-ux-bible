@@ -1,43 +1,81 @@
 # Lois UX
+## Sommaire
 
-Les meilleures interfaces ne sont pas créées au hasard. Elles appliquent des lois observées depuis des décennies en psychologie, en ergonomie et en interaction homme-machine.
+- [Objectif](#section-1)
+- [1. Loi de Fitts](#section-2)
+- [2. Loi de Hick](#section-3)
+- [3. Loi de Jakob](#section-4)
+- [4. Loi de Tesler](#section-5)
+- [5. Loi de Miller](#section-6)
+- [6. Loi de Pareto](#section-7)
+- [7. Loi de Parkinson](#section-8)
+- [8. Effet Von Restorff](#section-9)
+- [9. Effet Zeigarnik](#section-10)
+- [10. Effet de position sérielle](#section-11)
+- [11. Loi de Doherty](#section-12)
+- [12. Loi de Postel](#section-13)
+- [13. Loi de proximité](#section-14)
+- [14. Principe de moindre effort](#section-15)
+- [15. Règle de cohérence## 1. La Loi de Fitts](#section-16)
+- [Erreurs fréquentes](#section-17)
+- [2. La Loi de Hick](#section-18)
+- [3. La Loi de Jakob](#section-19)
+- [4. La Loi de Tesler](#section-20)
+- [5. La Loi de Miller](#section-21)
+- [6. Le Principe de Pareto](#section-22)
+- [7. La Loi de Parkinson](#section-23)
+- [8. L’Effet Von Restorff](#section-24)
+- [9. L’Effet Zeigarnik](#section-25)
+- [10. L’Effet de Position Sérielle](#section-26)
+- [11. La Loi de Doherty](#section-27)
+- [12. La Loi de Postel](#section-28)
+- [13. Le Principe de Proximité](#section-29)
+- [14. Le Principe du Moindre Effort](#section-30)
+- [15. Le Principe de Cohérence](#section-31)
+- [Cas pratique](#section-32)
+- [Checklist du chapitre](#section-33)
 
-⸻
-
-Objectif
-
+<a id="section-1"></a>
+## Objectif
 Ce chapitre rassemble les lois fondamentales utilisées par les plus grands designers.
 
 Ces lois ne sont pas des règles absolues.
 
 Ce sont des observations du comportement humain qui permettent de concevoir des interfaces plus intuitives.
 
-⸻
-
 Les 15 lois fondamentales
 
 Nous allons étudier :
-
-1. Loi de Fitts
-2. Loi de Hick
-3. Loi de Jakob
-4. Loi de Tesler
-5. Loi de Miller
-6. Loi de Pareto
-7. Loi de Parkinson
-8. Effet Von Restorff
-9. Effet Zeigarnik
-10. Effet de position sérielle
-11. Loi de Doherty
-12. Loi de Postel
-13. Loi de proximité
-14. Principe de moindre effort
-15. Règle de cohérence
-
-⸻
-
-1. La Loi de Fitts
-
+<a id="section-2"></a>
+## 1. Loi de Fitts
+<a id="section-3"></a>
+## 2. Loi de Hick
+<a id="section-4"></a>
+## 3. Loi de Jakob
+<a id="section-5"></a>
+## 4. Loi de Tesler
+<a id="section-6"></a>
+## 5. Loi de Miller
+<a id="section-7"></a>
+## 6. Loi de Pareto
+<a id="section-8"></a>
+## 7. Loi de Parkinson
+<a id="section-9"></a>
+## 8. Effet Von Restorff
+<a id="section-10"></a>
+## 9. Effet Zeigarnik
+<a id="section-11"></a>
+## 10. Effet de position sérielle
+<a id="section-12"></a>
+## 11. Loi de Doherty
+<a id="section-13"></a>
+## 12. Loi de Postel
+<a id="section-14"></a>
+## 13. Loi de proximité
+<a id="section-15"></a>
+## 14. Principe de moindre effort
+<a id="section-16"></a>
+## 15. Règle de cohérence## 1. La Loi de Fitts
 Définition
 
 Plus une cible est :
@@ -47,8 +85,6 @@ Plus une cible est :
 
 plus elle est rapide à atteindre.
 
-⸻
-
 Pourquoi ?
 
 Le cerveau calcule inconsciemment :
@@ -57,8 +93,6 @@ Le cerveau calcule inconsciemment :
 * la taille.
 
 Une cible éloignée et petite demande davantage de précision.
-
-⸻
 
 Application
 
@@ -70,41 +104,29 @@ Les CTA principaux doivent être :
 
 ✔ bien espacés
 
-⸻
-
 Bon exemple
 
 [ Commencer gratuitement ]
-
-⸻
 
 Mauvais exemple
 
 [OK]
 
 Petit bouton situé dans un coin.
-
-⸻
-
-Erreurs fréquentes
-
+<a id="section-17"></a>
+## Erreurs fréquentes
 ❌ Liens minuscules
 
 ❌ Icônes trop petites
 
 ❌ Espaces cliquables réduits
-
-⸻
-
-2. La Loi de Hick
-
+<a id="section-18"></a>
+## 2. La Loi de Hick
 Définition
 
 Plus il existe de choix,
 
 plus la décision est lente.
-
-⸻
 
 Exemple
 
@@ -113,8 +135,6 @@ Exemple
 ↓
 
 Décision immédiate.
-
-⸻
 
 18 boutons
 
@@ -130,25 +150,18 @@ Fatigue
 
 Abandon
 
-⸻
-
 Application
 
 Réduire les choix visibles.
 
 Afficher les options avancées uniquement lorsque cela est utile.
-
-⸻
-
-3. La Loi de Jakob
-
+<a id="section-19"></a>
+## 3. La Loi de Jakob
 Définition
 
 Les utilisateurs passent la majorité de leur temps sur d’autres sites.
 
 Ils s’attendent donc à retrouver les mêmes conventions.
-
-⸻
 
 Application
 
@@ -158,22 +171,15 @@ Respecter :
 * les icônes connues ;
 * les positions habituelles.
 
-⸻
-
 Mauvais exemple
 
 Mettre le panier en bas à gauche.
 
-⸻
-
 Bon exemple
 
 Panier en haut à droite.
-
-⸻
-
-4. La Loi de Tesler
-
+<a id="section-20"></a>
+## 4. La Loi de Tesler
 Définition
 
 Toute application possède une complexité.
@@ -181,8 +187,6 @@ Toute application possède une complexité.
 Cette complexité ne peut pas disparaître.
 
 Elle peut uniquement être déplacée.
-
-⸻
 
 Exemple
 
@@ -196,8 +200,6 @@ Complexité côté utilisateur.
 
 Long formulaire.
 
-⸻
-
 Complexité côté système.
 
 ↓
@@ -206,52 +208,37 @@ Connexion Google.
 
 Le produit devient plus simple.
 
-⸻
-
 Application
 
 Faire porter le maximum de complexité par le système.
 
 Jamais par l’utilisateur.
-
-⸻
-
-5. La Loi de Miller
-
+<a id="section-21"></a>
+## 5. La Loi de Miller
 Définition
 
 La mémoire de travail est limitée.
 
 Il faut éviter de demander à l’utilisateur de retenir plusieurs informations simultanément.
 
-⸻
-
 Application
 
 Afficher les informations.
 
 Ne jamais demander de les mémoriser.
-
-⸻
-
-6. Le Principe de Pareto
-
+<a id="section-22"></a>
+## 6. Le Principe de Pareto
 Définition
 
 80 % des utilisateurs utilisent environ 20 % des fonctionnalités.
-
-⸻
 
 Application
 
 Les fonctionnalités principales doivent être immédiatement accessibles.
 
 Les fonctionnalités avancées peuvent être regroupées dans des menus secondaires.
-
-⸻
-
-7. La Loi de Parkinson
-
+<a id="section-23"></a>
+## 7. La Loi de Parkinson
 Définition
 
 Le travail tend à occuper tout le temps disponible.
@@ -262,8 +249,6 @@ Plus un formulaire paraît long,
 
 plus il semble difficile.
 
-⸻
-
 Application
 
 Découper.
@@ -271,16 +256,11 @@ Découper.
 Simplifier.
 
 Montrer la progression.
-
-⸻
-
-8. L’Effet Von Restorff
-
+<a id="section-24"></a>
+## 8. L’Effet Von Restorff
 Définition
 
 Un élément différent attire immédiatement l’attention.
-
-⸻
 
 Application
 
@@ -288,27 +268,18 @@ Un seul CTA principal.
 
 Une seule couleur dominante.
 
-⸻
-
 Mauvais exemple
 
 Tous les boutons sont rouges, verts, bleus et violets.
 
-⸻
-
 Bon exemple
 
 Un seul bouton primaire.
-
-⸻
-
-9. L’Effet Zeigarnik
-
+<a id="section-25"></a>
+## 9. L’Effet Zeigarnik
 Définition
 
 Le cerveau retient mieux les tâches inachevées.
-
-⸻
 
 Application
 
@@ -319,19 +290,14 @@ Profil complété à 75 %.
 ↓
 
 L’utilisateur souhaite terminer.
-
-⸻
-
-10. L’Effet de Position Sérielle
-
+<a id="section-26"></a>
+## 10. L’Effet de Position Sérielle
 Définition
 
 Les utilisateurs retiennent surtout :
 
 * le premier élément ;
 * le dernier élément.
-
-⸻
 
 Application
 
@@ -342,18 +308,13 @@ au début
 ou
 
 à la fin.
-
-⸻
-
-11. La Loi de Doherty
-
+<a id="section-27"></a>
+## 11. La Loi de Doherty
 Définition
 
 Une interface paraît fluide lorsqu’elle répond rapidement aux actions de l’utilisateur.
 
 Même lorsque le traitement prend plus de temps, un retour immédiat (animation, indicateur de chargement) réduit la sensation d’attente.
-
-⸻
 
 Application
 
@@ -364,19 +325,14 @@ Toujours afficher :
 * une animation de progression.
 
 Ne laisse jamais l’utilisateur sans retour.
-
-⸻
-
-12. La Loi de Postel
-
+<a id="section-28"></a>
+## 12. La Loi de Postel
 Définition
 
 Un système doit :
 
 * être strict dans ce qu’il produit ;
 * être tolérant dans ce qu’il accepte.
-
-⸻
 
 Application
 
@@ -388,16 +344,11 @@ Accepter :
 * des fautes mineures lorsque c’est possible.
 
 Le système s’adapte à l’utilisateur, pas l’inverse.
-
-⸻
-
-13. Le Principe de Proximité
-
+<a id="section-29"></a>
+## 13. Le Principe de Proximité
 Définition
 
 Deux éléments proches sont perçus comme appartenant au même groupe.
-
-⸻
 
 Application
 
@@ -412,16 +363,11 @@ Email
 dans un même bloc.
 
 Éviter de mélanger des informations sans lien.
-
-⸻
-
-14. Le Principe du Moindre Effort
-
+<a id="section-30"></a>
+## 14. Le Principe du Moindre Effort
 Définition
 
 L’utilisateur choisit presque toujours le chemin demandant le moins d’effort.
-
-⸻
 
 Application
 
@@ -433,11 +379,8 @@ Réduire :
 * les décisions.
 
 Chaque interaction inutile augmente le risque d’abandon.
-
-⸻
-
-15. Le Principe de Cohérence
-
+<a id="section-31"></a>
+## 15. Le Principe de Cohérence
 Définition
 
 Les éléments identiques doivent :
@@ -447,8 +390,6 @@ Les éléments identiques doivent :
 * produire les mêmes résultats.
 
 La cohérence réduit l’apprentissage.
-
-⸻
 
 Les lois fonctionnent ensemble
 
@@ -465,8 +406,6 @@ Prenons une page de paiement :
 * Cohérence → mêmes composants que dans le reste de l’application.
 
 Ces lois se complètent pour créer une expérience fluide.
-
-⸻
 
 Les erreurs fréquentes
 
@@ -485,11 +424,8 @@ Les erreurs fréquentes
 ❌ Ignorer les conventions du Web.
 
 ❌ Aucun retour pendant le chargement.
-
-⸻
-
-Cas pratique
-
+<a id="section-32"></a>
+## Cas pratique
 Imaginons une page de réservation.
 
 Mauvaise conception
@@ -511,11 +447,8 @@ Bonne conception
 * confirmation immédiate après chaque action.
 
 Le parcours paraît plus simple, même si les fonctionnalités restent les mêmes.
-
-⸻
-
-Checklist du chapitre
-
+<a id="section-33"></a>
+## Checklist du chapitre
 Avant de publier une interface :
 
 * ☐ Les cibles interactives sont suffisamment grandes.
@@ -529,8 +462,6 @@ Avant de publier une interface :
 * ☐ L’interface répond rapidement aux interactions.
 * ☐ Les composants conservent un comportement cohérent.
 
-⸻
-
 Ce qu’il faut retenir
 
 Les lois UX ne remplacent pas les tests utilisateurs.
@@ -538,9 +469,5 @@ Les lois UX ne remplacent pas les tests utilisateurs.
 Elles constituent une base solide pour prendre des décisions de conception plus pertinentes.
 
 Les équipes les plus performantes ne les appliquent pas comme des recettes, mais comme des outils d’analyse pour comprendre pourquoi une interface fonctionne… ou pourquoi elle échoue.
-
-⸻
-
-Notes d’application
 
 Le chapitre 22 sera consacré aux micro-interactions et au motion design. Nous y verrons comment utiliser les animations, les transitions, les retours visuels et les états interactifs pour rendre une interface plus claire, plus agréable et plus compréhensible, sans jamais tomber dans le décoratif. C’est un domaine où de petites améliorations peuvent avoir un impact important sur la qualité perçue du produit.

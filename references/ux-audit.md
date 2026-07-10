@@ -1,11 +1,19 @@
 # Audit UX/UI
+## Sommaire
 
-Une interface de qualité ne repose pas sur l’intuition. Elle repose sur une méthode d’évaluation systématique.
+- [Objectif](#section-1)
+- [1. Architecture de l’information](#section-2)
+- [2. Expérience utilisateur (UX)](#section-3)
+- [3. Interface utilisateur (UI)](#section-4)
+- [4. Accessibilité](#section-5)
+- [5. Performance](#section-6)
+- [6. Conversion](#section-7)
+- [7. Contenu](#section-8)
+- [8. Qualité technique](#section-9)
+- [Cas pratique](#section-10)
 
-⸻
-
-Objectif
-
+<a id="section-1"></a>
+## Objectif
 Un audit UX/UI permet d’évaluer une interface de manière objective afin d’identifier :
 
 * les problèmes d’utilisabilité ;
@@ -19,8 +27,6 @@ L’objectif n’est pas de critiquer une interface.
 
 L’objectif est de l’améliorer.
 
-⸻
-
 Quand réaliser un audit ?
 
 Un audit est recommandé :
@@ -32,24 +38,26 @@ Un audit est recommandé :
 * lorsqu’un support utilisateur reçoit beaucoup de questions ;
 * régulièrement, même sans problème apparent.
 
-⸻
-
 Les 8 dimensions d’un audit
 
 Un audit complet couvre toujours les domaines suivants :
-
-1. Architecture de l’information
-2. Expérience utilisateur (UX)
-3. Interface utilisateur (UI)
-4. Accessibilité
-5. Performance
-6. Conversion
-7. Contenu
-8. Qualité technique
-
+<a id="section-2"></a>
+## 1. Architecture de l’information
+<a id="section-3"></a>
+## 2. Expérience utilisateur (UX)
+<a id="section-4"></a>
+## 3. Interface utilisateur (UI)
+<a id="section-5"></a>
+## 4. Accessibilité
+<a id="section-6"></a>
+## 5. Performance
+<a id="section-7"></a>
+## 6. Conversion
+<a id="section-8"></a>
+## 7. Contenu
+<a id="section-9"></a>
+## 8. Qualité technique
 Chaque dimension est évaluée séparément.
-
-⸻
 
 La méthode d’audit
 
@@ -64,8 +72,6 @@ Note	Signification
 5	Excellent
 
 Cette méthode permet de comparer plusieurs interfaces et de suivre leur progression dans le temps.
-
-⸻
 
 Partie 1 — Architecture
 
@@ -82,8 +88,6 @@ Navigation
 * ☐ Les filtres sont faciles à comprendre.
 * ☐ La recherche est disponible lorsque nécessaire.
 
-⸻
-
 Partie 2 — Hiérarchie visuelle
 
 * ☐ Une action principale domine chaque écran.
@@ -95,8 +99,6 @@ Partie 2 — Hiérarchie visuelle
 * ☐ Les éléments importants apparaissent avant les détails.
 * ☐ Le regard suit un parcours naturel.
 
-⸻
-
 Partie 3 — Typographie
 
 * ☐ Une seule famille de police est utilisée.
@@ -106,8 +108,6 @@ Partie 3 — Typographie
 * ☐ Les textes secondaires sont clairement différenciés.
 * ☐ Les titres suivent une hiérarchie logique.
 
-⸻
-
 Partie 4 — Couleurs
 
 * ☐ Une palette cohérente est utilisée.
@@ -115,8 +115,6 @@ Partie 4 — Couleurs
 * ☐ Les contrastes sont suffisants.
 * ☐ Les états (succès, erreur, avertissement) sont cohérents.
 * ☐ Les couleurs ne sont jamais le seul indicateur d’information.
-
-⸻
 
 Partie 5 — Composants
 
@@ -127,8 +125,6 @@ Partie 5 — Composants
 * ☐ Les modales suivent un comportement uniforme.
 * ☐ Les composants possèdent leurs états (hover, focus, disabled, loading).
 
-⸻
-
 Partie 6 — Formulaires
 
 * ☐ Les champs sont regroupés logiquement.
@@ -137,8 +133,6 @@ Partie 6 — Formulaires
 * ☐ Les erreurs expliquent comment corriger le problème.
 * ☐ La validation intervient au bon moment.
 * ☐ Les formulaires sont utilisables au clavier.
-
-⸻
 
 Partie 7 — Accessibilité
 
@@ -150,8 +144,6 @@ Partie 7 — Accessibilité
 * ☐ Les zones tactiles sont suffisamment grandes.
 * ☐ Les animations peuvent être réduites.
 
-⸻
-
 Partie 8 — Responsive
 
 * ☐ L’interface fonctionne sur mobile.
@@ -159,8 +151,6 @@ Partie 8 — Responsive
 * ☐ Les tableaux s’adaptent correctement.
 * ☐ Les menus restent accessibles.
 * ☐ Les formulaires restent faciles à remplir.
-
-⸻
 
 Partie 9 — Performance
 
@@ -170,8 +160,6 @@ Partie 9 — Performance
 * ☐ Les animations restent fluides.
 * ☐ Les états de chargement sont prévus.
 
-⸻
-
 Partie 10 — Conversion
 
 * ☐ L’objectif principal est clair.
@@ -180,8 +168,6 @@ Partie 10 — Conversion
 * ☐ Les preuves sociales sont présentes lorsque pertinentes.
 * ☐ Les formulaires demandent peu d’informations.
 * ☐ Les éléments de confiance sont visibles.
-
-⸻
 
 Identifier les problèmes
 
@@ -201,8 +187,6 @@ Exemples :
 
 À corriger immédiatement.
 
-⸻
-
 Niveau 2 — Important
 
 Ralentit ou perturbe l’utilisateur.
@@ -215,8 +199,6 @@ Exemples :
 
 À corriger rapidement.
 
-⸻
-
 Niveau 3 — Mineur
 
 N’empêche pas l’utilisation mais dégrade la qualité perçue.
@@ -226,10 +208,6 @@ Exemples :
 * espacements irréguliers ;
 * incohérences de style ;
 * alignements imparfaits.
-
-À planifier lors des prochaines itérations.
-
-⸻
 
 Prioriser les améliorations
 
@@ -245,8 +223,6 @@ Faible	Fort	Basse
 
 Commence toujours par les améliorations ayant un fort impact pour un faible effort.
 
-⸻
-
 Documenter les résultats
 
 Un rapport d’audit doit contenir :
@@ -258,11 +234,8 @@ Un rapport d’audit doit contenir :
 * un niveau de priorité.
 
 L’objectif est que l’équipe puisse agir sans ambiguïté.
-
-⸻
-
-Cas pratique
-
+<a id="section-10"></a>
+## Cas pratique
 Imaginons une plateforme SaaS.
 
 L’audit révèle :
@@ -281,8 +254,6 @@ Après correction :
 
 Le résultat est une interface plus simple, plus accessible et plus efficace.
 
-⸻
-
 Checklist finale d’audit
 
 Avant de considérer une interface comme prête :
@@ -298,8 +269,6 @@ Avant de considérer une interface comme prête :
 * ☐ L’expérience mobile est complète.
 * ☐ Les décisions de design sont documentées.
 
-⸻
-
 Ce qu’il faut retenir
 
 Une bonne interface n’est jamais terminée.
@@ -307,29 +276,3 @@ Une bonne interface n’est jamais terminée.
 Elle est observée, mesurée, testée et améliorée en continu.
 
 Un audit UX/UI transforme des impressions subjectives en constats objectifs et permet de prioriser les évolutions qui auront le plus d’impact sur les utilisateurs et sur les objectifs du produit.
-
-⸻
-
-Notes d’application
-
-Nous arrivons à la dernière partie du guide. Les prochains chapitres pourraient aller encore plus loin que les ouvrages d’origine en couvrant des sujets avancés tels que :
-
-* psychologie cognitive appliquée à l’UX ;
-* design des applications SaaS ;
-* design mobile (iOS et Android) ;
-* design des systèmes d’IA conversationnelle ;
-* motion design et micro-interactions ;
-* stratégie produit et métriques UX ;
-* tests utilisateurs et expérimentation (A/B testing) ;
-* création d’un Design System complet dans Figma et son intégration avec le développement.
-
-Ces thèmes compléteraient les livres que tu as fournis pour constituer un manuel de référence encore plus complet et directement exploitable dans des projets professionnels.
-
-
-
-
-Excellent. Maintenant, nous allons aller au-delà des livres que tu as fournis. Les ouvrages comme Refactoring UI, Don’t Make Me Think ou The Design of Everyday Things donnent les principes, mais ils ne construisent pas une véritable méthodologie complète de conception de produit.
-
-La suite du manuel sera organisée comme un manuel professionnel utilisé dans les grandes entreprises (Google, Apple, Microsoft, Stripe, Linear, Notion, Airbnb).
-
-⸻

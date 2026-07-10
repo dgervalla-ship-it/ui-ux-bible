@@ -1,11 +1,12 @@
 # Métriques produit
+## Sommaire
 
-On ne peut pas améliorer ce que l’on ne mesure pas.
+- [Objectif](#section-1)
+- [Cas pratique](#section-2)
+- [Checklist du chapitre](#section-3)
 
-⸻
-
-Objectif
-
+<a id="section-1"></a>
+## Objectif
 Une bonne expérience utilisateur ne se juge pas uniquement par son apparence.
 
 Elle se mesure.
@@ -20,8 +21,6 @@ Les métriques UX permettent de répondre à des questions essentielles :
 
 Le rôle des métriques est d’aider les équipes à prendre des décisions basées sur des faits.
 
-⸻
-
 UX ≠ UI
 
 Une belle interface peut avoir de mauvaises performances.
@@ -35,8 +34,6 @@ Les métriques permettent de distinguer :
 * ce qui est esthétique ;
 * ce qui fonctionne réellement.
 
-⸻
-
 Les trois niveaux de métriques
 
 Toutes les métriques peuvent être regroupées en trois catégories.
@@ -48,8 +45,6 @@ Produit
 UX
 
 Les trois doivent évoluer ensemble.
-
-⸻
 
 Les métriques Business
 
@@ -65,8 +60,6 @@ Exemples :
 * marge ;
 * taux de conversion.
 
-⸻
-
 Les métriques Produit
 
 Elles répondent à :
@@ -81,8 +74,6 @@ Exemples :
 * rétention ;
 * engagement.
 
-⸻
-
 Les métriques UX
 
 Elles répondent à :
@@ -96,8 +87,6 @@ Exemples :
 * abandon ;
 * satisfaction ;
 * facilité d’utilisation.
-
-⸻
 
 Le Funnel (Tunnel)
 
@@ -123,8 +112,6 @@ des utilisateurs quittent le parcours.
 
 Le but est de comprendre pourquoi.
 
-⸻
-
 Le taux de conversion
 
 Le taux de conversion mesure :
@@ -145,8 +132,6 @@ Conversion = 25 %.
 
 Une amélioration UX peut augmenter cette valeur sans modifier le marketing.
 
-⸻
-
 L’Activation
 
 L’activation représente le moment où un nouvel utilisateur découvre réellement la valeur du produit.
@@ -166,8 +151,6 @@ Inviter une équipe.
 Créer sa première tâche.
 
 Le produit doit conduire rapidement l’utilisateur vers cette étape.
-
-⸻
 
 La rétention
 
@@ -195,8 +178,6 @@ Un excellent onboarding ne suffit pas.
 
 Le produit doit conserver son intérêt.
 
-⸻
-
 Le churn
 
 Le churn représente :
@@ -213,8 +194,6 @@ Après quelle action ?
 
 Le churn est souvent un excellent indicateur des problèmes UX.
 
-⸻
-
 Le temps de tâche
 
 Mesurer :
@@ -227,8 +206,6 @@ Combien de temps faut-il pour :
 
 Un temps anormalement long révèle souvent une interface complexe.
 
-⸻
-
 Le taux d’erreur
 
 Mesurer :
@@ -239,8 +216,6 @@ Mesurer :
 * annulations.
 
 Une augmentation des erreurs indique généralement un problème d’utilisabilité.
-
-⸻
 
 Les clics
 
@@ -266,8 +241,6 @@ Interface B
 
 La seconde est probablement plus efficace.
 
-⸻
-
 Le taux d’abandon
 
 Les utilisateurs quittent-ils :
@@ -281,8 +254,6 @@ Identifier précisément :
 À quelle étape ?
 
 Puis chercher pourquoi.
-
-⸻
 
 La satisfaction
 
@@ -298,8 +269,6 @@ Quelques méthodes :
 * entretiens ;
 * commentaires.
 
-⸻
-
 Le Net Promoter Score (NPS)
 
 Le NPS mesure :
@@ -311,8 +280,6 @@ Il ne mesure pas directement la qualité UX.
 Il donne une indication sur la satisfaction globale.
 
 Il doit être interprété avec les autres métriques.
-
-⸻
 
 Le Customer Satisfaction Score (CSAT)
 
@@ -328,8 +295,6 @@ Après une réservation.
 
 Il est utile pour identifier les étapes problématiques du parcours.
 
-⸻
-
 Les métriques d’engagement
 
 Observer :
@@ -340,8 +305,6 @@ Observer :
 * actions récurrentes.
 
 Une fonctionnalité peu utilisée mérite parfois d’être simplifiée… ou supprimée.
-
-⸻
 
 Les dashboards UX
 
@@ -366,8 +329,6 @@ Rétention 30 jours
 
 L’objectif n’est pas de suivre des dizaines d’indicateurs, mais de se concentrer sur ceux qui influencent réellement les décisions.
 
-⸻
-
 Les erreurs fréquentes
 
 ❌ Mesurer uniquement le trafic.
@@ -383,11 +344,8 @@ Les erreurs fréquentes
 ❌ Confondre satisfaction et utilisation.
 
 ❌ Optimiser une métrique au détriment de l’expérience globale.
-
-⸻
-
-Cas pratique
-
+<a id="section-2"></a>
+## Cas pratique
 Imaginons un SaaS de facturation.
 
 Les données montrent :
@@ -413,8 +371,6 @@ Après amélioration :
 
 Le taux d’activation augmente.
 
-⸻
-
 Construire une culture de la mesure
 
 Une équipe produit performante suit toujours le même cycle.
@@ -434,11 +390,8 @@ Mesurer à nouveau
 Le design n’est jamais terminé.
 
 Il évolue avec les utilisateurs.
-
-⸻
-
-Checklist du chapitre
-
+<a id="section-3"></a>
+## Checklist du chapitre
 Avant de lancer une fonctionnalité :
 
 * ☐ Les objectifs métier sont définis.
@@ -452,8 +405,6 @@ Avant de lancer une fonctionnalité :
 * ☐ Les décisions reposent sur des données.
 * ☐ Les résultats sont suivis dans le temps.
 
-⸻
-
 Ce qu’il faut retenir
 
 Une bonne expérience utilisateur n’est pas une opinion.
@@ -463,9 +414,3 @@ C’est un résultat observable.
 Les métriques permettent de comprendre si les utilisateurs atteignent leurs objectifs, où ils rencontrent des difficultés et quelles améliorations auront le plus d’impact.
 
 Les équipes les plus performantes combinent toujours observation, mesure et expérimentation pour faire évoluer leurs produits.
-
-⸻
-
-Notes d’application
-
-Le chapitre 28 sera consacré aux anti-patterns UX/UI : plus de 200 erreurs de conception observées dans les produits numériques. Nous verrons pourquoi elles apparaissent, leurs conséquences sur les utilisateurs et les solutions concrètes pour les éviter. Ce sera un catalogue de mauvaises pratiques aussi utile que les chapitres précédents sur les bonnes pratiques.
