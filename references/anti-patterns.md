@@ -1,4 +1,5 @@
 # Anti-patterns
+
 ## Sommaire
 
 - [Objectif](#section-1)
@@ -45,6 +46,8 @@ Les anti-patterns sont regroupés par catégorie :
 8. Performance
 9. Accessibilité
 10. Marketing & Conversion
+
+
 
 <a id="section-2"></a>
 ## 1. Navigation
@@ -110,6 +113,8 @@ Tout le monde n’interprète pas ces icônes de la même manière.
 Solution
 
 Icône + texte.
+
+
 <a id="section-3"></a>
 ## 2. Hiérarchie Visuelle
 Anti-pattern n°4
@@ -151,6 +156,8 @@ L’utilisateur hésite.
 Solution
 
 Un seul CTA dominant.
+
+
 <a id="section-4"></a>
 ## 3. Formulaires
 Anti-pattern n°7
@@ -204,6 +211,8 @@ L’utilisateur découvre 12 erreurs d’un coup.
 Solution
 
 Validation progressive.
+
+
 <a id="section-5"></a>
 ## 4. Boutons
 Anti-pattern n°10
@@ -247,6 +256,8 @@ Pas de Loading.
 Solution
 
 Créer tous les états.
+
+
 <a id="section-6"></a>
 ## 5. Couleurs
 Anti-pattern n°13
@@ -290,6 +301,8 @@ L’utilisateur ne comprend plus la hiérarchie.
 Solution
 
 Palette limitée.
+
+
 <a id="section-7"></a>
 ## 6. Typographie
 Anti-pattern n°15
@@ -315,6 +328,8 @@ Texte gris clair sur fond blanc.
 Solution
 
 Contraste élevé.
+
+
 <a id="section-8"></a>
 ## 7. Feedback
 Anti-pattern n°18
@@ -344,6 +359,8 @@ Solution
 Confirmation lorsque l’action est critique.
 
 Ou possibilité d’annulation.
+
+
 <a id="section-9"></a>
 ## 8. Performance
 Anti-pattern n°20
@@ -367,6 +384,8 @@ Application bloquée pendant un traitement.
 Solution
 
 L’interface reste réactive.
+
+
 <a id="section-10"></a>
 ## 9. Accessibilité
 Anti-pattern n°22
@@ -392,6 +411,8 @@ Navigation impossible au clavier.
 Solution
 
 Tester tous les parcours avec la touche Tab.
+
+
 <a id="section-11"></a>
 ## 10. Marketing
 Anti-pattern n°25
@@ -449,6 +470,8 @@ Boutons ambigus	Erreurs
 Temps de chargement excessif	Perte de confiance
 Informations uniquement codées par couleur	Problèmes d’accessibilité
 Manipulation (dark patterns)	Baisse de la confiance
+
+
 <a id="section-12"></a>
 ## Cas pratique
 Une boutique en ligne affiche :
@@ -471,6 +494,8 @@ Après simplification :
 * des informations transparentes sur les frais et les délais.
 
 Le parcours devient plus clair et plus fiable.
+
+
 <a id="section-13"></a>
 ## Checklist du chapitre
 Avant de mettre une interface en production :
@@ -498,5 +523,3 @@ Ils créent des frictions qui se traduisent par :
 * moins de confiance.
 
 Les éviter est souvent plus efficace que d’ajouter de nouvelles fonctionnalités.
-
-Le chapitre 29 conclura ce manuel avec une Checklist Professionnelle Ultime, organisée par thèmes (UX, UI, accessibilité, performance, marketing, design system, composants, mobile, SaaS, IA, sécurité, qualité). Elle servira de référentiel opérationnel pour auditer ou valider n’importe quel produit numérique avant sa mise en production. C’est cette checklist qui transformera l’ensemble de ce guide en un véritable manuel utilisable au quotidien par les designers, développeurs et équipes produit.

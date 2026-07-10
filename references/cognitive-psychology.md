@@ -1,4 +1,5 @@
 # Psychologie cognitive
+
 ## Sommaire
 
 - [Objectif](#section-1)
@@ -335,6 +336,8 @@ Les erreurs fréquentes
 ❌ Informations demandant à être mémorisées.
 
 ❌ Trop d’animations.
+
+
 <a id="section-2"></a>
 ## Cas pratique
 Imaginons une application bancaire.
@@ -357,6 +360,8 @@ Bonne conception
 * Une confirmation explicite avec les détails du virement.
 
 Le parcours demande moins d’effort mental et inspire davantage confiance.
+
+
 <a id="section-3"></a>
 ## Checklist du chapitre
 Avant de publier une interface :

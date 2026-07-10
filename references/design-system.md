@@ -1,4 +1,5 @@
 # Design system et tokens
+
 ## Sommaire
 
 - [Objectif](#section-1)
@@ -257,6 +258,8 @@ New Button
 Button 2
 
 Ces noms deviennent rapidement incompréhensibles.
+
+
 <a id="section-2"></a>
 ## Les variantes
 Chaque composant définit ses variantes.
@@ -306,6 +309,8 @@ Huge
 Ultra Large
 
 La simplicité facilite l’adoption.
+
+
 <a id="section-3"></a>
 ## Les états
 Tous les composants interactifs définissent :
@@ -424,6 +429,8 @@ Les erreurs fréquentes
 ❌ Utiliser des valeurs codées en dur.
 
 ❌ Absence de gouvernance.
+
+
 <a id="section-4"></a>
 ## Cas pratique
 Une équipe développe un SaaS pendant deux ans.
@@ -445,6 +452,8 @@ Avec un Design System :
 * des composants partagés.
 
 Le développement est plus rapide, les interfaces sont cohérentes et les coûts de maintenance diminuent.
+
+
 <a id="section-5"></a>
 ## Checklist du chapitre
 Avant de considérer un Design System comme prêt :

@@ -1,15 +1,12 @@
 # IA conversationnelle
+
 ## Sommaire
 
 - [Objectif](#section-1)
 - [Les erreurs](#section-2)
-- [1. Ajouter un fichier.](#section-3)
-- [2. Confirmer son import.](#section-4)
-- [3. Indiquer qu’il est en cours d’analyse.](#section-5)
-- [4. Montrer qu’il est utilisé dans la réponse.](#section-6)
-- [Les limites](#section-7)
-- [Cas pratique](#section-8)
-- [Checklist du chapitre](#section-9)
+- [Les limites](#section-3)
+- [Cas pratique](#section-4)
+- [Checklist du chapitre](#section-5)
 
 <a id="section-1"></a>
 ## Objectif
@@ -252,6 +249,8 @@ Mais elle doit indiquer clairement :
 * quand une nouvelle conversation repart de zéro.
 
 Évite de laisser croire que le système se souvient de tout en permanence.
+
+
 <a id="section-2"></a>
 ## Les erreurs
 Une erreur doit expliquer :
@@ -301,16 +300,14 @@ Les fichiers
 Les interfaces IA modernes permettent souvent de joindre des documents.
 
 Le parcours doit être clair :
-<a id="section-3"></a>
-## 1. Ajouter un fichier.
-<a id="section-4"></a>
-## 2. Confirmer son import.
-<a id="section-5"></a>
-## 3. Indiquer qu’il est en cours d’analyse.
-<a id="section-6"></a>
-## 4. Montrer qu’il est utilisé dans la réponse.
+1. Ajouter un fichier.
+2. Confirmer son import.
+3. Indiquer qu’il est en cours d’analyse.
+4. Montrer qu’il est utilisé dans la réponse.
 L’utilisateur doit toujours savoir quels fichiers sont pris en compte.
-<a id="section-7"></a>
+
+
+<a id="section-3"></a>
 ## Les limites
 L’interface doit éviter de donner une impression de certitude lorsque le modèle peut se tromper.
 
@@ -339,7 +336,9 @@ Les erreurs fréquentes
 ❌ Aucune indication sur les limites de l’IA.
 
 ❌ Mélanger les propositions de l’IA et les actions réellement exécutées.
-<a id="section-8"></a>
+
+
+<a id="section-4"></a>
 ## Cas pratique
 Imaginons un assistant IA intégré à une application de gestion de projet.
 
@@ -362,7 +361,9 @@ Bonne conception
 * Les documents utilisés sont clairement identifiés.
 
 L’utilisateur comprend ce que fait l’IA et garde le contrôle.
-<a id="section-9"></a>
+
+
+<a id="section-5"></a>
 ## Checklist du chapitre
 Avant de publier une interface conversationnelle :
 

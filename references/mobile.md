@@ -1,4 +1,5 @@
 # Mobile
+
 ## Sommaire
 
 - [Objectif](#section-1)
@@ -215,6 +216,8 @@ L’application doit :
 * permettre de reprendre une action lorsque la connexion revient.
 
 Lorsque c’est possible, les données déjà consultées peuvent rester accessibles.
+
+
 <a id="section-2"></a>
 ## Les performances
 Sur mobile :
@@ -298,6 +301,8 @@ Les erreurs fréquentes
 ❌ Demande prématurée de permissions.
 
 ❌ Mauvaise gestion du mode hors connexion.
+
+
 <a id="section-3"></a>
 ## Cas pratique
 Imaginons une application bancaire.
@@ -322,6 +327,8 @@ Bonne conception
 * Synchronisation lorsque la connexion revient.
 
 Le parcours est plus rapide et plus fiable.
+
+
 <a id="section-4"></a>
 ## Checklist du chapitre
 Avant de publier une application mobile :
@@ -344,5 +351,3 @@ Le mobile n’est pas une version réduite du desktop.
 C’est un contexte d’utilisation différent, avec des contraintes propres.
 
 Une application mobile réussie réduit les efforts de saisie, privilégie les interactions tactiles, reste performante dans toutes les situations et accompagne l’utilisateur, même lorsqu’il est interrompu ou hors connexion.
-
-Le chapitre 25 sera consacré à un domaine devenu incontournable : les interfaces conversationnelles et les produits intégrant de l’intelligence artificielle. Nous y verrons comment concevoir des assistants, des interfaces de chat, des expériences pilotées par des modèles de langage, la gestion des prompts, des réponses, des erreurs, des sources, de la confiance et des interactions hybrides entre IA et interface graphique. Ce chapitre fera le lien entre les principes classiques de l’UX et les nouveaux usages de l’IA générative.

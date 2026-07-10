@@ -1,4 +1,5 @@
 # Audit UX/UI
+
 ## Sommaire
 
 - [Objectif](#section-1)
@@ -41,20 +42,36 @@ Un audit est recommandé :
 Les 8 dimensions d’un audit
 
 Un audit complet couvre toujours les domaines suivants :
+
+
 <a id="section-2"></a>
 ## 1. Architecture de l’information
+
+
 <a id="section-3"></a>
 ## 2. Expérience utilisateur (UX)
+
+
 <a id="section-4"></a>
 ## 3. Interface utilisateur (UI)
+
+
 <a id="section-5"></a>
 ## 4. Accessibilité
+
+
 <a id="section-6"></a>
 ## 5. Performance
+
+
 <a id="section-7"></a>
 ## 6. Conversion
+
+
 <a id="section-8"></a>
 ## 7. Contenu
+
+
 <a id="section-9"></a>
 ## 8. Qualité technique
 Chaque dimension est évaluée séparément.
@@ -234,6 +251,8 @@ Un rapport d’audit doit contenir :
 * un niveau de priorité.
 
 L’objectif est que l’équipe puisse agir sans ambiguïté.
+
+
 <a id="section-10"></a>
 ## Cas pratique
 Imaginons une plateforme SaaS.

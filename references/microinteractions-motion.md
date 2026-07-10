@@ -1,4 +1,5 @@
 # Micro-interactions et motion
+
 ## Sommaire
 
 - [Objectif](#section-1)
@@ -134,6 +135,8 @@ Une légère animation attire l’œil.
 Si l’animation ne répond à aucune question,
 
 elle est probablement inutile.
+
+
 <a id="section-2"></a>
 ## Les principes fondamentaux
 Une bonne animation est :
@@ -339,6 +342,8 @@ Les erreurs fréquentes
 ❌ Mouvement excessif.
 
 ❌ Transitions incohérentes.
+
+
 <a id="section-3"></a>
 ## Cas pratique
 Imaginons une application de gestion de tâches.
@@ -367,6 +372,8 @@ Après le clic :
 * un message confirme que la tâche est terminée.
 
 Le changement est immédiatement compris.
+
+
 <a id="section-4"></a>
 ## Checklist du chapitre
 Avant de publier une interface :

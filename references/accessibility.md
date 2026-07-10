@@ -409,5 +409,3 @@ C’est pourquoi l’accessibilité doit être prise en compte dès les premièr
 ⸻
 
 Notes d’application
-
-À partir du chapitre 18, nous allons rassembler tous les principes étudiés pour construire un Design System complet. Nous définirons les design tokens (couleurs, typographie, espacements, rayons, ombres), les règles de nommage, l’organisation des composants, la gouvernance du système et les bonnes pratiques de collaboration entre designers et développeurs. Cette partie constituera la base d’un Design System professionnel, maintenable et évolutif.

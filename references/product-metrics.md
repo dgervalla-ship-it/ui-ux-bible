@@ -1,4 +1,5 @@
 # Métriques produit
+
 ## Sommaire
 
 - [Objectif](#section-1)
@@ -344,6 +345,8 @@ Les erreurs fréquentes
 ❌ Confondre satisfaction et utilisation.
 
 ❌ Optimiser une métrique au détriment de l’expérience globale.
+
+
 <a id="section-2"></a>
 ## Cas pratique
 Imaginons un SaaS de facturation.
@@ -390,6 +393,8 @@ Mesurer à nouveau
 Le design n’est jamais terminé.
 
 Il évolue avec les utilisateurs.
+
+
 <a id="section-3"></a>
 ## Checklist du chapitre
 Avant de lancer une fonctionnalité :

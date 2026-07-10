@@ -1,4 +1,5 @@
 # Vérification avant livraison
+
 ## Sommaire
 
 - [Objectif](#section-1)
@@ -27,13 +28,7 @@
 - [23. Tests](#section-24)
 - [24. Qualité](#section-25)
 - [25. Avant la mise en production](#section-26)
-- [1. Comprendre les utilisateurs.](#section-27)
-- [2. Concevoir avec des principes éprouvés.](#section-28)
-- [3. Construire un Design System cohérent.](#section-29)
-- [4. Tester avec de vrais utilisateurs.](#section-30)
-- [5. Mesurer les résultats.](#section-31)
-- [6. Améliorer en continu.](#section-32)
-- [Conclusion générale](#section-33)
+- [Conclusion générale](#section-27)
 
 <a id="section-1"></a>
 ## Objectif
@@ -62,6 +57,8 @@ Pour chaque critère :
 ⚠️	À améliorer
 ❌	Non conforme
 N/A	Non applicable
+
+
 <a id="section-2"></a>
 ## 1. Objectifs Produit
 Vision
@@ -75,6 +72,8 @@ Vision
 ☐ Les objectifs business sont identifiés.
 
 ☐ Les KPI sont définis.
+
+
 <a id="section-3"></a>
 ## 2. Architecture
 ☐ Les catégories sont compréhensibles.
@@ -96,6 +95,8 @@ Vision
 ☐ Les filtres sont faciles à utiliser.
 
 ☐ La recherche est disponible lorsque nécessaire.
+
+
 <a id="section-4"></a>
 ## 3. Hiérarchie Visuelle
 ☐ Une seule action principale.
@@ -113,6 +114,8 @@ Vision
 ☐ Les CTA dominent naturellement.
 
 ☐ Les informations secondaires restent discrètes.
+
+
 <a id="section-5"></a>
 ## 4. Couleurs
 ☐ Une palette unique.
@@ -126,6 +129,8 @@ Vision
 ☐ Les fonds restent sobres.
 
 ☐ Les couleurs ne servent jamais seules à transmettre une information.
+
+
 <a id="section-6"></a>
 ## 5. Typographie
 ☐ Une famille principale.
@@ -143,6 +148,8 @@ Vision
 ☐ Listes lorsque nécessaire.
 
 ☐ Alignement cohérent.
+
+
 <a id="section-7"></a>
 ## 6. Layout
 ☐ Utilisation d’une grille.
@@ -158,6 +165,8 @@ Vision
 ☐ Le contenu reste lisible sur grands écrans.
 
 ☐ Responsive cohérent.
+
+
 <a id="section-8"></a>
 ## 7. Boutons
 ☐ Une action principale.
@@ -177,6 +186,8 @@ Vision
 ☐ Contraste élevé.
 
 ☐ Icônes pertinentes.
+
+
 <a id="section-9"></a>
 ## 8. Formulaires
 ☐ Champs indispensables uniquement.
@@ -194,6 +205,8 @@ Vision
 ☐ Clavier adapté sur mobile.
 
 ☐ Navigation clavier.
+
+
 <a id="section-10"></a>
 ## 9. Cartes
 ☐ Structure cohérente.
@@ -209,6 +222,8 @@ Vision
 ☐ États interactifs.
 
 ☐ CTA bien visible.
+
+
 <a id="section-11"></a>
 ## 10. Tableaux
 ☐ Colonnes logiques.
@@ -226,6 +241,8 @@ Vision
 ☐ Responsive.
 
 ☐ Colonnes alignées.
+
+
 <a id="section-12"></a>
 ## 11. Dashboards
 ☐ KPI visibles.
@@ -241,6 +258,8 @@ Vision
 ☐ Données contextualisées.
 
 ☐ Pas de surcharge.
+
+
 <a id="section-13"></a>
 ## 12. Navigation
 ☐ Navigation constante.
@@ -254,6 +273,8 @@ Vision
 ☐ Navigation mobile.
 
 ☐ Retour simple.
+
+
 <a id="section-14"></a>
 ## 13. UX Writing
 ☐ Boutons avec verbes.
@@ -269,6 +290,8 @@ Vision
 ☐ Ton cohérent.
 
 ☐ Pas de jargon.
+
+
 <a id="section-15"></a>
 ## 14. Accessibilité
 ☐ Contrastes.
@@ -286,6 +309,8 @@ Vision
 ☐ Animations réduites si demandé.
 
 ☐ Formulaires accessibles.
+
+
 <a id="section-16"></a>
 ## 15. Motion Design
 ☐ Feedback immédiat.
@@ -299,6 +324,8 @@ Vision
 ☐ Transitions naturelles.
 
 ☐ Pas d’effets inutiles.
+
+
 <a id="section-17"></a>
 ## 16. Mobile
 ☐ Utilisable à une main.
@@ -312,6 +339,8 @@ Vision
 ☐ Hors connexion géré lorsque pertinent.
 
 ☐ Performances.
+
+
 <a id="section-18"></a>
 ## 17. SaaS
 ☐ Sidebar cohérente.
@@ -329,6 +358,8 @@ Vision
 ☐ Command Palette.
 
 ☐ Workspaces.
+
+
 <a id="section-19"></a>
 ## 18. IA Conversationnelle
 ☐ Suggestions de prompts.
@@ -346,6 +377,8 @@ Vision
 ☐ Distinction entre suggestion et action.
 
 ☐ Limites expliquées.
+
+
 <a id="section-20"></a>
 ## 19. Marketing
 ☐ Proposition de valeur claire.
@@ -363,6 +396,8 @@ Vision
 ☐ Éléments de confiance.
 
 ☐ Formulaire court.
+
+
 <a id="section-21"></a>
 ## 20. Performance
 ☐ Images optimisées.
@@ -376,6 +411,8 @@ Vision
 ☐ Cache.
 
 ☐ Temps de réponse faibles.
+
+
 <a id="section-22"></a>
 ## 21. Sécurité perçue
 ☐ HTTPS.
@@ -389,6 +426,8 @@ Vision
 ☐ Confirmation des actions sensibles.
 
 ☐ Informations transparentes.
+
+
 <a id="section-23"></a>
 ## 22. Design System
 ☐ Design Tokens.
@@ -404,6 +443,8 @@ Vision
 ☐ Gouvernance.
 
 ☐ Versionnement.
+
+
 <a id="section-24"></a>
 ## 23. Tests
 ☐ Tests utilisateurs.
@@ -417,6 +458,8 @@ Vision
 ☐ Tests d’accessibilité.
 
 ☐ Tests mobiles.
+
+
 <a id="section-25"></a>
 ## 24. Qualité
 ☐ Aucun composant dupliqué.
@@ -430,6 +473,8 @@ Vision
 ☐ Aucun texte temporaire.
 
 ☐ Aucun écran vide sans explication.
+
+
 <a id="section-26"></a>
 ## 25. Avant la mise en production
 Vérifications finales
@@ -482,20 +527,16 @@ Ce qu’il faut retenir
 Une interface de qualité ne résulte pas d’une intuition ou d’un « bon goût » individuel.
 
 Elle est le produit d’un processus rigoureux :
-<a id="section-27"></a>
-## 1. Comprendre les utilisateurs.
-<a id="section-28"></a>
-## 2. Concevoir avec des principes éprouvés.
-<a id="section-29"></a>
-## 3. Construire un Design System cohérent.
-<a id="section-30"></a>
-## 4. Tester avec de vrais utilisateurs.
-<a id="section-31"></a>
-## 5. Mesurer les résultats.
-<a id="section-32"></a>
-## 6. Améliorer en continu.
+1. Comprendre les utilisateurs.
+2. Concevoir avec des principes éprouvés.
+3. Construire un Design System cohérent.
+4. Tester avec de vrais utilisateurs.
+5. Mesurer les résultats.
+6. Améliorer en continu.
 C’est cette discipline qui transforme un produit simplement fonctionnel en un produit réellement agréable, efficace et durable.
-<a id="section-33"></a>
+
+
+<a id="section-27"></a>
 ## Conclusion générale
 Avec les chapitres précédents, tu disposes maintenant d’une base solide couvrant :
 

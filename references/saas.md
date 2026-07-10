@@ -1,4 +1,5 @@
 # Produit SaaS
+
 ## Sommaire
 
 - [Objectif](#section-1)
@@ -40,6 +41,8 @@ Navigation simple	Navigation riche
 Peu de données	Beaucoup de données
 
 Ces différences influencent directement le design.
+
+
 <a id="section-2"></a>
 ## Les principes fondamentaux
 Une application SaaS doit être :
@@ -62,6 +65,8 @@ Workspace
 └── Context Panel
 
 Chaque zone possède un rôle précis.
+
+
 <a id="section-3"></a>
 ## 1. La Sidebar
 La Sidebar contient la navigation principale.
@@ -77,6 +82,8 @@ Factures
 Documents
 Équipe
 Paramètres
+
+
 <a id="section-4"></a>
 ## Bonnes pratiques
 ✔ Toujours visible.
@@ -94,6 +101,8 @@ Paramètres
 ❌ Icônes seules.
 
 ❌ Plus de 12 sections principales.
+
+
 <a id="section-5"></a>
 ## 2. Le Header
 Le Header contient :
@@ -110,6 +119,8 @@ Projet Apollo
 Recherche...
 🔔
 👤
+
+
 <a id="section-6"></a>
 ## 3. La Toolbar
 La Toolbar change selon le contexte.
@@ -129,6 +140,8 @@ Exporter
 Partager
 
 Elle ne doit contenir que les actions utiles pour l’écran actuel.
+
+
 <a id="section-7"></a>
 ## 4. Workspace
 C’est la zone principale.
@@ -141,6 +154,8 @@ Elle contient :
 * formulaires.
 
 Elle représente environ 80 % de l’écran.
+
+
 <a id="section-8"></a>
 ## 5. Context Panel
 Très utilisé dans les SaaS modernes.
@@ -420,6 +435,8 @@ Les erreurs fréquentes
 ❌ Trop de fenêtres modales.
 
 ❌ Rechargement complet après chaque action.
+
+
 <a id="section-9"></a>
 ## Cas pratique
 Imaginons une application de gestion de projets.
@@ -445,6 +462,8 @@ Bonne conception
 * Une palette de commandes permet d’accéder rapidement à toutes les fonctionnalités.
 
 Le travail devient fluide et efficace.
+
+
 <a id="section-10"></a>
 ## Checklist du chapitre
 Avant de publier une application SaaS :
@@ -469,5 +488,3 @@ Elle ne l’oblige pas à réfléchir à son fonctionnement.
 Elle réduit les interruptions, limite les changements de contexte et accélère chaque action.
 
 Le succès d’un SaaS se mesure moins à son apparence qu’à la vitesse avec laquelle ses utilisateurs accomplissent leurs tâches.
-
-Le chapitre 24 sera consacré au design mobile (iOS et Android). Nous y aborderons les différences entre mobile et desktop, les gestes tactiles, les zones de confort du pouce, les composants natifs, les spécificités des systèmes d’exploitation, les performances et les bonnes pratiques pour concevoir des applications mobiles professionnelles.

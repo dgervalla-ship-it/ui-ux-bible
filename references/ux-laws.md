@@ -1,4 +1,5 @@
 # Lois UX
+
 ## Sommaire
 
 - [Objectif](#section-1)
@@ -16,24 +17,25 @@
 - [12. Loi de Postel](#section-13)
 - [13. Loi de proximité](#section-14)
 - [14. Principe de moindre effort](#section-15)
-- [15. Règle de cohérence## 1. La Loi de Fitts](#section-16)
-- [Erreurs fréquentes](#section-17)
-- [2. La Loi de Hick](#section-18)
-- [3. La Loi de Jakob](#section-19)
-- [4. La Loi de Tesler](#section-20)
-- [5. La Loi de Miller](#section-21)
-- [6. Le Principe de Pareto](#section-22)
-- [7. La Loi de Parkinson](#section-23)
-- [8. L’Effet Von Restorff](#section-24)
-- [9. L’Effet Zeigarnik](#section-25)
-- [10. L’Effet de Position Sérielle](#section-26)
-- [11. La Loi de Doherty](#section-27)
-- [12. La Loi de Postel](#section-28)
-- [13. Le Principe de Proximité](#section-29)
-- [14. Le Principe du Moindre Effort](#section-30)
-- [15. Le Principe de Cohérence](#section-31)
-- [Cas pratique](#section-32)
-- [Checklist du chapitre](#section-33)
+- [15. Règle de cohérence](#section-16)
+- [1. La Loi de Fitts](#section-17)
+- [Erreurs fréquentes](#section-18)
+- [2. La Loi de Hick](#section-19)
+- [3. La Loi de Jakob](#section-20)
+- [4. La Loi de Tesler](#section-21)
+- [5. La Loi de Miller](#section-22)
+- [6. Le Principe de Pareto](#section-23)
+- [7. La Loi de Parkinson](#section-24)
+- [8. L’Effet Von Restorff](#section-25)
+- [9. L’Effet Zeigarnik](#section-26)
+- [10. L’Effet de Position Sérielle](#section-27)
+- [11. La Loi de Doherty](#section-28)
+- [12. La Loi de Postel](#section-29)
+- [13. Le Principe de Proximité](#section-30)
+- [14. Le Principe du Moindre Effort](#section-31)
+- [15. Le Principe de Cohérence](#section-32)
+- [Cas pratique](#section-33)
+- [Checklist du chapitre](#section-34)
 
 <a id="section-1"></a>
 ## Objectif
@@ -46,36 +48,71 @@ Ce sont des observations du comportement humain qui permettent de concevoir des 
 Les 15 lois fondamentales
 
 Nous allons étudier :
+
+
 <a id="section-2"></a>
 ## 1. Loi de Fitts
+
+
 <a id="section-3"></a>
 ## 2. Loi de Hick
+
+
 <a id="section-4"></a>
 ## 3. Loi de Jakob
+
+
 <a id="section-5"></a>
 ## 4. Loi de Tesler
+
+
 <a id="section-6"></a>
 ## 5. Loi de Miller
+
+
 <a id="section-7"></a>
 ## 6. Loi de Pareto
+
+
 <a id="section-8"></a>
 ## 7. Loi de Parkinson
+
+
 <a id="section-9"></a>
 ## 8. Effet Von Restorff
+
+
 <a id="section-10"></a>
 ## 9. Effet Zeigarnik
+
+
 <a id="section-11"></a>
 ## 10. Effet de position sérielle
+
+
 <a id="section-12"></a>
 ## 11. Loi de Doherty
+
+
 <a id="section-13"></a>
 ## 12. Loi de Postel
+
+
 <a id="section-14"></a>
 ## 13. Loi de proximité
+
+
 <a id="section-15"></a>
 ## 14. Principe de moindre effort
+
+
 <a id="section-16"></a>
-## 15. Règle de cohérence## 1. La Loi de Fitts
+## 15. Règle de cohérence
+
+
+
+<a id="section-17"></a>
+## 1. La Loi de Fitts
 Définition
 
 Plus une cible est :
@@ -113,14 +150,18 @@ Mauvais exemple
 [OK]
 
 Petit bouton situé dans un coin.
-<a id="section-17"></a>
+
+
+<a id="section-18"></a>
 ## Erreurs fréquentes
 ❌ Liens minuscules
 
 ❌ Icônes trop petites
 
 ❌ Espaces cliquables réduits
-<a id="section-18"></a>
+
+
+<a id="section-19"></a>
 ## 2. La Loi de Hick
 Définition
 
@@ -155,7 +196,9 @@ Application
 Réduire les choix visibles.
 
 Afficher les options avancées uniquement lorsque cela est utile.
-<a id="section-19"></a>
+
+
+<a id="section-20"></a>
 ## 3. La Loi de Jakob
 Définition
 
@@ -178,7 +221,9 @@ Mettre le panier en bas à gauche.
 Bon exemple
 
 Panier en haut à droite.
-<a id="section-20"></a>
+
+
+<a id="section-21"></a>
 ## 4. La Loi de Tesler
 Définition
 
@@ -213,7 +258,9 @@ Application
 Faire porter le maximum de complexité par le système.
 
 Jamais par l’utilisateur.
-<a id="section-21"></a>
+
+
+<a id="section-22"></a>
 ## 5. La Loi de Miller
 Définition
 
@@ -226,7 +273,9 @@ Application
 Afficher les informations.
 
 Ne jamais demander de les mémoriser.
-<a id="section-22"></a>
+
+
+<a id="section-23"></a>
 ## 6. Le Principe de Pareto
 Définition
 
@@ -237,7 +286,9 @@ Application
 Les fonctionnalités principales doivent être immédiatement accessibles.
 
 Les fonctionnalités avancées peuvent être regroupées dans des menus secondaires.
-<a id="section-23"></a>
+
+
+<a id="section-24"></a>
 ## 7. La Loi de Parkinson
 Définition
 
@@ -256,7 +307,9 @@ Découper.
 Simplifier.
 
 Montrer la progression.
-<a id="section-24"></a>
+
+
+<a id="section-25"></a>
 ## 8. L’Effet Von Restorff
 Définition
 
@@ -275,7 +328,9 @@ Tous les boutons sont rouges, verts, bleus et violets.
 Bon exemple
 
 Un seul bouton primaire.
-<a id="section-25"></a>
+
+
+<a id="section-26"></a>
 ## 9. L’Effet Zeigarnik
 Définition
 
@@ -290,7 +345,9 @@ Profil complété à 75 %.
 ↓
 
 L’utilisateur souhaite terminer.
-<a id="section-26"></a>
+
+
+<a id="section-27"></a>
 ## 10. L’Effet de Position Sérielle
 Définition
 
@@ -308,7 +365,9 @@ au début
 ou
 
 à la fin.
-<a id="section-27"></a>
+
+
+<a id="section-28"></a>
 ## 11. La Loi de Doherty
 Définition
 
@@ -325,7 +384,9 @@ Toujours afficher :
 * une animation de progression.
 
 Ne laisse jamais l’utilisateur sans retour.
-<a id="section-28"></a>
+
+
+<a id="section-29"></a>
 ## 12. La Loi de Postel
 Définition
 
@@ -344,7 +405,9 @@ Accepter :
 * des fautes mineures lorsque c’est possible.
 
 Le système s’adapte à l’utilisateur, pas l’inverse.
-<a id="section-29"></a>
+
+
+<a id="section-30"></a>
 ## 13. Le Principe de Proximité
 Définition
 
@@ -363,7 +426,9 @@ Email
 dans un même bloc.
 
 Éviter de mélanger des informations sans lien.
-<a id="section-30"></a>
+
+
+<a id="section-31"></a>
 ## 14. Le Principe du Moindre Effort
 Définition
 
@@ -379,7 +444,9 @@ Réduire :
 * les décisions.
 
 Chaque interaction inutile augmente le risque d’abandon.
-<a id="section-31"></a>
+
+
+<a id="section-32"></a>
 ## 15. Le Principe de Cohérence
 Définition
 
@@ -424,7 +491,9 @@ Les erreurs fréquentes
 ❌ Ignorer les conventions du Web.
 
 ❌ Aucun retour pendant le chargement.
-<a id="section-32"></a>
+
+
+<a id="section-33"></a>
 ## Cas pratique
 Imaginons une page de réservation.
 
@@ -447,7 +516,9 @@ Bonne conception
 * confirmation immédiate après chaque action.
 
 Le parcours paraît plus simple, même si les fonctionnalités restent les mêmes.
-<a id="section-33"></a>
+
+
+<a id="section-34"></a>
 ## Checklist du chapitre
 Avant de publier une interface :
 
@@ -469,5 +540,3 @@ Les lois UX ne remplacent pas les tests utilisateurs.
 Elles constituent une base solide pour prendre des décisions de conception plus pertinentes.
 
 Les équipes les plus performantes ne les appliquent pas comme des recettes, mais comme des outils d’analyse pour comprendre pourquoi une interface fonctionne… ou pourquoi elle échoue.
-
-Le chapitre 22 sera consacré aux micro-interactions et au motion design. Nous y verrons comment utiliser les animations, les transitions, les retours visuels et les états interactifs pour rendre une interface plus claire, plus agréable et plus compréhensible, sans jamais tomber dans le décoratif. C’est un domaine où de petites améliorations peuvent avoir un impact important sur la qualité perçue du produit.
