@@ -2,9 +2,34 @@
 
 Une bonne navigation est invisible. Les utilisateurs savent toujours où ils sont, où ils peuvent aller et comment revenir.
 
-⸻
+## Sommaire
 
-Objectif
+- [Objectif](#section-1)
+- [Pourquoi la navigation est-elle essentielle ?](#section-2)
+- [Les principes fondamentaux](#section-3)
+- [Les niveaux de navigation](#section-4)
+- [Le logo](#section-5)
+- [Les menus](#section-6)
+- [Les intitulés](#section-7)
+- [L’ordre des éléments](#section-8)
+- [Indiquer la page active](#section-9)
+- [Les fils d’Ariane (Breadcrumbs)](#section-10)
+- [La recherche](#section-11)
+- [Les filtres](#section-12)
+- [Les onglets (Tabs)](#section-13)
+- [Les menus latéraux](#section-14)
+- [Les menus déroulants](#section-15)
+- [Les méga-menus](#section-16)
+- [Navigation mobile](#section-17)
+- [Les liens](#section-18)
+- [Les retours arrière](#section-19)
+- [Les erreurs fréquentes](#section-20)
+- [Cas pratique](#section-21)
+- [Checklist du chapitre](#section-22)
+- [Ce qu’il faut retenir](#section-23)
+
+<a id="section-1"></a>
+## Objectif
 
 La navigation est le système qui permet à l’utilisateur de se déplacer dans l’application.
 
@@ -16,21 +41,19 @@ Une bonne navigation répond instantanément à trois questions :
 
 Si l’utilisateur hésite sur l’une de ces questions, la navigation doit être améliorée.
 
-⸻
-
-Pourquoi la navigation est-elle essentielle ?
+<a id="section-2"></a>
+## Pourquoi la navigation est-elle essentielle ?
 
 Les utilisateurs n’apprennent pas une application par cœur.
 
 Ils explorent.
 
-Une bonne navigation réduit leur charge cognitive en leur donnant des repères constants.
+Une bonne navigation peut réduire leur charge cognitive en leur donnant des repères constants.
 
 Elle agit comme une signalisation dans une ville : elle guide sans attirer l’attention.
 
-⸻
-
-Les principes fondamentaux
+<a id="section-3"></a>
+## Les principes fondamentaux
 
 Une navigation efficace est :
 
@@ -42,13 +65,12 @@ Une navigation efficace est :
 
 Les menus ne doivent pas changer d’une page à l’autre sans raison.
 
-⸻
-
-Les niveaux de navigation
+<a id="section-4"></a>
+## Les niveaux de navigation
 
 Une application peut comporter plusieurs niveaux de navigation.
 
-Navigation principale
+### Navigation principale
 
 Elle donne accès aux sections majeures.
 
@@ -62,9 +84,7 @@ Contact
 
 Elle doit rester identique sur toutes les pages.
 
-⸻
-
-Navigation secondaire
+### Navigation secondaire
 
 Elle concerne une section spécifique.
 
@@ -79,9 +99,7 @@ Accessoires
 
 Elle change selon le contexte.
 
-⸻
-
-Navigation contextuelle
+### Navigation contextuelle
 
 Elle apparaît uniquement lorsqu’elle est utile.
 
@@ -93,9 +111,8 @@ Supprimer
 
 sur une fiche produit.
 
-⸻
-
-Le logo
+<a id="section-5"></a>
+## Le logo
 
 Le logo est l’un des repères les plus puissants.
 
@@ -103,9 +120,8 @@ Dans la majorité des applications, il permet de revenir à la page d’accueil.
 
 Ne modifie pas ce comportement sans raison.
 
-⸻
-
-Les menus
+<a id="section-6"></a>
+## Les menus
 
 Un bon menu possède peu d’éléments.
 
@@ -117,9 +133,8 @@ Au-delà, l’utilisateur doit analyser davantage.
 
 Si le nombre de rubriques augmente, envisage une meilleure organisation ou un méga-menu.
 
-⸻
-
-Les intitulés
+<a id="section-7"></a>
+## Les intitulés
 
 Les libellés doivent utiliser le vocabulaire des utilisateurs.
 
@@ -137,9 +152,8 @@ Préfère :
 
 s’ils ne sont pas compris par le public visé.
 
-⸻
-
-L’ordre des éléments
+<a id="section-8"></a>
+## L’ordre des éléments
 
 Place les rubriques selon leur importance.
 
@@ -153,9 +167,8 @@ Paramètres
 
 Les tâches les plus fréquentes apparaissent en premier.
 
-⸻
-
-Indiquer la page active
+<a id="section-9"></a>
+## Indiquer la page active
 
 L’utilisateur doit toujours savoir où il se trouve.
 
@@ -168,9 +181,8 @@ La section active doit être visuellement différente :
 
 Le changement doit être visible sans être agressif.
 
-⸻
-
-Les fils d’Ariane (Breadcrumbs)
+<a id="section-10"></a>
+## Les fils d’Ariane (Breadcrumbs)
 
 Les fils d’Ariane sont utiles lorsque la structure devient profonde.
 
@@ -188,9 +200,8 @@ Ils permettent de remonter facilement dans la hiérarchie.
 
 Ils sont particulièrement utiles dans les applications métiers et les catalogues volumineux.
 
-⸻
-
-La recherche
+<a id="section-11"></a>
+## La recherche
 
 Lorsque le volume de contenu est important, la recherche devient un moyen de navigation.
 
@@ -201,9 +212,8 @@ Une bonne recherche :
 * affiche rapidement les résultats ;
 * mémorise les recherches récentes si cela apporte de la valeur.
 
-⸻
-
-Les filtres
+<a id="section-12"></a>
+## Les filtres
 
 Les filtres ne remplacent pas la navigation.
 
@@ -216,9 +226,8 @@ Bonnes pratiques :
 * indication des filtres actifs ;
 * nombre de résultats mis à jour rapidement.
 
-⸻
-
-Les onglets (Tabs)
+<a id="section-13"></a>
+## Les onglets (Tabs)
 
 Les onglets permettent de changer de vue sans quitter une page.
 
@@ -231,9 +240,8 @@ Facturation
 
 Évite un trop grand nombre d’onglets. Si leur quantité augmente fortement, une autre structure est souvent plus adaptée.
 
-⸻
-
-Les menus latéraux
+<a id="section-14"></a>
+## Les menus latéraux
 
 Les menus latéraux sont particulièrement adaptés aux applications riches.
 
@@ -245,17 +253,15 @@ Ils permettent :
 
 Les catégories peuvent être regroupées pour améliorer la lisibilité.
 
-⸻
-
-Les menus déroulants
+<a id="section-15"></a>
+## Les menus déroulants
 
 Un menu déroulant doit être réservé aux actions secondaires.
 
 Évite de masquer les fonctionnalités principales derrière plusieurs niveaux de menus.
 
-⸻
-
-Les méga-menus
+<a id="section-16"></a>
+## Les méga-menus
 
 Ils sont adaptés aux sites contenant un grand nombre de catégories.
 
@@ -265,9 +271,8 @@ Ils doivent :
 * présenter des groupes logiques ;
 * éviter les listes interminables.
 
-⸻
-
-Navigation mobile
+<a id="section-17"></a>
+## Navigation mobile
 
 Sur mobile, l’espace est limité.
 
@@ -279,9 +284,8 @@ Les modèles les plus courants sont :
 
 Les actions essentielles doivent rester accessibles avec le pouce.
 
-⸻
-
-Les liens
+<a id="section-18"></a>
+## Les liens
 
 Un lien doit être identifiable.
 
@@ -299,9 +303,8 @@ Préfère :
 
 « Voir les détails de la commande ».
 
-⸻
-
-Les retours arrière
+<a id="section-19"></a>
+## Les retours arrière
 
 L’utilisateur ne doit jamais craindre d’explorer.
 
@@ -309,9 +312,8 @@ Prévois toujours un moyen simple de revenir à l’étape précédente.
 
 Dans les parcours complexes, il est utile de conserver le contexte (filtres, recherche, pagination) lors du retour.
 
-⸻
-
-Les erreurs fréquentes
+<a id="section-20"></a>
+## Les erreurs fréquentes
 
 ❌ Menus différents selon les pages.
 
@@ -329,13 +331,12 @@ Les erreurs fréquentes
 
 ❌ Plusieurs systèmes de navigation concurrents.
 
-⸻
-
-Cas pratique
+<a id="section-21"></a>
+## Cas pratique
 
 Imaginons une application de gestion de projets.
 
-Mauvaise navigation
+### Mauvaise navigation
 
 * Menu principal de 15 entrées.
 * Icônes sans texte.
@@ -345,7 +346,7 @@ Mauvaise navigation
 
 L’utilisateur perd rapidement ses repères.
 
-Bonne navigation
+### Bonne navigation
 
 * Menu principal limité aux fonctionnalités essentielles.
 * Sections regroupées par domaine.
@@ -355,9 +356,8 @@ Bonne navigation
 
 L’utilisateur se déplace naturellement sans avoir besoin d’apprendre l’interface.
 
-⸻
-
-Checklist du chapitre
+<a id="section-22"></a>
+## Checklist du chapitre
 
 Avant de valider la navigation :
 
@@ -372,16 +372,11 @@ Avant de valider la navigation :
 * ☐ La navigation mobile est adaptée à une utilisation tactile.
 * ☐ Le retour en arrière conserve le contexte de l’utilisateur.
 
-⸻
-
-Ce qu’il faut retenir
+<a id="section-23"></a>
+## Ce qu’il faut retenir
 
 La navigation est la colonne vertébrale d’une interface.
 
 Elle ne doit jamais surprendre l’utilisateur. Au contraire, elle doit exploiter les conventions qu’il connaît déjà afin qu’il puisse se concentrer sur ses objectifs plutôt que sur le fonctionnement de l’application.
 
 Une navigation réussie est stable, cohérente et discrète. Les utilisateurs ne la remarquent presque pas… parce qu’elle fonctionne parfaitement.
-
-⸻
-
-Notes d’application

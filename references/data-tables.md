@@ -2,9 +2,38 @@
 
 Un tableau n’est pas seulement une liste de données. C’est un outil d’analyse et de décision.
 
-⸻
+## Sommaire
 
-Objectif
+- [Objectif](#section-1)
+- [Le rôle d’un tableau](#section-2)
+- [Quand utiliser un tableau ?](#section-3)
+- [Évite les tableaux pour :](#section-4)
+- [Anatomie d’un tableau](#section-5)
+- [Les colonnes](#section-6)
+- [L’ordre des colonnes](#section-7)
+- [Les largeurs](#section-8)
+- [Les alignements](#section-9)
+- [Les en-têtes](#section-10)
+- [Les lignes](#section-11)
+- [Les actions](#section-12)
+- [Les sélections](#section-13)
+- [Les tris](#section-14)
+- [Les filtres](#section-15)
+- [La recherche](#section-16)
+- [La pagination](#section-17)
+- [Le défilement](#section-18)
+- [Les états](#section-19)
+- [Les couleurs](#section-20)
+- [Les lignes sélectionnées](#section-21)
+- [Les tableaux responsives](#section-22)
+- [Les performances](#section-23)
+- [Les erreurs fréquentes](#section-24)
+- [Cas pratique](#section-25)
+- [Checklist du chapitre](#section-26)
+- [Ce qu’il faut retenir](#section-27)
+
+<a id="section-1"></a>
+## Objectif
 
 Les tableaux sont omniprésents dans les applications professionnelles :
 
@@ -25,9 +54,8 @@ Un bon tableau permet de :
 * trier ;
 * agir sur plusieurs lignes.
 
-⸻
-
-Le rôle d’un tableau
+<a id="section-2"></a>
+## Le rôle d’un tableau
 
 Un tableau répond principalement à trois besoins :
 
@@ -37,9 +65,8 @@ Un tableau répond principalement à trois besoins :
 
 Si le tableau ne remplit pas ces trois fonctions, il doit être repensé.
 
-⸻
-
-Quand utiliser un tableau ?
+<a id="section-3"></a>
+## Quand utiliser un tableau ?
 
 Utilise un tableau lorsque :
 
@@ -59,9 +86,8 @@ Exemples :
 
 ✔ Produits
 
-⸻
-
-Évite les tableaux pour :
+<a id="section-4"></a>
+## Évite les tableaux pour :
 
 * raconter une histoire ;
 * afficher un seul objet ;
@@ -69,9 +95,8 @@ Exemples :
 
 Une carte est souvent plus adaptée dans ces cas.
 
-⸻
-
-Anatomie d’un tableau
+<a id="section-5"></a>
+## Anatomie d’un tableau
 
 Un tableau est composé de :
 
@@ -93,9 +118,8 @@ Un tableau est composé de :
 
 Chaque partie possède un rôle précis.
 
-⸻
-
-Les colonnes
+<a id="section-6"></a>
+## Les colonnes
 
 Une colonne représente toujours un attribut.
 
@@ -105,9 +129,8 @@ Exemple :
 
 Ne mélange jamais plusieurs informations dans une même colonne sans raison.
 
-⸻
-
-L’ordre des colonnes
+<a id="section-7"></a>
+## L’ordre des colonnes
 
 Les colonnes doivent suivre un ordre logique.
 
@@ -133,9 +156,8 @@ Actions
 
 L’information importante apparaît en premier.
 
-⸻
-
-Les largeurs
+<a id="section-8"></a>
+## Les largeurs
 
 Toutes les colonnes n’ont pas besoin de la même largeur.
 
@@ -159,9 +181,8 @@ Description
 
 Le contenu détermine la largeur.
 
-⸻
-
-Les alignements
+<a id="section-9"></a>
+## Les alignements
 
 Texte
 
@@ -177,9 +198,8 @@ Dates
 
 Cela facilite énormément la comparaison.
 
-⸻
-
-Les en-têtes
+<a id="section-10"></a>
+## Les en-têtes
 
 Les en-têtes doivent être immédiatement identifiables.
 
@@ -191,9 +211,8 @@ Ils utilisent généralement :
 
 Les intitulés doivent rester courts.
 
-⸻
-
-Les lignes
+<a id="section-11"></a>
+## Les lignes
 
 Une ligne représente un objet.
 
@@ -203,13 +222,12 @@ Toutes les lignes doivent avoir :
 * les mêmes espacements ;
 * le même comportement.
 
-⸻
-
-Les actions
+<a id="section-12"></a>
+## Les actions
 
 Les actions peuvent apparaître :
 
-Dans chaque ligne
+### Dans chaque ligne
 
 Exemple :
 
@@ -219,19 +237,16 @@ Supprimer
 
 Voir
 
-⸻
-
-Dans un menu
+### Dans un menu
 
 Exemple :
 
 ⋮
 
-Lorsque plusieurs actions existent, le menu améliore la lisibilité.
+Lorsque plusieurs actions existent, le menu peut améliorer la lisibilité.
 
-⸻
-
-Les sélections
+<a id="section-13"></a>
+## Les sélections
 
 Lorsque plusieurs lignes peuvent être sélectionnées :
 
@@ -247,9 +262,8 @@ Une fois sélectionnées :
 
 Afficher les actions de groupe.
 
-⸻
-
-Les tris
+<a id="section-14"></a>
+## Les tris
 
 Toutes les colonnes importantes doivent être triables.
 
@@ -267,9 +281,8 @@ ou
 
 Date
 
-⸻
-
-Les filtres
+<a id="section-15"></a>
+## Les filtres
 
 Les filtres permettent de réduire rapidement le nombre de résultats.
 
@@ -279,9 +292,8 @@ Ils doivent être :
 * faciles à supprimer ;
 * mémorisés lorsque cela est pertinent.
 
-⸻
-
-La recherche
+<a id="section-16"></a>
+## La recherche
 
 Une recherche est indispensable dès que le volume de données devient important.
 
@@ -291,9 +303,8 @@ Elle doit :
 * tolérer les fautes ;
 * rechercher dans plusieurs colonnes si cela est pertinent.
 
-⸻
-
-La pagination
+<a id="section-17"></a>
+## La pagination
 
 Lorsque plusieurs centaines d’éléments existent :
 
@@ -301,9 +312,8 @@ Afficher une pagination.
 
 Éviter de charger plusieurs milliers de lignes simultanément.
 
-⸻
-
-Le défilement
+<a id="section-18"></a>
+## Le défilement
 
 Si le tableau est très large :
 
@@ -319,15 +329,12 @@ reste visible.
 
 Les autres colonnes défilent.
 
-⸻
-
-Les états
+<a id="section-19"></a>
+## Les états
 
 Un tableau possède plusieurs états.
 
-⸻
-
-Chargement
+### Chargement
 
 Afficher :
 
@@ -337,18 +344,14 @@ ou
 
 Indicateur de chargement.
 
-⸻
-
-Vide
+### Vide
 
 Aucun résultat.
 Essayez de modifier vos filtres.
 
 Ne jamais afficher une table vide sans explication.
 
-⸻
-
-Erreur
+### Erreur
 
 Expliquer :
 
@@ -356,9 +359,8 @@ Pourquoi les données ne sont pas disponibles.
 
 Que faire ensuite.
 
-⸻
-
-Les couleurs
+<a id="section-20"></a>
+## Les couleurs
 
 Utiliser la couleur avec parcimonie.
 
@@ -378,9 +380,8 @@ Orange
 
 Le reste du tableau reste neutre.
 
-⸻
-
-Les lignes sélectionnées
+<a id="section-21"></a>
+## Les lignes sélectionnées
 
 Une ligne sélectionnée doit être clairement identifiable.
 
@@ -390,13 +391,12 @@ Exemple :
 * bordure ;
 * case cochée.
 
-⸻
-
-Les tableaux responsives
+<a id="section-22"></a>
+## Les tableaux responsives
 
 Sur mobile :
 
-Un tableau de 15 colonnes devient inutilisable.
+Un tableau comportant trop de colonnes devient difficile à utiliser.
 
 Solutions :
 
@@ -406,9 +406,8 @@ Solutions :
 
 Ne cherche pas à reproduire exactement le desktop.
 
-⸻
-
-Les performances
+<a id="section-23"></a>
+## Les performances
 
 Pour les grands volumes :
 
@@ -418,11 +417,10 @@ Utiliser :
 * chargement progressif ;
 * virtualisation des lignes lorsque nécessaire.
 
-Une interface rapide améliore directement l’expérience utilisateur.
+Une interface rapide contribue à une expérience plus fluide ; vérifier l’effet avec les mesures du produit.
 
-⸻
-
-Les erreurs fréquentes
+<a id="section-24"></a>
+## Les erreurs fréquentes
 
 ❌ Trop de colonnes.
 
@@ -442,13 +440,12 @@ Les erreurs fréquentes
 
 ❌ États vides oubliés.
 
-⸻
-
-Cas pratique
+<a id="section-25"></a>
+## Cas pratique
 
 Imaginons un CRM contenant 25 000 clients.
 
-Mauvaise conception
+### Mauvaise conception
 
 * toutes les colonnes visibles ;
 * aucune recherche ;
@@ -456,9 +453,9 @@ Mauvaise conception
 * pas de tri ;
 * actions mélangées.
 
-Retrouver un client prend plusieurs minutes.
+Retrouver un client devient laborieux.
 
-Bonne conception
+### Bonne conception
 
 * recherche instantanée ;
 * filtres par entreprise, statut et date ;
@@ -467,11 +464,10 @@ Bonne conception
 * actions regroupées dans un menu ;
 * colonnes essentielles figées.
 
-L’utilisateur retrouve un client en quelques secondes.
+L’utilisateur retrouve rapidement un client.
 
-⸻
-
-Checklist du chapitre
+<a id="section-26"></a>
+## Checklist du chapitre
 
 Avant de publier un tableau :
 
@@ -486,18 +482,13 @@ Avant de publier un tableau :
 * ☐ Les états Chargement, Vide et Erreur sont prévus.
 * ☐ Le tableau reste utilisable sur mobile.
 
-⸻
-
-Ce qu’il faut retenir
+<a id="section-27"></a>
+## Ce qu’il faut retenir
 
 Un tableau n’est pas un simple conteneur de données.
 
 C’est un outil d’analyse.
 
-Plus les utilisateurs trouvent rapidement l’information qu’ils recherchent, plus le tableau est efficace.
+Un tableau est plus utile lorsque les utilisateurs trouvent l’information recherchée sans effort inutile ; vérifier ce point avec des tâches représentatives.
 
 La simplicité, la cohérence et les performances sont plus importantes que la quantité d’informations affichées.
-
-⸻
-
-Notes d’application

@@ -2,9 +2,36 @@
 
 Les utilisateurs ne lisent pas une interface. Ils cherchent des réponses. Chaque mot doit les aider à avancer.
 
-⸻
+## Sommaire
 
-Objectif
+- [Objectif](#section-1)
+- [Les principes fondamentaux](#section-2)
+- [La règle d’or](#section-3)
+- [L’utilisateur est le héros](#section-4)
+- [Utiliser des verbes](#section-5)
+- [Une idée par phrase](#section-6)
+- [Les titres](#section-7)
+- [Les sous-titres](#section-8)
+- [Les boutons](#section-9)
+- [Les messages d’erreur](#section-10)
+- [Les confirmations](#section-11)
+- [Les notifications](#section-12)
+- [Les textes d’aide](#section-13)
+- [Les placeholders](#section-14)
+- [Les liens](#section-15)
+- [Les CTA](#section-16)
+- [Les émotions](#section-17)
+- [Les nombres](#section-18)
+- [Les FAQ](#section-19)
+- [Le ton](#section-20)
+- [Les erreurs fréquentes](#section-21)
+- [Les microcopies](#section-22)
+- [Cas pratique](#section-23)
+- [Checklist du chapitre](#section-24)
+- [Ce qu’il faut retenir](#section-25)
+
+<a id="section-1"></a>
+## Objectif
 
 Le UX Writing consiste à rédiger les textes présents dans une interface :
 
@@ -23,9 +50,8 @@ Dans un bon produit, ces deux disciplines travaillent ensemble :
 * Le UX Writing facilite l’utilisation.
 * Le Copywriting donne envie d’agir.
 
-⸻
-
-Les principes fondamentaux
+<a id="section-2"></a>
+## Les principes fondamentaux
 
 Chaque texte doit être :
 
@@ -35,23 +61,20 @@ Chaque texte doit être :
 * humain ;
 * orienté utilisateur.
 
-Chaque mot inutile augmente la charge cognitive.
+Chaque mot inutile peut augmenter la charge cognitive.
 
-⸻
+<a id="section-3"></a>
+## La règle d’or
 
-La règle d’or
+### Écrire comme une personne parle
 
-Écrire comme une personne parle
-
-Mauvais :
+### Mauvais exemple
 
 Une erreur est survenue durant l’exécution de votre requête.
 
-Bon :
+### Bon exemple
 
-Impossible d’enregistrer vos modifications. Réessayez dans quelques instants.
-
-⸻
+Impossible d’enregistrer vos modifications. Réessayez.
 
 Le deuxième texte est :
 
@@ -59,9 +82,8 @@ Le deuxième texte est :
 * plus compréhensible ;
 * plus rassurant.
 
-⸻
-
-L’utilisateur est le héros
+<a id="section-4"></a>
+## L’utilisateur est le héros
 
 Ne parle pas de ton entreprise.
 
@@ -73,11 +95,10 @@ Notre technologie révolutionnaire…
 
 ✔
 
-Gagnez du temps sur vos tâches quotidiennes.
+Simplifiez vos tâches quotidiennes.
 
-⸻
-
-Utiliser des verbes
+<a id="section-5"></a>
+## Utiliser des verbes
 
 Les verbes rendent une interface plus claire.
 
@@ -97,8 +118,6 @@ Exporter
 
 Importer
 
-⸻
-
 Évite les noms seuls.
 
 ❌
@@ -109,9 +128,8 @@ Gestion
 
 Configuration
 
-⸻
-
-Une idée par phrase
+<a id="section-6"></a>
+## Une idée par phrase
 
 Chaque phrase répond à une seule question.
 
@@ -123,11 +141,10 @@ Préfère :
 
 Créez votre compte.
 
-Accédez immédiatement à tous les services.
+Accédez aux services dont vous avez besoin.
 
-⸻
-
-Les titres
+<a id="section-7"></a>
+## Les titres
 
 Un titre doit répondre immédiatement à :
 
@@ -145,9 +162,7 @@ Paiement
 
 Historique des commandes
 
-⸻
-
-Pas :
+### À éviter
 
 Informations
 
@@ -157,9 +172,8 @@ Accueil
 
 Divers
 
-⸻
-
-Les sous-titres
+<a id="section-8"></a>
+## Les sous-titres
 
 Ils répondent à :
 
@@ -169,13 +183,12 @@ Exemple :
 
 Ajoutez les informations nécessaires pour créer votre premier projet.
 
-⸻
-
-Les boutons
+<a id="section-9"></a>
+## Les boutons
 
 Le texte d’un bouton décrit l’action.
 
-Toujours.
+### À privilégier
 
 ✔
 
@@ -187,9 +200,7 @@ Ajouter au panier
 
 Confirmer le paiement
 
-⸻
-
-Jamais :
+### À éviter
 
 OK
 
@@ -201,9 +212,8 @@ Valider
 
 Ces mots n’ont aucun contexte.
 
-⸻
-
-Les messages d’erreur
+<a id="section-10"></a>
+## Les messages d’erreur
 
 Chaque message doit répondre à trois questions.
 
@@ -213,22 +223,17 @@ Pourquoi ?
 
 Que faire ?
 
-⸻
-
-Mauvais exemple
+### Mauvais exemple
 
 Erreur 504
 
-⸻
-
-Bon exemple
+### Bon exemple
 
 Impossible de charger vos projets.
 Vérifiez votre connexion puis réessayez.
 
-⸻
-
-Les confirmations
+<a id="section-11"></a>
+## Les confirmations
 
 Une confirmation rassure.
 
@@ -246,13 +251,10 @@ Votre facture a été envoyée.
 
 Le projet a été créé.
 
-⸻
-
 Une confirmation ne doit jamais laisser de doute.
 
-⸻
-
-Les notifications
+<a id="section-12"></a>
+## Les notifications
 
 Une notification répond à une seule information.
 
@@ -270,9 +272,8 @@ Votre paiement a été accepté.
 
 Voir la facture.
 
-⸻
-
-Les textes d’aide
+<a id="section-13"></a>
+## Les textes d’aide
 
 Les textes d’aide doivent apparaître avant les erreurs.
 
@@ -287,9 +288,8 @@ Erreur.
 
 Mot de passe trop court.
 
-⸻
-
-Les placeholders
+<a id="section-14"></a>
+## Les placeholders
 
 Le placeholder montre un exemple.
 
@@ -301,15 +301,12 @@ Exemple :
 
 nom@entreprise.com
 
-⸻
-
 ❌
 
 Veuillez saisir votre adresse e-mail professionnelle.
 
-⸻
-
-Les liens
+<a id="section-15"></a>
+## Les liens
 
 Le texte d’un lien doit décrire sa destination.
 
@@ -321,8 +318,6 @@ Télécharger le contrat
 
 Lire la documentation
 
-⸻
-
 ❌
 
 Cliquez ici
@@ -331,9 +326,8 @@ Lire
 
 Voir
 
-⸻
-
-Les CTA
+<a id="section-16"></a>
+## Les CTA
 
 Le Call To Action doit répondre à :
 
@@ -351,13 +345,10 @@ Commencer l’essai gratuit
 
 Réserver une démonstration
 
-⸻
+Un bénéfice clair peut faciliter la décision ; vérifier son effet sur le taux de clic par un test approprié.
 
-Plus le bénéfice est clair, plus le taux de clic augmente.
-
-⸻
-
-Les émotions
+<a id="section-17"></a>
+## Les émotions
 
 Une bonne interface reste professionnelle.
 
@@ -369,13 +360,10 @@ INCROYABLE !!
 
 MEILLEURE OFFRE DU SIÈCLE !!
 
-⸻
-
 Préfère une communication calme et crédible.
 
-⸻
-
-Les nombres
+<a id="section-18"></a>
+## Les nombres
 
 Les chiffres renforcent la crédibilité.
 
@@ -383,17 +371,16 @@ Exemple :
 
 ✔
 
-Économisez jusqu’à 5 heures par semaine.
+Économisez jusqu’à [durée vérifiée] par semaine.
 
 ✔
 
-Plus de 18 000 utilisateurs.
+Plus de [nombre vérifié] utilisateurs.
 
 Les chiffres doivent être précis et vérifiables.
 
-⸻
-
-Les FAQ
+<a id="section-19"></a>
+## Les FAQ
 
 Une FAQ répond aux objections.
 
@@ -401,13 +388,12 @@ Chaque réponse reste courte.
 
 Une FAQ n’est pas un manuel.
 
-⸻
-
-Le ton
+<a id="section-20"></a>
+## Le ton
 
 Le ton dépend du produit.
 
-Banque
+### Banque
 
 Calme.
 
@@ -415,9 +401,7 @@ Précis.
 
 Professionnel.
 
-⸻
-
-Réseau social
+### Réseau social
 
 Simple.
 
@@ -425,9 +409,7 @@ Amical.
 
 Rapide.
 
-⸻
-
-SaaS B2B
+### SaaS B2B
 
 Professionnel.
 
@@ -435,13 +417,10 @@ Pédagogique.
 
 Efficace.
 
-⸻
-
 L’important est de conserver le même ton dans toute l’interface.
 
-⸻
-
-Les erreurs fréquentes
+<a id="section-21"></a>
+## Les erreurs fréquentes
 
 ❌ Jargon technique.
 
@@ -457,9 +436,8 @@ Les erreurs fréquentes
 
 ❌ Messages culpabilisants.
 
-⸻
-
-Les microcopies
+<a id="section-22"></a>
+## Les microcopies
 
 Les microcopies sont les petits textes.
 
@@ -474,11 +452,10 @@ Exemple :
 
 Ces petits textes influencent énormément l’expérience utilisateur.
 
-⸻
+<a id="section-23"></a>
+## Cas pratique
 
-Cas pratique
-
-Mauvaise version
+### Mauvaise version
 
 Erreur
 Veuillez réessayer.
@@ -489,9 +466,7 @@ L’utilisateur ne sait pas :
 * pourquoi ;
 * comment résoudre le problème.
 
-⸻
-
-Bonne version
+### Bonne version
 
 Impossible d'envoyer votre message.
 Votre connexion Internet semble interrompue.
@@ -501,9 +476,8 @@ Le problème est clair.
 
 La solution aussi.
 
-⸻
-
-Checklist du chapitre
+<a id="section-24"></a>
+## Checklist du chapitre
 
 Avant de publier une interface :
 
@@ -518,20 +492,13 @@ Avant de publier une interface :
 * ☐ Les chiffres utilisés sont précis et crédibles.
 * ☐ Le ton reste cohérent sur tout le produit.
 
-⸻
-
-Ce qu’il faut retenir
+<a id="section-25"></a>
+## Ce qu’il faut retenir
 
 Les mots font partie de l’interface.
 
-Un bon texte réduit les erreurs, rassure l’utilisateur et améliore les conversions.
+Un bon texte peut réduire les erreurs et rassurer l’utilisateur ; mesurer séparément son effet sur la conversion.
 
 L’objectif n’est pas d’écrire davantage.
 
 L’objectif est d’écrire exactement ce que l’utilisateur a besoin de lire au moment où il en a besoin.
-
-⸻
-
-Notes d’application
-
-À partir du chapitre 17, nous allons aborder un domaine souvent négligé mais essentiel : l’accessibilité (Accessibility). Nous traiterons les normes WCAG, les contrastes, la navigation clavier, les lecteurs d’écran, les formulaires accessibles, les composants inclusifs et les bonnes pratiques permettant de concevoir des interfaces utilisables par le plus grand nombre. Ce chapitre fera de ce guide une véritable référence professionnelle conforme aux standards actuels du design numérique.

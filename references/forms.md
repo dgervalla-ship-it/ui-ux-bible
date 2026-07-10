@@ -1,10 +1,38 @@
 # Formulaires et validation
 
-Chaque champ supplémentaire diminue les chances que l’utilisateur termine sa tâche.
+Chaque champ supplémentaire peut augmenter la friction du parcours.
 
-⸻
+## Sommaire
 
-Objectif
+- [Objectif](#section-1)
+- [Les principes fondamentaux](#section-2)
+- [La règle n°1](#section-3)
+- [Organiser les champs](#section-4)
+- [Les labels](#section-5)
+- [Les placeholders](#section-6)
+- [Les champs obligatoires](#section-7)
+- [Les tailles des champs](#section-8)
+- [Les types de champs](#section-9)
+- [Les messages d’aide](#section-10)
+- [La validation en temps réel](#section-11)
+- [Les messages d’erreur](#section-12)
+- [Les couleurs des erreurs](#section-13)
+- [Les mots de passe](#section-14)
+- [Les listes déroulantes](#section-15)
+- [Les cases à cocher](#section-16)
+- [Les boutons radio](#section-17)
+- [Les interrupteurs (Switch)](#section-18)
+- [Les champs numériques](#section-19)
+- [Les dates](#section-20)
+- [Les formulaires longs](#section-21)
+- [Les confirmations](#section-22)
+- [Les erreurs fréquentes](#section-23)
+- [Cas pratique](#section-24)
+- [Checklist du chapitre](#section-25)
+- [Ce qu’il faut retenir](#section-26)
+
+<a id="section-1"></a>
+## Objectif
 
 Les formulaires sont l’un des points de friction les plus importants d’une interface.
 
@@ -17,11 +45,10 @@ Ils permettent de :
 * contacter un service ;
 * rechercher des informations.
 
-Un formulaire bien conçu réduit les erreurs, accélère la saisie et améliore considérablement le taux de conversion.
+Un formulaire bien conçu réduit les erreurs et accélère la saisie ; son effet sur la conversion doit être mesuré dans le contexte réel.
 
-⸻
-
-Les principes fondamentaux
+<a id="section-2"></a>
+## Les principes fondamentaux
 
 Un bon formulaire doit être :
 
@@ -35,13 +62,12 @@ L’utilisateur ne doit jamais se demander :
 
 Que dois-je remplir ?
 
-⸻
+<a id="section-3"></a>
+## La règle n°1
 
-La règle n°1
+### Demander uniquement les informations nécessaires
 
-Demander uniquement les informations nécessaires
-
-Chaque champ supplémentaire augmente le risque d’abandon.
+Chaque champ supplémentaire peut augmenter le risque d’abandon ; vérifier ce risque dans le contexte réel.
 
 Avant d’ajouter un champ, pose-toi toujours cette question :
 
@@ -57,9 +83,8 @@ Pour créer un compte :
 
 Souvent, le numéro de téléphone, l’adresse postale ou la date de naissance peuvent être demandés plus tard.
 
-⸻
-
-Organiser les champs
+<a id="section-4"></a>
+## Organiser les champs
 
 Les informations doivent suivre un ordre logique.
 
@@ -81,9 +106,8 @@ Pays
 
 Le cerveau comprend naturellement cette organisation.
 
-⸻
-
-Les labels
+<a id="section-5"></a>
+## Les labels
 
 Chaque champ doit posséder un label visible.
 
@@ -100,9 +124,8 @@ Le placeholder disparaît lorsque l’utilisateur commence à saisir.
 
 Le label doit rester visible.
 
-⸻
-
-Les placeholders
+<a id="section-6"></a>
+## Les placeholders
 
 Le placeholder sert uniquement à montrer un exemple.
 
@@ -113,15 +136,14 @@ Exemple : OpenAI
 
 Il ne remplace jamais une explication.
 
-⸻
-
-Les champs obligatoires
+<a id="section-7"></a>
+## Les champs obligatoires
 
 Évite de marquer tous les champs comme obligatoires.
 
 Deux approches sont possibles :
 
-Option 1
+### Option 1
 
 Tous les champs sont obligatoires.
 
@@ -129,17 +151,14 @@ Les champs facultatifs sont indiqués.
 
 ✔ Recommandé.
 
-⸻
-
-Option 2
+### Option 2
 
 Tous les champs portent un astérisque.
 
 Cette approche est plus lourde visuellement.
 
-⸻
-
-Les tailles des champs
+<a id="section-8"></a>
+## Les tailles des champs
 
 La largeur doit refléter le contenu attendu.
 
@@ -159,9 +178,8 @@ Code postal
 
 Le cerveau comprend immédiatement ce qui est attendu.
 
-⸻
-
-Les types de champs
+<a id="section-9"></a>
+## Les types de champs
 
 Chaque donnée possède son composant.
 
@@ -176,9 +194,8 @@ Plusieurs choix	Cases à cocher
 
 Ne force pas un utilisateur à saisir un format qui pourrait être sélectionné.
 
-⸻
-
-Les messages d’aide
+<a id="section-10"></a>
+## Les messages d’aide
 
 Le texte d’aide doit apparaître avant que l’utilisateur fasse une erreur.
 
@@ -189,9 +206,8 @@ Minimum 12 caractères
 
 Plutôt que d’afficher cette information uniquement après un échec.
 
-⸻
-
-La validation en temps réel
+<a id="section-11"></a>
+## La validation en temps réel
 
 L’utilisateur doit savoir immédiatement si une valeur est correcte.
 
@@ -205,9 +221,8 @@ Exemple :
 
 Cela évite de découvrir plusieurs erreurs à la fin du formulaire.
 
-⸻
-
-Les messages d’erreur
+<a id="section-12"></a>
+## Les messages d’erreur
 
 Un bon message d’erreur répond à trois questions :
 
@@ -215,24 +230,19 @@ Un bon message d’erreur répond à trois questions :
 2. Pourquoi ?
 3. Comment le corriger ?
 
-⸻
-
-Mauvais exemple
+### Mauvais exemple
 
 Erreur
 
-⸻
-
-Bon exemple
+### Bon exemple
 
 Le mot de passe doit contenir au moins
 12 caractères et une lettre majuscule.
 
 L’utilisateur sait quoi faire.
 
-⸻
-
-Les couleurs des erreurs
+<a id="section-13"></a>
+## Les couleurs des erreurs
 
 Ne repose jamais uniquement sur la couleur.
 
@@ -246,9 +256,8 @@ Ajouter :
 
 Les personnes daltoniennes doivent comprendre le message.
 
-⸻
-
-Les mots de passe
+<a id="section-14"></a>
+## Les mots de passe
 
 Toujours permettre :
 
@@ -262,9 +271,8 @@ Ne bloque jamais le collage.
 
 Les gestionnaires de mots de passe doivent fonctionner.
 
-⸻
-
-Les listes déroulantes
+<a id="section-15"></a>
+## Les listes déroulantes
 
 Une liste déroulante est adaptée lorsqu’il existe un nombre limité de choix.
 
@@ -274,9 +282,8 @@ Pays.
 
 En revanche, si une liste contient plusieurs centaines d’éléments, ajoute une recherche.
 
-⸻
-
-Les cases à cocher
+<a id="section-16"></a>
+## Les cases à cocher
 
 Utiliser une case à cocher lorsque plusieurs réponses sont possibles.
 
@@ -286,9 +293,8 @@ Exemple :
 ☐ Offres promotionnelles
 ☐ Nouveautés
 
-⸻
-
-Les boutons radio
+<a id="section-17"></a>
+## Les boutons radio
 
 Les boutons radio servent lorsqu’un seul choix est possible.
 
@@ -297,9 +303,8 @@ Exemple :
 ◉ Particulier
 ○ Entreprise
 
-⸻
-
-Les interrupteurs (Switch)
+<a id="section-18"></a>
+## Les interrupteurs (Switch)
 
 Utiliser un switch uniquement pour activer ou désactiver une option immédiatement.
 
@@ -310,9 +315,8 @@ ON
 
 Ne l’utilise pas dans un formulaire qui sera validé plus tard.
 
-⸻
-
-Les champs numériques
+<a id="section-19"></a>
+## Les champs numériques
 
 Limiter les erreurs.
 
@@ -324,9 +328,8 @@ Exemple :
 
 est souvent préférable à un champ libre.
 
-⸻
-
-Les dates
+<a id="section-20"></a>
+## Les dates
 
 Éviter de demander :
 
@@ -338,9 +341,8 @@ Trois champs ralentissent la saisie.
 
 Privilégier un sélecteur de date adapté au contexte ou un champ avec un format clairement indiqué.
 
-⸻
-
-Les formulaires longs
+<a id="section-21"></a>
+## Les formulaires longs
 
 Découper le formulaire en plusieurs étapes.
 
@@ -364,9 +366,8 @@ Paiement
 
 Une barre de progression rassure l’utilisateur.
 
-⸻
-
-Les confirmations
+<a id="section-22"></a>
+## Les confirmations
 
 Après validation :
 
@@ -382,9 +383,8 @@ Exemple :
 
 Ne laisse jamais l’utilisateur dans le doute.
 
-⸻
-
-Les erreurs fréquentes
+<a id="section-23"></a>
+## Les erreurs fréquentes
 
 ❌ Trop de champs.
 
@@ -402,13 +402,12 @@ Les erreurs fréquentes
 
 ❌ Demander des informations non essentielles.
 
-⸻
-
-Cas pratique
+<a id="section-24"></a>
+## Cas pratique
 
 Imaginons un formulaire d’inscription.
 
-Mauvaise version
+### Mauvaise version
 
 * 18 champs obligatoires ;
 * placeholder à la place des labels ;
@@ -418,7 +417,7 @@ Mauvaise version
 
 Résultat : abandon fréquent.
 
-Bonne version
+### Bonne version
 
 * Email ;
 * Mot de passe ;
@@ -432,9 +431,8 @@ Bouton principal clairement visible.
 
 Les informations complémentaires pourront être demandées après la création du compte.
 
-⸻
-
-Checklist du chapitre
+<a id="section-25"></a>
+## Checklist du chapitre
 
 Avant de publier un formulaire :
 
@@ -449,18 +447,11 @@ Avant de publier un formulaire :
 * ☐ Le formulaire est entièrement navigable au clavier.
 * ☐ La confirmation finale rassure l’utilisateur.
 
-⸻
-
-Ce qu’il faut retenir
+<a id="section-26"></a>
+## Ce qu’il faut retenir
 
 Les formulaires sont souvent le dernier obstacle entre l’utilisateur et son objectif.
 
 Un bon formulaire demande peu d’informations, guide la saisie, prévient les erreurs et rassure à chaque étape.
 
 Lorsqu’il est bien conçu, il devient presque invisible : l’utilisateur se concentre sur sa tâche, pas sur l’interface.
-
-⸻
-
-Notes d’application
-
-À partir du prochain chapitre, nous aborderons la navigation, l’un des sujets les plus importants de ce manuel. Nous détaillerons les règles de conception des barres de navigation, menus latéraux, onglets, fils d’Ariane, recherches et systèmes de navigation responsive, afin de construire des interfaces où l’utilisateur sait toujours où il se trouve, où il peut aller et comment revenir en arrière. Cette partie fera largement écho aux principes de Don’t Make Me Think et de The Design of Everyday Things.

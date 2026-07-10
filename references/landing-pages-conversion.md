@@ -2,9 +2,35 @@
 
 Une landing page n’a qu’une seule mission : transformer un visiteur en utilisateur, client ou prospect.
 
-⸻
+## Sommaire
 
-Objectif
+- [Objectif](#section-1)
+- [Une page = un objectif](#section-2)
+- [Les premières secondes](#section-3)
+- [Structure idéale](#section-4)
+- [Le Hero](#section-5)
+- [Le titre](#section-6)
+- [Le sous-titre](#section-7)
+- [Le CTA principal](#section-8)
+- [Les bénéfices avant les fonctionnalités](#section-9)
+- [La preuve sociale](#section-10)
+- [Les objections](#section-11)
+- [Les démonstrations](#section-12)
+- [Les CTA répétés](#section-13)
+- [Les formulaires](#section-14)
+- [Les FAQ](#section-15)
+- [Les appels à l’action](#section-16)
+- [Les éléments de confiance](#section-17)
+- [Les distractions](#section-18)
+- [Le mobile](#section-19)
+- [Les performances](#section-20)
+- [Les erreurs fréquentes](#section-21)
+- [Cas pratique](#section-22)
+- [Checklist du chapitre](#section-23)
+- [Ce qu’il faut retenir](#section-24)
+
+<a id="section-1"></a>
+## Objectif
 
 Une landing page (page d’atterrissage) est une page conçue pour atteindre un objectif précis.
 
@@ -23,9 +49,8 @@ Exemples :
 
 Tout le reste est secondaire.
 
-⸻
-
-Une page = un objectif
+<a id="section-2"></a>
+## Une page = un objectif
 
 La première règle est simple :
 
@@ -49,26 +74,24 @@ mais jamais :
 
 sur la même page.
 
-Plus il y a de choix, moins il y a de conversions.
+Un grand nombre de choix peut compliquer la décision ; vérifier l’effet sur le parcours réel.
 
-⸻
+<a id="section-3"></a>
+## Les premières secondes
 
-Les 5 secondes
+Un visiteur doit comprendre rapidement si la page répond à son besoin.
 
-Un visiteur décide en quelques secondes s’il reste ou non.
-
-En moins de cinq secondes, il doit comprendre :
+Dès le début de la page, il doit comprendre :
 
 * où il est ;
 * ce que tu proposes ;
 * pourquoi c’est intéressant ;
 * quoi faire ensuite.
 
-Si l’une de ces réponses manque, la probabilité d’abandon augmente.
+Si l’une de ces réponses manque, le visiteur peut hésiter ; vérifier ce risque par une recherche ou une mesure.
 
-⸻
-
-Structure idéale
+<a id="section-4"></a>
+## Structure idéale
 
 Une landing page efficace suit généralement cette structure :
 
@@ -88,9 +111,8 @@ CTA final
 
 Chaque section répond à une objection.
 
-⸻
-
-Le Hero
+<a id="section-5"></a>
+## Le Hero
 
 Le Hero est la première partie visible.
 
@@ -103,9 +125,8 @@ Il contient :
 
 Il doit convaincre immédiatement.
 
-⸻
-
-Le titre
+<a id="section-6"></a>
+## Le titre
 
 Le titre répond à une question :
 
@@ -113,17 +134,16 @@ Quel problème résous-tu ?
 
 Exemple :
 
-✔ Gérez vos projets sans perdre de temps.
+✔ Gérez vos projets avec moins de friction.
 
 ✔ Automatisez votre comptabilité.
 
-✔ Créez votre boutique en quelques minutes.
+✔ Créez votre boutique avec une mise en place simple.
 
 Évite les slogans vagues.
 
-⸻
-
-Le sous-titre
+<a id="section-7"></a>
+## Le sous-titre
 
 Le sous-titre explique :
 
@@ -135,9 +155,8 @@ Exemple :
 
 Centralisez toutes vos tâches, vos fichiers et votre équipe dans une seule application.
 
-⸻
-
-Le CTA principal
+<a id="section-8"></a>
+## Le CTA principal
 
 Le CTA est l’action attendue.
 
@@ -163,9 +182,8 @@ Exemples :
 
 ✔ Cliquez ici
 
-⸻
-
-Les bénéfices avant les fonctionnalités
+<a id="section-9"></a>
+## Les bénéfices avant les fonctionnalités
 
 Les utilisateurs achètent un résultat.
 
@@ -180,14 +198,13 @@ Pas une fonctionnalité.
 ✔ Bon exemple :
 
 * Retrouvez vos fichiers partout.
-* Gagnez plusieurs heures par semaine.
+* Simplifiez les tâches répétitives.
 * Automatisez les tâches répétitives.
 
 Les fonctionnalités viennent ensuite pour justifier ces bénéfices.
 
-⸻
-
-La preuve sociale
+<a id="section-10"></a>
+## La preuve sociale
 
 Les visiteurs ont besoin d’être rassurés.
 
@@ -201,13 +218,12 @@ Les preuves sociales peuvent prendre plusieurs formes :
 
 Exemple :
 
-Plus de 12 000 entreprises utilisent notre solution.
+« Plus de [nombre vérifié] entreprises utilisent notre solution. »
 
 Ces éléments renforcent la crédibilité.
 
-⸻
-
-Les objections
+<a id="section-11"></a>
+## Les objections
 
 Chaque visiteur se pose des questions.
 
@@ -221,9 +237,8 @@ Par exemple :
 
 Une bonne landing page répond à ces objections avant qu’elles ne deviennent des freins.
 
-⸻
-
-Les démonstrations
+<a id="section-12"></a>
+## Les démonstrations
 
 Lorsque c’est possible, montre le produit.
 
@@ -231,9 +246,8 @@ Une capture d’écran, une courte vidéo ou une animation sont souvent plus eff
 
 L’utilisateur doit pouvoir visualiser le résultat.
 
-⸻
-
-Les CTA répétés
+<a id="section-13"></a>
+## Les CTA répétés
 
 Sur une page longue, le CTA principal peut être répété après les sections importantes.
 
@@ -241,11 +255,10 @@ Chaque répétition intervient après qu’une nouvelle objection a été levée
 
 Évite toutefois de multiplier les boutons sans raison.
 
-⸻
+<a id="section-14"></a>
+## Les formulaires
 
-Les formulaires
-
-Plus le formulaire est long, plus le taux de conversion diminue.
+Un formulaire long peut augmenter la friction ; réduire les champs inutiles puis mesurer l’effet sur l’achèvement.
 
 Demande uniquement les informations nécessaires.
 
@@ -258,9 +271,8 @@ Pour demander une démonstration :
 
 Le numéro de téléphone peut être demandé plus tard si cela n’est pas indispensable.
 
-⸻
-
-Les FAQ
+<a id="section-15"></a>
+## Les FAQ
 
 Une FAQ répond aux questions récurrentes.
 
@@ -268,9 +280,8 @@ Elle doit être concise.
 
 Elle évite à l’utilisateur de quitter la page pour chercher des réponses ailleurs.
 
-⸻
-
-Les appels à l’action
+<a id="section-16"></a>
+## Les appels à l’action
 
 Les CTA doivent rester cohérents.
 
@@ -282,9 +293,8 @@ Même message.
 
 L’utilisateur doit immédiatement reconnaître l’action principale.
 
-⸻
-
-Les éléments de confiance
+<a id="section-17"></a>
+## Les éléments de confiance
 
 Une landing page efficace inspire confiance.
 
@@ -299,9 +309,8 @@ Quelques exemples :
 
 Ces éléments réduisent le risque perçu.
 
-⸻
-
-Les distractions
+<a id="section-18"></a>
+## Les distractions
 
 Supprime tout ce qui ne sert pas l’objectif principal.
 
@@ -314,9 +323,8 @@ Supprime tout ce qui ne sert pas l’objectif principal.
 
 Chaque élément doit soutenir la conversion.
 
-⸻
-
-Le mobile
+<a id="section-19"></a>
+## Le mobile
 
 Une grande partie des visiteurs consultent les landing pages sur smartphone.
 
@@ -327,11 +335,10 @@ Vérifie que :
 * les formulaires sont faciles à remplir ;
 * les images ne ralentissent pas le chargement.
 
-⸻
+<a id="section-20"></a>
+## Les performances
 
-Les performances
-
-Chaque seconde de chargement supplémentaire peut faire perdre des conversions.
+Les temps d’attente peuvent affecter l’achèvement du parcours ; mesurer la performance et la conversion ensemble.
 
 Optimise :
 
@@ -342,9 +349,8 @@ Optimise :
 
 La vitesse fait partie de l’expérience utilisateur.
 
-⸻
-
-Les erreurs fréquentes
+<a id="section-21"></a>
+## Les erreurs fréquentes
 
 ❌ Plusieurs objectifs sur la même page.
 
@@ -364,13 +370,12 @@ Les erreurs fréquentes
 
 ❌ Trop de texte sans structure.
 
-⸻
-
-Cas pratique
+<a id="section-22"></a>
+## Cas pratique
 
 Imaginons une landing page pour un logiciel de gestion de projet.
 
-Mauvaise conception
+### Mauvaise conception
 
 * titre générique (« Bienvenue sur notre site ») ;
 * menu avec dix rubriques ;
@@ -380,7 +385,7 @@ Mauvaise conception
 
 Le visiteur hésite et quitte la page.
 
-Bonne conception
+### Bonne conception
 
 * un titre orienté bénéfice (« Centralisez tous vos projets en un seul endroit ») ;
 * un sous-titre qui explique la valeur ;
@@ -392,9 +397,8 @@ Bonne conception
 
 Le parcours est clair et centré sur une seule action.
 
-⸻
-
-Checklist du chapitre
+<a id="section-23"></a>
+## Checklist du chapitre
 
 Avant de publier une landing page :
 
@@ -409,9 +413,8 @@ Avant de publier une landing page :
 * ☐ Les éléments de confiance sont présents.
 * ☐ La page est optimisée pour le mobile et les performances.
 
-⸻
-
-Ce qu’il faut retenir
+<a id="section-24"></a>
+## Ce qu’il faut retenir
 
 Une landing page n’est pas une brochure.
 
@@ -420,9 +423,3 @@ C’est un parcours de persuasion.
 Chaque section doit répondre à une question que se pose naturellement le visiteur, jusqu’à ce qu’il soit prêt à passer à l’action.
 
 Le succès d’une landing page ne dépend pas de sa complexité, mais de sa capacité à guider l’utilisateur vers une décision simple, rapide et rassurante.
-
-⸻
-
-Notes d’application
-
-Le prochain chapitre portera sur le Copywriting UX. Nous verrons comment rédiger des titres, des boutons, des messages d’erreur, des textes d’aide et des contenus orientés utilisateur. Ce chapitre fera le lien entre l’UX Writing et les principes de persuasion issus du marketing, afin que chaque mot de l’interface contribue à une meilleure compréhension et à une meilleure conversion.

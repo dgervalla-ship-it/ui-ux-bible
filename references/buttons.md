@@ -2,22 +2,44 @@
 
 Le bouton est le composant le plus important d’une interface. C’est lui qui transforme une intention en action.
 
-⸻
+## Sommaire
 
-Objectif
+- [Objectif](#section-1)
+- [Qu’est-ce qu’un bouton ?](#section-2)
+- [Anatomie d’un bouton](#section-3)
+- [Les caractéristiques d’un bon bouton](#section-4)
+- [Le texte du bouton](#section-5)
+- [Les types de boutons](#section-6)
+- [Une seule action principale](#section-7)
+- [Les dimensions](#section-8)
+- [Les espacements internes](#section-9)
+- [Les icônes](#section-10)
+- [Les états](#section-11)
+- [Les couleurs](#section-12)
+- [Les coins](#section-13)
+- [Les animations](#section-14)
+- [Les boutons dans les formulaires](#section-15)
+- [Les boutons dans les modales](#section-16)
+- [Les boutons avec confirmation](#section-17)
+- [Les erreurs fréquentes](#section-18)
+- [Cas pratique](#section-19)
+- [Checklist du chapitre](#section-20)
+- [Ce qu’il faut retenir](#section-21)
 
-Définir toutes les règles de conception des boutons afin de garantir :
+<a id="section-1"></a>
+## Objectif
+
+Définir toutes les règles de conception des boutons afin de favoriser :
 
 * une compréhension immédiate ;
 * une cohérence visuelle ;
 * une excellente accessibilité ;
-* un taux de conversion élevé.
+* une action claire et mesurable.
 
 Un bon bouton doit être vu, compris et utilisé sans hésitation.
 
-⸻
-
-Qu’est-ce qu’un bouton ?
+<a id="section-2"></a>
+## Qu’est-ce qu’un bouton ?
 
 Un bouton est un élément interactif qui déclenche une action.
 
@@ -32,9 +54,8 @@ Exemples :
 
 Un bouton ne sert jamais à naviguer vers une page sans action. Dans ce cas, un lien est souvent plus approprié.
 
-⸻
-
-Anatomie d’un bouton
+<a id="section-3"></a>
+## Anatomie d’un bouton
 
 Un bouton est composé de plusieurs éléments :
 
@@ -50,9 +71,8 @@ Un bouton est composé de plusieurs éléments :
 
 Chaque élément influence la lisibilité et la facilité d’interaction.
 
-⸻
-
-Les caractéristiques d’un bon bouton
+<a id="section-4"></a>
+## Les caractéristiques d’un bon bouton
 
 Un bouton doit être :
 
@@ -66,9 +86,8 @@ L’utilisateur ne doit jamais se demander :
 
 Est-ce que c’est un bouton ?
 
-⸻
-
-Le texte du bouton
+<a id="section-5"></a>
+## Le texte du bouton
 
 Le texte est l’élément le plus important.
 
@@ -80,9 +99,7 @@ Utilise toujours :
 
 ✔ une phrase courte
 
-⸻
-
-Exemples
+### Exemples
 
 Excellent :
 
@@ -101,19 +118,16 @@ Suivant
 
 Ces mots ne décrivent pas clairement l’action.
 
-⸻
-
-La longueur idéale
+### La longueur idéale
 
 Entre 1 et 5 mots.
 
 Plus le bouton est court, plus il est rapide à comprendre.
 
-⸻
+<a id="section-6"></a>
+## Les types de boutons
 
-Les types de boutons
-
-Bouton primaire
+### Bouton primaire
 
 Action principale.
 
@@ -125,9 +139,7 @@ Créer un compte
 
 Une seule action primaire est généralement suffisante par écran.
 
-⸻
-
-Bouton secondaire
+### Bouton secondaire
 
 Action moins importante.
 
@@ -137,9 +149,7 @@ Annuler
 
 Il doit être moins visible.
 
-⸻
-
-Bouton tertiaire
+### Bouton tertiaire
 
 Action secondaire.
 
@@ -149,9 +159,7 @@ Exemple :
 
 En savoir plus
 
-⸻
-
-Bouton destructif
+### Bouton destructif
 
 Actions irréversibles.
 
@@ -161,11 +169,10 @@ Supprimer définitivement
 
 Toujours accompagné d’une couleur d’alerte.
 
-⸻
+<a id="section-7"></a>
+## Une seule action principale
 
-Une seule action principale
-
-Erreur classique :
+### Erreur classique :
 
 Créer
 Modifier
@@ -177,9 +184,7 @@ Tous les boutons ont le même style.
 
 L’utilisateur hésite.
 
-⸻
-
-Bonne pratique :
+### Bonne pratique :
 
 Créer un projet
 ──────────────
@@ -189,9 +194,8 @@ Partager
 
 Une seule action domine visuellement.
 
-⸻
-
-Les dimensions
+<a id="section-8"></a>
+## Les dimensions
 
 Un bouton doit être suffisamment grand.
 
@@ -199,9 +203,8 @@ Sur écran tactile, une zone interactive d’environ 44 × 44 px ou plus est sou
 
 Le bouton ne doit jamais être difficile à toucher.
 
-⸻
-
-Les espacements internes
+<a id="section-9"></a>
+## Les espacements internes
 
 Le texte doit respirer.
 
@@ -213,11 +216,10 @@ Préfère :
 
 [   Créer un compte   ]
 
-Le padding améliore immédiatement la perception de qualité.
+Le padding donne une zone d’activation plus confortable et plus facile à distinguer.
 
-⸻
-
-Les icônes
+<a id="section-10"></a>
+## Les icônes
 
 Les icônes renforcent le sens.
 
@@ -227,21 +229,16 @@ Exemple :
 
 Elles ne remplacent jamais le texte.
 
-⸻
-
-Les états
+<a id="section-11"></a>
+## Les états
 
 Un bouton possède plusieurs états.
 
-⸻
-
-Normal
+### Normal
 
 État par défaut.
 
-⸻
-
-Hover
+### Hover
 
 L’utilisateur comprend qu’il peut interagir.
 
@@ -250,25 +247,19 @@ Exemple :
 * légère variation de couleur ;
 * légère ombre.
 
-⸻
-
-Focus
+### Focus
 
 Visible au clavier.
 
 Le focus ne doit jamais être supprimé.
 
-⸻
-
-Active
+### Active
 
 Moment où l’utilisateur clique.
 
-Le bouton réagit immédiatement.
+Le bouton fournit un retour visible dès l’action.
 
-⸻
-
-Loading
+### Loading
 
 Le système travaille.
 
@@ -282,9 +273,7 @@ ou
 
 ⟳ Enregistrement...
 
-⸻
-
-Disabled
+### Disabled
 
 Le bouton est indisponible.
 
@@ -292,9 +281,8 @@ Mais l’utilisateur doit comprendre pourquoi.
 
 Un bouton désactivé sans explication est frustrant.
 
-⸻
-
-Les couleurs
+<a id="section-12"></a>
+## Les couleurs
 
 Le bouton primaire utilise :
 
@@ -312,9 +300,8 @@ Le bouton destructif :
 
 Ne mélange jamais les significations.
 
-⸻
-
-Les coins
+<a id="section-13"></a>
+## Les coins
 
 Le rayon des coins doit être cohérent.
 
@@ -337,9 +324,8 @@ Pas :
 
 La cohérence est essentielle.
 
-⸻
-
-Les animations
+<a id="section-14"></a>
+## Les animations
 
 Les animations doivent rester discrètes.
 
@@ -353,9 +339,8 @@ Exemple :
 
 Le bouton doit rester un outil, pas une distraction.
 
-⸻
-
-Les boutons dans les formulaires
+<a id="section-15"></a>
+## Les boutons dans les formulaires
 
 Le bouton principal apparaît :
 
@@ -365,9 +350,8 @@ Le bouton principal apparaît :
 
 L’utilisateur termine naturellement le formulaire.
 
-⸻
-
-Les boutons dans les modales
+<a id="section-16"></a>
+## Les boutons dans les modales
 
 Ordre conseillé :
 
@@ -384,9 +368,8 @@ est préférable à :
 
 OK
 
-⸻
-
-Les boutons avec confirmation
+<a id="section-17"></a>
+## Les boutons avec confirmation
 
 Les confirmations sont utiles uniquement lorsque :
 
@@ -395,9 +378,8 @@ Les confirmations sont utiles uniquement lorsque :
 
 Évite les confirmations inutiles.
 
-⸻
-
-Les erreurs fréquentes
+<a id="section-18"></a>
+## Les erreurs fréquentes
 
 ❌ Plusieurs boutons primaires.
 
@@ -417,9 +399,8 @@ Les erreurs fréquentes
 
 ❌ Trop d’effets visuels.
 
-⸻
-
-Cas pratique
+<a id="section-19"></a>
+## Cas pratique
 
 Prenons une page de création de projet.
 
@@ -441,9 +422,8 @@ Les autres actions sont placées dans une barre d’outils secondaire.
 
 Le parcours devient évident.
 
-⸻
-
-Checklist du chapitre
+<a id="section-20"></a>
+## Checklist du chapitre
 
 Avant de publier une interface :
 
@@ -458,20 +438,13 @@ Avant de publier une interface :
 * ☐ Les boutons destructifs sont clairement identifiés.
 * ☐ Les boutons sont cohérents sur toutes les pages.
 
-⸻
-
-Ce qu’il faut retenir
+<a id="section-21"></a>
+## Ce qu’il faut retenir
 
 Un bouton n’est pas seulement un élément graphique.
 
 C’est le point de décision de l’utilisateur.
 
-Lorsqu’il est bien conçu, l’utilisateur comprend instantanément ce qu’il va se passer après le clic.
+Lorsqu’il est bien conçu, l’utilisateur comprend clairement l’action déclenchée par le clic.
 
-Lorsqu’il est mal conçu, il crée de l’hésitation, des erreurs et une baisse des conversions.
-
-⸻
-
-Notes d’application
-
-À partir du prochain chapitre, nous adopterons un niveau de détail encore plus élevé. Chaque famille de composants sera traitée comme une spécification de Design System. Nous commencerons par les formulaires, en couvrant les champs de saisie, les sélecteurs, les cases à cocher, les boutons radio, les listes déroulantes, les validations, les messages d’erreur et les bonnes pratiques UX associées. Ce chapitre rassemblera les recommandations issues de l’UX, de l’accessibilité et des ouvrages consacrés aux composants d’interface afin de constituer une référence directement exploitable par les designers et les développeurs.
+Lorsqu’il est mal conçu, il peut créer de l’hésitation et des erreurs ; vérifier l’effet sur le parcours réel.

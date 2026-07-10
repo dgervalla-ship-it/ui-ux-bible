@@ -2,9 +2,38 @@
 
 Les cartes permettent d’organiser l’information en unités simples, lisibles et réutilisables.
 
-⸻
+## Sommaire
 
-Objectif
+- [Objectif](#section-1)
+- [Pourquoi utiliser des cartes ?](#section-2)
+- [Les principes fondamentaux](#section-3)
+- [Une carte = une information principale](#section-4)
+- [Anatomie d’une carte](#section-5)
+- [Le titre](#section-6)
+- [L’image](#section-7)
+- [La description](#section-8)
+- [Les métadonnées](#section-9)
+- [Les actions](#section-10)
+- [Les espacements](#section-11)
+- [Les dimensions](#section-12)
+- [Les bordures](#section-13)
+- [Les ombres](#section-14)
+- [Les coins](#section-15)
+- [Les états](#section-16)
+- [Les cartes cliquables](#section-17)
+- [Les cartes de statistiques](#section-18)
+- [Les cartes de profil](#section-19)
+- [Les cartes produit](#section-20)
+- [Les cartes d’article](#section-21)
+- [Les cartes de tableau de bord](#section-22)
+- [Les cartes vides](#section-23)
+- [Les erreurs fréquentes](#section-24)
+- [Cas pratique](#section-25)
+- [Checklist du chapitre](#section-26)
+- [Ce qu’il faut retenir](#section-27)
+
+<a id="section-1"></a>
+## Objectif
 
 Les cartes sont aujourd’hui l’un des composants les plus utilisés dans les interfaces modernes.
 
@@ -20,9 +49,8 @@ On les retrouve dans :
 
 Une carte bien conçue permet à l’utilisateur de comprendre rapidement une information et d’agir dessus.
 
-⸻
-
-Pourquoi utiliser des cartes ?
+<a id="section-2"></a>
+## Pourquoi utiliser des cartes ?
 
 Une carte représente une seule entité.
 
@@ -37,9 +65,8 @@ Par exemple :
 
 Une carte ne doit jamais représenter plusieurs objets différents.
 
-⸻
-
-Les principes fondamentaux
+<a id="section-3"></a>
+## Les principes fondamentaux
 
 Une bonne carte est :
 
@@ -49,9 +76,8 @@ Une bonne carte est :
 * réutilisable ;
 * facilement comparable aux autres cartes.
 
-⸻
-
-Une carte = une information principale
+<a id="section-4"></a>
+## Une carte = une information principale
 
 Chaque carte possède une information dominante.
 
@@ -71,9 +97,8 @@ Carte Projet
 
 Tout le reste est secondaire.
 
-⸻
-
-Anatomie d’une carte
+<a id="section-5"></a>
+## Anatomie d’une carte
 
 Une carte est généralement composée de :
 
@@ -90,9 +115,8 @@ Une carte est généralement composée de :
 
 Toutes les cartes d’une même famille doivent partager cette structure.
 
-⸻
-
-Le titre
+<a id="section-6"></a>
+## Le titre
 
 Le titre est toujours l’information la plus visible.
 
@@ -112,9 +136,8 @@ Exemple :
 
 Évite les titres trop longs qui cassent la grille.
 
-⸻
-
-L’image
+<a id="section-7"></a>
+## L’image
 
 Toutes les cartes n’ont pas besoin d’image.
 
@@ -130,9 +153,8 @@ Exemples :
 
 En revanche, une facture ou une notification n’ont généralement pas besoin d’image.
 
-⸻
-
-La description
+<a id="section-8"></a>
+## La description
 
 La description complète le titre.
 
@@ -144,9 +166,8 @@ Elle doit rester courte.
 
 Deux ou trois lignes suffisent dans la majorité des cas.
 
-⸻
-
-Les métadonnées
+<a id="section-9"></a>
+## Les métadonnées
 
 Les métadonnées apportent du contexte.
 
@@ -166,9 +187,8 @@ Livraison gratuite
 
 Les métadonnées doivent être discrètes.
 
-⸻
-
-Les actions
+<a id="section-10"></a>
+## Les actions
 
 Une carte contient généralement :
 
@@ -187,9 +207,8 @@ Archiver
 
 peuvent être regroupées dans un menu.
 
-⸻
-
-Les espacements
+<a id="section-11"></a>
+## Les espacements
 
 Toutes les cartes utilisent les mêmes marges internes.
 
@@ -204,9 +223,8 @@ Bouton
 
 Le rythme vertical doit être constant.
 
-⸻
-
-Les dimensions
+<a id="section-12"></a>
+## Les dimensions
 
 Les cartes similaires doivent avoir :
 
@@ -215,9 +233,8 @@ Les cartes similaires doivent avoir :
 
 Dans une grille de produits, des cartes de hauteurs très différentes rendent la lecture plus difficile.
 
-⸻
-
-Les bordures
+<a id="section-13"></a>
+## Les bordures
 
 Les bordures servent à séparer les cartes.
 
@@ -225,9 +242,8 @@ Elles doivent rester discrètes.
 
 Évite les contours épais qui attirent inutilement l’attention.
 
-⸻
-
-Les ombres
+<a id="section-14"></a>
+## Les ombres
 
 Les ombres créent une impression de profondeur.
 
@@ -237,9 +253,8 @@ Une légère ombre suffit généralement.
 
 Les ombres très marquées donnent rapidement une impression datée.
 
-⸻
-
-Les coins
+<a id="section-15"></a>
+## Les coins
 
 Le rayon des coins doit être identique dans tout le Design System.
 
@@ -255,19 +270,16 @@ ou
 
 Pas un mélange de plusieurs valeurs.
 
-⸻
-
-Les états
+<a id="section-16"></a>
+## Les états
 
 Une carte interactive possède plusieurs états.
 
-Normal
+### Normal
 
 État par défaut.
 
-⸻
-
-Hover
+### Hover
 
 La carte indique qu’elle est interactive.
 
@@ -277,23 +289,17 @@ Exemple :
 * légère ombre ;
 * contour accentué.
 
-⸻
-
-Focus
+### Focus
 
 Visible lors de la navigation clavier.
 
 Le focus doit rester clairement identifiable.
 
-⸻
+### Active
 
-Active
+La carte fournit un état visible après le clic.
 
-La carte répond immédiatement au clic.
-
-⸻
-
-Selected
+### Selected
 
 Une carte sélectionnée doit être identifiable.
 
@@ -303,13 +309,12 @@ Exemple :
 * fond légèrement différent ;
 * coche de validation.
 
-⸻
-
-Les cartes cliquables
+<a id="section-17"></a>
+## Les cartes cliquables
 
 Deux approches sont possibles :
 
-Toute la carte est cliquable.
+### Toute la carte est cliquable
 
 Approche adaptée :
 
@@ -317,9 +322,7 @@ Approche adaptée :
 * galerie ;
 * tableau de bord.
 
-⸻
-
-Seul un bouton est cliquable.
+### Seul un bouton est cliquable
 
 Approche adaptée :
 
@@ -329,9 +332,8 @@ Approche adaptée :
 
 Évite de mélanger les deux sans distinction.
 
-⸻
-
-Les cartes de statistiques
+<a id="section-18"></a>
+## Les cartes de statistiques
 
 Exemple :
 
@@ -345,9 +347,8 @@ L’évolution est secondaire.
 
 Les explications sont discrètes.
 
-⸻
-
-Les cartes de profil
+<a id="section-19"></a>
+## Les cartes de profil
 
 Structure classique :
 
@@ -359,9 +360,8 @@ Actions
 
 Le nom est toujours l’information principale.
 
-⸻
-
-Les cartes produit
+<a id="section-20"></a>
+## Les cartes produit
 
 Structure recommandée :
 
@@ -374,9 +374,8 @@ Ajouter au panier
 
 Le prix doit être immédiatement visible.
 
-⸻
-
-Les cartes d’article
+<a id="section-21"></a>
+## Les cartes d’article
 
 Structure :
 
@@ -389,9 +388,8 @@ Temps de lecture
 
 Le titre attire d’abord le regard.
 
-⸻
-
-Les cartes de tableau de bord
+<a id="section-22"></a>
+## Les cartes de tableau de bord
 
 Une carte de KPI contient généralement :
 
@@ -402,9 +400,8 @@ Période
 
 La valeur est l’élément dominant.
 
-⸻
-
-Les cartes vides
+<a id="section-23"></a>
+## Les cartes vides
 
 Lorsqu’aucune donnée n’est disponible :
 
@@ -414,9 +411,8 @@ Créez votre premier projet.
 
 Une carte vide doit toujours guider l’utilisateur.
 
-⸻
-
-Les erreurs fréquentes
+<a id="section-24"></a>
+## Les erreurs fréquentes
 
 ❌ Trop d’informations.
 
@@ -434,13 +430,12 @@ Les erreurs fréquentes
 
 ❌ Ombres excessives.
 
-⸻
-
-Cas pratique
+<a id="section-25"></a>
+## Cas pratique
 
 Imaginons une grille de projets.
 
-Mauvaise conception
+### Mauvaise conception
 
 * certaines cartes mesurent 200 px de haut, d’autres 450 px ;
 * les boutons changent de position ;
@@ -449,7 +444,7 @@ Mauvaise conception
 
 Le balayage visuel devient difficile.
 
-Bonne conception
+### Bonne conception
 
 Toutes les cartes :
 
@@ -458,11 +453,10 @@ Toutes les cartes :
 * présentent les informations dans le même ordre ;
 * alignent leurs boutons au même niveau.
 
-L’utilisateur compare les projets en quelques secondes.
+L’utilisateur doit pouvoir comparer les projets rapidement.
 
-⸻
-
-Checklist du chapitre
+<a id="section-26"></a>
+## Checklist du chapitre
 
 Avant de publier une carte :
 
@@ -477,9 +471,8 @@ Avant de publier une carte :
 * ☐ Les images apportent une véritable valeur.
 * ☐ Les cartes restent lisibles sur mobile.
 
-⸻
-
-Ce qu’il faut retenir
+<a id="section-27"></a>
+## Ce qu’il faut retenir
 
 Une carte est une unité d’information.
 
@@ -489,8 +482,4 @@ Elle doit permettre à l’utilisateur de comprendre rapidement :
 * pourquoi c’est important ;
 * ce qu’il peut faire ensuite.
 
-Lorsqu’un Design System définit clairement les règles des cartes, toutes les interfaces gagnent en cohérence, en lisibilité et en facilité d’évolution.
-
-⸻
-
-Notes d’application
+Un Design System qui définit clairement les règles des cartes favorise la cohérence, la lisibilité et l’évolution des interfaces.

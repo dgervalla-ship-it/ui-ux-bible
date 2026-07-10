@@ -2,9 +2,35 @@
 
 Un bon dashboard ne montre pas toutes les données. Il montre les bonnes données, au bon moment, pour prendre une décision.
 
-⸻
+## Sommaire
 
-Objectif
+- [Objectif](#section-1)
+- [Les principes fondamentaux](#section-2)
+- [Une question = un dashboard](#section-3)
+- [La hiérarchie d’un dashboard](#section-4)
+- [Les KPI (Key Performance Indicators)](#section-5)
+- [Combien de KPI afficher ?](#section-6)
+- [Les graphiques](#section-7)
+- [Choisir le bon graphique](#section-8)
+- [Les filtres](#section-9)
+- [La période](#section-10)
+- [Les comparaisons](#section-11)
+- [Les couleurs](#section-12)
+- [Les cartes de KPI](#section-13)
+- [Les tableaux](#section-14)
+- [Les activités récentes](#section-15)
+- [Les alertes](#section-16)
+- [Les états vides](#section-17)
+- [Les performances](#section-18)
+- [Le responsive](#section-19)
+- [Personnalisation](#section-20)
+- [Les erreurs fréquentes](#section-21)
+- [Cas pratique](#section-22)
+- [Checklist du chapitre](#section-23)
+- [Ce qu’il faut retenir](#section-24)
+
+<a id="section-1"></a>
+## Objectif
 
 Un dashboard (tableau de bord) transforme des données brutes en informations exploitables.
 
@@ -19,9 +45,8 @@ Le rôle d’un dashboard n’est pas d’afficher toutes les informations dispo
 
 Son rôle est d’aider à agir.
 
-⸻
-
-Les principes fondamentaux
+<a id="section-2"></a>
+## Les principes fondamentaux
 
 Un bon dashboard est :
 
@@ -31,11 +56,8 @@ Un bon dashboard est :
 * hiérarchisé ;
 * personnalisable lorsque nécessaire.
 
-L’utilisateur doit comprendre l’état du système en moins de 10 secondes.
-
-⸻
-
-Une question = un dashboard
+<a id="section-3"></a>
+## Une question = un dashboard
 
 Avant de commencer la conception, pose cette question :
 
@@ -50,9 +72,8 @@ Exemples :
 
 Si le dashboard ne répond pas clairement à cette question, il doit être repensé.
 
-⸻
-
-La hiérarchie d’un dashboard
+<a id="section-4"></a>
+## La hiérarchie d’un dashboard
 
 Un dashboard suit généralement cette structure :
 
@@ -70,9 +91,8 @@ Un dashboard suit généralement cette structure :
 
 Le regard suit naturellement cette progression.
 
-⸻
-
-Les KPI (Key Performance Indicators)
+<a id="section-5"></a>
+## Les KPI (Key Performance Indicators)
 
 Les KPI sont les indicateurs principaux.
 
@@ -90,19 +110,17 @@ La valeur est dominante.
 
 La variation apporte le contexte.
 
-⸻
+<a id="section-6"></a>
+## Combien de KPI afficher ?
 
-Combien de KPI afficher ?
+Limite le nombre de KPI principaux afin de préserver la hiérarchie.
 
-Entre 3 et 6 KPI principaux suffisent dans la majorité des cas.
-
-Au-delà, l’utilisateur ne sait plus où regarder.
+Lorsque trop d’indicateurs sont présentés au même niveau, l’utilisateur ne sait plus où regarder.
 
 Si davantage d’indicateurs sont nécessaires, répartis-les sur plusieurs vues ou sections.
 
-⸻
-
-Les graphiques
+<a id="section-7"></a>
+## Les graphiques
 
 Les graphiques servent à montrer des tendances.
 
@@ -115,9 +133,8 @@ Ils répondent à des questions comme :
 
 Ils ne doivent jamais être décoratifs.
 
-⸻
-
-Choisir le bon graphique
+<a id="section-8"></a>
+## Choisir le bon graphique
 
 Besoin	Graphique recommandé
 Évolution dans le temps	Courbe
@@ -128,9 +145,8 @@ Distribution	Histogramme
 
 Un mauvais choix de graphique rend les données difficiles à interpréter.
 
-⸻
-
-Les filtres
+<a id="section-9"></a>
+## Les filtres
 
 Les dashboards doivent être interactifs.
 
@@ -146,9 +162,8 @@ Exemples :
 
 Les filtres actifs doivent être visibles.
 
-⸻
-
-La période
+<a id="section-10"></a>
+## La période
 
 Toujours afficher clairement la période analysée.
 
@@ -160,9 +175,8 @@ Cette année
 
 Une donnée sans contexte temporel perd une grande partie de sa valeur.
 
-⸻
-
-Les comparaisons
+<a id="section-11"></a>
+## Les comparaisons
 
 Une valeur seule est rarement suffisante.
 
@@ -177,9 +191,8 @@ plutôt que :
 
 Le contexte facilite la décision.
 
-⸻
-
-Les couleurs
+<a id="section-12"></a>
+## Les couleurs
 
 Les couleurs renforcent le sens.
 
@@ -191,9 +204,8 @@ Exemple :
 
 Ne multiplie pas les couleurs sans nécessité.
 
-⸻
-
-Les cartes de KPI
+<a id="section-13"></a>
+## Les cartes de KPI
 
 Une carte KPI contient généralement :
 
@@ -204,9 +216,8 @@ Période
 
 Évite d’ajouter trop d’informations dans une seule carte.
 
-⸻
-
-Les tableaux
+<a id="section-14"></a>
+## Les tableaux
 
 Les tableaux complètent les graphiques.
 
@@ -220,9 +231,8 @@ Quels éléments sont concernés ?
 
 Les deux sont complémentaires.
 
-⸻
-
-Les activités récentes
+<a id="section-15"></a>
+## Les activités récentes
 
 Afficher les dernières actions importantes.
 
@@ -235,9 +245,8 @@ Exemple :
 
 Ces informations doivent rester secondaires par rapport aux KPI.
 
-⸻
-
-Les alertes
+<a id="section-16"></a>
+## Les alertes
 
 Un dashboard doit attirer l’attention sur les situations importantes.
 
@@ -249,9 +258,8 @@ Exemple :
 
 Les alertes doivent être limitées aux événements nécessitant une action.
 
-⸻
-
-Les états vides
+<a id="section-17"></a>
+## Les états vides
 
 Si aucune donnée n’est disponible :
 
@@ -260,11 +268,10 @@ Essayez de modifier les filtres.
 
 Évite les graphiques vides ou les tableaux sans explication.
 
-⸻
+<a id="section-18"></a>
+## Les performances
 
-Les performances
-
-Un dashboard doit s’afficher rapidement.
+Un dashboard doit communiquer son état de chargement et éviter une attente silencieuse.
 
 Pour les gros volumes :
 
@@ -273,11 +280,10 @@ Pour les gros volumes :
 * rafraîchissement intelligent ;
 * indicateurs de chargement.
 
-Une attente prolongée réduit la confiance dans l’outil.
+Une attente prolongée peut réduire la confiance dans l’outil ; afficher sa progression et mesurer son impact.
 
-⸻
-
-Le responsive
+<a id="section-19"></a>
+## Le responsive
 
 Sur mobile :
 
@@ -288,9 +294,8 @@ Sur mobile :
 
 L’objectif est de préserver les informations essentielles.
 
-⸻
-
-Personnalisation
+<a id="section-20"></a>
+## Personnalisation
 
 Pour les applications complexes, permettre à l’utilisateur de :
 
@@ -298,11 +303,10 @@ Pour les applications complexes, permettre à l’utilisateur de :
 * masquer certains indicateurs ;
 * enregistrer des vues personnalisées.
 
-Cette flexibilité améliore l’efficacité pour les utilisateurs avancés.
+Cette flexibilité peut soutenir l’efficacité des utilisateurs avancés ; vérifier l’usage réel.
 
-⸻
-
-Les erreurs fréquentes
+<a id="section-21"></a>
+## Les erreurs fréquentes
 
 ❌ Trop de KPI.
 
@@ -320,13 +324,12 @@ Les erreurs fréquentes
 
 ❌ Performances insuffisantes.
 
-⸻
-
-Cas pratique
+<a id="section-22"></a>
+## Cas pratique
 
 Imaginons un dashboard commercial.
 
-Mauvaise conception
+### Mauvaise conception
 
 * 15 KPI affichés simultanément ;
 * 8 graphiques de tailles identiques ;
@@ -336,7 +339,7 @@ Mauvaise conception
 
 Le responsable commercial ne sait pas où porter son attention.
 
-Bonne conception
+### Bonne conception
 
 * 4 KPI principaux en haut de page ;
 * un graphique d’évolution des ventes ;
@@ -344,11 +347,10 @@ Bonne conception
 * des alertes sur les objectifs non atteints ;
 * des filtres visibles pour changer rapidement de période ou de région.
 
-En quelques secondes, il comprend la situation et peut agir.
+Il comprend rapidement la situation et peut agir.
 
-⸻
-
-Checklist du chapitre
+<a id="section-23"></a>
+## Checklist du chapitre
 
 Avant de publier un dashboard :
 
@@ -363,9 +365,8 @@ Avant de publier un dashboard :
 * ☐ Le dashboard reste lisible sur mobile.
 * ☐ Les performances permettent une consultation fluide.
 
-⸻
-
-Ce qu’il faut retenir
+<a id="section-24"></a>
+## Ce qu’il faut retenir
 
 Un dashboard n’est pas un rapport.
 
@@ -374,9 +375,3 @@ C’est un outil d’aide à la décision.
 Chaque élément affiché doit aider l’utilisateur à répondre à une question, comprendre une situation ou prendre une action.
 
 La qualité d’un dashboard ne se mesure pas au nombre de graphiques qu’il contient, mais à la rapidité avec laquelle un utilisateur peut comprendre ce qui est important.
-
-⸻
-
-Notes d’application
-
-À partir du chapitre 15, nous allons entrer dans une partie très influencée par Le Grand Livre du Marketing Digital. Nous aborderons les Landing Pages, les tunnels de conversion, le copywriting, les appels à l’action (CTA), la preuve sociale, les formulaires de conversion et les stratégies d’optimisation. Cette section reliera directement les principes d’UX à ceux du marketing afin de concevoir des interfaces qui sont non seulement agréables à utiliser, mais aussi efficaces pour atteindre des objectifs métier.
