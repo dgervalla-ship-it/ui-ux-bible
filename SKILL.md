@@ -72,6 +72,7 @@ Respecter l’ordre `exigence > convention > heuristique > préférence`.
 | Métriques produit | `references/product-metrics.md` |
 | Anti-patterns | `references/anti-patterns.md` |
 | Vérification avant livraison | `references/release-checklist.md` |
+| Tests utilisateurs et expérimentation | `references/user-testing-experimentation.md` |
 
 ## Sources volumineuses et marketing
 

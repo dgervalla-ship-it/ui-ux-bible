@@ -1,5 +1,18 @@
 # Accessibilité
 
+## Sommaire
+
+- [Références normatives vérifiées](#section-1)
+
+<a id="section-1"></a>
+## Références normatives vérifiées
+
+Les seuils ci-dessous viennent de WCAG 2.2 (vérifié le 2026-07-10) : contraste minimal de 4,5:1 pour le texte courant et 3:1 pour le grand texte ; contraste de 3:1 pour les composants d’interface et les graphiques nécessaires. Le critère Target Size (AA) demande 24 × 24 CSS px, avec exceptions ; 44 × 44 CSS px correspond au niveau AAA, pas à une règle AA universelle. Voir [WCAG 2.2](https://www.w3.org/WAI/WCAG22/understanding/) et [Target Size](https://www.w3.org/WAI/WCAG22/Understanding/target-size-minimum).
+
+Pour les applications natives, les recommandations de plateforme sont distinctes : Apple recommande généralement 44 × 44 pt ([HIG Accessibilité](https://developer.apple.com/design/human-interface-guidelines/accessibility)) et Android 48 × 48 dp ([Android Accessibility](https://developer.android.com/guide/topics/ui/accessibility/apps)). Elles ne remplacent pas les critères WCAG d’un produit web.
+
+Vérifier aussi le focus non masqué, l’identification et la suggestion des erreurs, les messages d’état et l’authentification accessible selon les critères WCAG 2.2 ; utiliser des noms accessibles cohérents selon l’[ARIA Authoring Practices Guide](https://www.w3.org/WAI/ARIA/apg/practices/names-and-descriptions/).
+
 Une bonne interface fonctionne pour tout le monde, pas seulement pour les utilisateurs sans limitation.
 
 ⸻
